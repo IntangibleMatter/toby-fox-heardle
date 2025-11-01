@@ -1,0 +1,157 @@
+# Songs Masterlist
+
+This is a master list of every single song that's been included in the Toby Fox
+Heardle so far.
+
+- [Undertale](#Undertale)
+- [Deltarune](#Deltarune)
+    - [Chapter 1](#chapter-1)
+
+
+## Undertale
+- Once Upon a Time
+- Start Menu
+- Your Best Friend
+- Fallen Down
+- Ruins
+- Uwa!! So Temperate♫
+- Anticipation
+- Unnecessary Tension
+- Enemy Approaching
+- Ghost Fight
+- Determination
+- Home
+- Home (Music Box)
+- Heartache
+- sans.
+- Nyeh Heh Heh!
+- Snowy
+- Uwa!! So Holiday♫
+- Dogbass
+- Mysterious Place
+- Dogsong
+- Snowdin Town
+- Shop
+- Bonetrousle
+- Dating Start!
+- Dating Tense!
+- Dating Fight!
+- Premonition
+- Danger Mystery
+- Undyne
+- Waterfall
+- Run!
+- Quiet Water
+- Memory
+- Bird That Carries You Over A Disproportionately Small Gap
+- Dummy!
+- Pathetic House
+- Spooktune
+- Spookwave
+- Ghouliday
+- Chill
+- Thundersnail
+- Temmie Village
+- Tem Shop
+- NGAHHH!!
+- Spear of Justice
+- Ooo
+- Alphys
+- It's Showtime!
+- Metal Crusher
+- Another Medium
+- Uwa!! So HEATS!!♫
+- Stronger Monsters
+- Hotel
+- Can You Really Call This A Hotel, I Didn't Receive A Mint On My Pillow Or Anything
+- Confession
+- Live Report
+- Death Report
+- Spider Dance
+- Wrong Enemy !?
+- Oh! One True Love
+- Oh! Dungeon
+- It's Raining Somewhere Else
+- CORE Approach
+- CORE
+- Last Episode!
+- Oh My...
+- Death by Glamour
+- For the Fans
+- Long Elevator
+- Undertale
+- Song That Might Play When You Fight Sans
+- The Choice
+- Small Shock
+- Barrier
+- Bergentrückung
+- ASGORE
+- You Idiot
+- Your Best Nightmare
+- Finale
+- An Ending
+- She's Playing Piano
+- Here We Are
+- Amalgam
+- Fallen Down (Reprise)
+- Don't Give Up
+- Hopes and Dreams
+- Burn in Despair!
+- SAVE the World
+- His Theme
+- Final Power
+- Reunited
+- Menu (Full)
+- Respite
+- Bring It In, Guys!
+- Last Goodbye
+- But the Earth Refused to Die
+- Battle Against a True Hero
+- Power of "NEO"
+- MEGALOVANIA
+- Good Night
+
+
+## Deltarune
+
+### Chapter 1
+- ANOTHER HIM
+- Beginning
+- School
+- Susie
+- The Door
+- Cliffs
+- The Chase
+- The Legend
+- Lancer
+- Rude Buster
+- Empty Town
+- Weird Birds
+- Field of Hopes and Dreams
+- Fanfare
+- Lantern
+- I'm Very Bad
+- Checker Dance
+- Quiet Autumn
+- Scarlet Forest
+- Thrash Machine
+- Vs. Lancer
+- Basement
+- Imminent Death
+- Vs. Susie
+- Card Castle
+- Rouxls Kaard
+- April 2012
+- Hip Shop
+- Gallery
+- Chaos King
+- Darkness Falls
+- The Circus
+- THE WORLD REVOLVING
+- Friendship
+- THE HOLY
+- Your Power
+- A Town Called Hometown
+- You Can Always Come Home
+- Don't Forget by Laura Shigihara
+- Before the Story
