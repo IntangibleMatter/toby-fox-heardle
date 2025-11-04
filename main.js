@@ -1,727 +1,737 @@
 var app = (function () {
 	var artist = "Toby Fox";
-	var twitter = "cs_dust3";
-	var startDate = "2025-06-13";
-	const Cn = ue([
-			//list of all the searchable song titles
+	var twitter = "intangible_dev";
+	var startDate = "2025-11-04";
 
-			// undertale songs
-			"Once Upon a Time - Undertale",
-			"Start Menu - Undertale",
-			"Your Best Friend - Undertale",
-			"Fallen Down - Undertale",
-			"Ruins - Undertale",
-			"Uwa!! So Temperate♫ - Undertale",
-			"Anticipation - Undertale",
-			"Unnecessary Tension - Undertale",
-			"Enemy Approaching - Undertale",
-			"Ghost Fight - Undertale",
-			"Determination - Undertale",
-			"Home - Undertale",
-			"Home (Music Box) - Undertale",
-			"Heartache - Undertale",
-			"sans. - Undertale",
-			"Nyeh Heh Heh! - Undertale",
-			"Snowy - Undertale",
-			"Uwa!! So Holiday♫ - Undertale",
-			"Dogbass - Undertale",
-			"Mysterious Place - Undertale",
-			"Dogsong - Undertale",
-			"Snowdin Town - Undertale",
-			"Shop - Undertale",
-			"Bonetrousle - Undertale",
-			"Dating Start! - Undertale",
-			"Dating Tense! - Undertale",
-			"Dating Fight! - Undertale",
-			"Premonition - Undertale",
-			"Danger Mystery - Undertale",
-			"Undyne - Undertale",
-			"Waterfall - Undertale",
-			"Run! - Undertale",
-			"Quiet Water - Undertale",
-			"Memory - Undertale",
-			"Bird That Carries You Over A Disproportionately Small Gap - Undertale",
-			"Dummy! - Undertale",
-			"Pathetic House - Undertale",
-			"Spooktune - Undertale",
-			"Spookwave - Undertale",
-			"Ghouliday - Undertale",
-			"Chill - Undertale",
-			"Thundersnail - Undertale",
-			"Temmie Village - Undertale",
-			"Tem Shop - Undertale",
-			"NGAHHH!! - Undertale",
-			"Spear of Justice - Undertale",
-			"Ooo - Undertale",
-			"Alphys - Undertale",
-			"It's Showtime! - Undertale",
-			"Metal Crusher - Undertale",
-			"Another Medium - Undertale",
-			"Uwa!! So HEATS!!♫ - Undertale",
-			"Stronger Monsters - Undertale",
-			"Hotel - Undertale",
-			"Can You Really Call This A Hotel, I Didn't Receive A Mint On My Pillow Or Anything - Undertale",
-			"Confession - Undertale",
-			"Live Report - Undertale",
-			"Death Report - Undertale",
-			"Spider Dance - Undertale",
-			"Wrong Enemy !? - Undertale",
-			"Oh! One True Love - Undertale",
-			"Oh! Dungeon - Undertale",
-			"It's Raining Somewhere Else - Undertale",
-			"CORE Approach - Undertale",
-			"CORE - Undertale",
-			"Last Episode! - Undertale",
-			"Oh My... - Undertale",
-			"Death by Glamour - Undertale",
-			"For the Fans - Undertale",
-			"Long Elevator - Undertale",
-			"Undertale - Undertale",
-			"Song That Might Play When You Fight Sans - Undertale",
-			"The Choice - Undertale",
-			"Small Shock - Undertale",
-			"Barrier - Undertale",
-			"Bergentrückung - Undertale",
-			"ASGORE - Undertale",
-			"You Idiot - Undertale",
-			"Your Best Nightmare - Undertale",
-			"Finale - Undertale",
-			"An Ending - Undertale",
-			"She's Playing Piano - Undertale",
-			"Here We Are - Undertale",
-			"Amalgam - Undertale",
-			"Fallen Down (Reprise) - Undertale",
-			"Don't Give Up - Undertale",
-			"Hopes and Dreams - Undertale",
-			"Burn in Despair! - Undertale",
-			"SAVE the World - Undertale",
-			"His Theme - Undertale",
-			"Final Power - Undertale",
-			"Reunited - Undertale",
-			"Menu (Full) - Undertale",
-			"Respite - Undertale",
-			"Bring It In, Guys! - Undertale",
-			"Last Goodbye - Undertale",
-			"But the Earth Refused to Die - Undertale",
-			"Battle Against a True Hero - Undertale",
-			'Power of "NEO" - Undertale',
-			"MEGALOVANIA - Undertale",
-			"Good Night - Undertale",
+	//list of all the searchable song titles
+	const songTitles = [
+		// undertale songs
+		"Once Upon a Time - Undertale",
+		"Start Menu - Undertale",
+		"Your Best Friend - Undertale",
+		"Fallen Down - Undertale",
+		"Ruins - Undertale",
+		"Uwa!! So Temperate♫ - Undertale",
+		"Anticipation - Undertale",
+		"Unnecessary Tension - Undertale",
+		"Enemy Approaching - Undertale",
+		"Ghost Fight - Undertale",
+		"Determination - Undertale",
+		"Home - Undertale",
+		"Home (Music Box) - Undertale",
+		"Heartache - Undertale",
+		"sans. - Undertale",
+		"Nyeh Heh Heh! - Undertale",
+		"Snowy - Undertale",
+		"Uwa!! So Holiday♫ - Undertale",
+		"Dogbass - Undertale",
+		"Mysterious Place - Undertale",
+		"Dogsong - Undertale",
+		"Snowdin Town - Undertale",
+		"Shop - Undertale",
+		"Bonetrousle - Undertale",
+		"Dating Start! - Undertale",
+		"Dating Tense! - Undertale",
+		"Dating Fight! - Undertale",
+		"Premonition - Undertale",
+		"Danger Mystery - Undertale",
+		"Undyne - Undertale",
+		"Waterfall - Undertale",
+		"Run! - Undertale",
+		"Quiet Water - Undertale",
+		"Memory - Undertale",
+		"Bird That Carries You Over A Disproportionately Small Gap - Undertale",
+		"Dummy! - Undertale",
+		"Pathetic House - Undertale",
+		"Spooktune - Undertale",
+		"Spookwave - Undertale",
+		"Ghouliday - Undertale",
+		"Chill - Undertale",
+		"Thundersnail - Undertale",
+		"Temmie Village - Undertale",
+		"Tem Shop - Undertale",
+		"NGAHHH!! - Undertale",
+		"Spear of Justice - Undertale",
+		"Ooo - Undertale",
+		"Alphys - Undertale",
+		"It's Showtime! - Undertale",
+		"Metal Crusher - Undertale",
+		"Another Medium - Undertale",
+		"Uwa!! So HEATS!!♫ - Undertale",
+		"Stronger Monsters - Undertale",
+		"Hotel - Undertale",
+		"Can You Really Call This A Hotel, I Didn't Receive A Mint On My Pillow Or Anything - Undertale",
+		"Confession - Undertale",
+		"Live Report - Undertale",
+		"Death Report - Undertale",
+		"Spider Dance - Undertale",
+		"Wrong Enemy !? - Undertale",
+		"Oh! One True Love - Undertale",
+		"Oh! Dungeon - Undertale",
+		"It's Raining Somewhere Else - Undertale",
+		"CORE Approach - Undertale",
+		"CORE - Undertale",
+		"Last Episode! - Undertale",
+		"Oh My... - Undertale",
+		"Death by Glamour - Undertale",
+		"For the Fans - Undertale",
+		"Long Elevator - Undertale",
+		"Undertale - Undertale",
+		"Song That Might Play When You Fight Sans - Undertale",
+		"The Choice - Undertale",
+		"Small Shock - Undertale",
+		"Barrier - Undertale",
+		"Bergentrückung - Undertale",
+		"ASGORE - Undertale",
+		"You Idiot - Undertale",
+		"Your Best Nightmare - Undertale",
+		"Finale - Undertale",
+		"An Ending - Undertale",
+		"She's Playing Piano - Undertale",
+		"Here We Are - Undertale",
+		"Amalgam - Undertale",
+		"Fallen Down (Reprise) - Undertale",
+		"Don't Give Up - Undertale",
+		"Hopes and Dreams - Undertale",
+		"Burn in Despair! - Undertale",
+		"SAVE the World - Undertale",
+		"His Theme - Undertale",
+		"Final Power - Undertale",
+		"Reunited - Undertale",
+		"Menu (Full) - Undertale",
+		"Respite - Undertale",
+		"Bring It In, Guys! - Undertale",
+		"Last Goodbye - Undertale",
+		"But the Earth Refused to Die - Undertale",
+		"Battle Against a True Hero - Undertale",
+		'Power of "NEO" - Undertale',
+		"MEGALOVANIA - Undertale",
+		"Good Night - Undertale",
 
-			// deltarune chapter 1 songs
-			"ANOTHER HIM - Deltarune",
-			"Beginning - Deltarune",
-			"School - Deltarune",
-			"Susie - Deltarune",
-			"The Door - Deltarune",
-			"Cliffs - Deltarune",
-			"The Chase - Deltarune",
-			"The Legend - Deltarune",
-			"Lancer - Deltarune",
-			"Rude Buster - Deltarune",
-			"Empty Town - Deltarune",
-			"Weird Birds - Deltarune",
-			"Field of Hopes and Dreams - Deltarune",
-			"Fanfare - Deltarune",
-			"Lantern - Deltarune",
-			"I'm Very Bad - Deltarune",
-			"Checker Dance - Deltarune",
-			"Quiet Autumn - Deltarune",
-			"Scarlet Forest - Deltarune",
-			"Thrash Machine - Deltarune",
-			"Vs. Lancer - Deltarune",
-			"Basement - Deltarune",
-			"Imminent Death - Deltarune",
-			"Vs. Susie - Deltarune",
-			"Card Castle - Deltarune",
-			"Rouxls Kaard - Deltarune",
-			"April 2012 - Deltarune",
-			"Hip Shop - Deltarune",
-			"Gallery - Deltarune",
-			"Chaos King - Deltarune",
-			"Darkness Falls - Deltarune",
-			"The Circus - Deltarune",
-			"THE WORLD REVOLVING - Deltarune",
-			"Friendship - Deltarune",
-			"THE HOLY - Deltarune",
-			"Your Power - Deltarune",
-			"A Town Called Hometown - Deltarune",
-			"You Can Always Come Home - Deltarune",
-			"Don't Forget by Laura Shigihara - Deltarune",
-			"Before the Story - Deltarune",
-		]),
+		// deltarune chapter 1 songs
+		"ANOTHER HIM - Deltarune",
+		"Beginning - Deltarune",
+		"School - Deltarune",
+		"Susie - Deltarune",
+		"The Door - Deltarune",
+		"Cliffs - Deltarune",
+		"The Chase - Deltarune",
+		"The Legend - Deltarune",
+		"Lancer - Deltarune",
+		"Rude Buster - Deltarune",
+		"Empty Town - Deltarune",
+		"Weird Birds - Deltarune",
+		"Field of Hopes and Dreams - Deltarune",
+		"Fanfare - Deltarune",
+		"Lantern - Deltarune",
+		"I'm Very Bad - Deltarune",
+		"Checker Dance - Deltarune",
+		"Quiet Autumn - Deltarune",
+		"Scarlet Forest - Deltarune",
+		"Thrash Machine - Deltarune",
+		"Vs. Lancer - Deltarune",
+		"Basement - Deltarune",
+		"Imminent Death - Deltarune",
+		"Vs. Susie - Deltarune",
+		"Card Castle - Deltarune",
+		"Rouxls Kaard - Deltarune",
+		"April 2012 - Deltarune",
+		"Hip Shop - Deltarune",
+		"Gallery - Deltarune",
+		"Chaos King - Deltarune",
+		"Darkness Falls - Deltarune",
+		"The Circus - Deltarune",
+		"THE WORLD REVOLVING - Deltarune",
+		"Friendship - Deltarune",
+		"THE HOLY - Deltarune",
+		"Your Power - Deltarune",
+		"A Town Called Hometown - Deltarune",
+		"You Can Always Come Home - Deltarune",
+		"Don't Forget by Laura Shigihara - Deltarune",
+		"Before the Story - Deltarune",
+	];
+
+	const songData = {
+		undertale: [
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/001-once-upon-a-time",
+				answer: "Once Upon a Time - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/002-start-menu",
+				answer: "Start Menu - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/003-your-best-friend",
+				answer: "Your Best Friend - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/004-fallen-down",
+				answer: "Fallen Down - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/005-ruins",
+				answer: "Ruins - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/006-uwa-so-temperate",
+				answer: "Uwa!! So Temperate♫ - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/007-anticipation",
+				answer: "Anticipation - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/008-unnecessary-tension",
+				answer: "Unnecessary Tension - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/009-enemy-approaching",
+				answer: "Enemy Approaching - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/010-ghost-fight",
+				answer: "Ghost Fight - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/011-determination",
+				answer: "Determination - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/012-home",
+				answer: "Home - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/013-home-music-box",
+				answer: "Home (Music Box) - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/014-heartache",
+				answer: "Heartache - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/015-sans.",
+				answer: "sans. - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/016-nyeh-heh-heh!",
+				answer: "Nyeh Heh Heh! - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/017-snowy",
+				answer: "Snowy - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/018-uwa-so-holiday",
+				answer: "Uwa!! So Holiday♫ - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/019-dogbass",
+				answer: "Dogbass - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/020-mysterious-place",
+				answer: "Mysterious Place - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/021-dogsong",
+				answer: "Dogsong - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/022-snowdin-town",
+				answer: "Snowdin Town - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/023-shop",
+				answer: "Shop - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/024-bonetrousle",
+				answer: "Bonetrousle - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/025-dating-start!",
+				answer: "Dating Start! - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/026-dating-tense!",
+				answer: "Dating Tense! - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/027-dating-fight!",
+				answer: "Dating Fight! - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/028-premonition",
+				answer: "Premonition - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/029-danger-mystery",
+				answer: "Danger Mystery - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/030-undyne",
+				answer: "Undyne - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/031-waterfall",
+				answer: "Waterfall - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/032-run!",
+				answer: "Run! - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/033-quiet-water",
+				answer: "Quiet Water - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/034-memory",
+				answer: "Memory - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/035-bird-that-carries-you-over",
+				answer: "Bird That Carries You Over A Disproportionately Small Gap - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/036-dummy!",
+				answer: "Dummy! - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/037-pathetic-house",
+				answer: "Pathetic House - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/038-spooktune",
+				answer: "Spooktune - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/039-spookwave",
+				answer: "Spookwave - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/040-ghouliday",
+				answer: "Ghouliday - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/041-chill",
+				answer: "Chill - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/042-thundersnail",
+				answer: "Thundersnail - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/043-temmie-village",
+				answer: "Temmie Village - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/044-tem-shop",
+				answer: "Tem Shop - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/045-ngahhh",
+				answer: "NGAHHH!! - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/046-spear-of-justice",
+				answer: "Spear of Justice - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/047-ooo",
+				answer: "Ooo - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/048-alphys",
+				answer: "Alphys - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/049-it's-showtime!",
+				answer: "It's Showtime! - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/050-metal-crusher",
+				answer: "Metal Crusher - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/051-another-medium",
+				answer: "Another Medium - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/052-uwa-so-heats",
+				answer: "Uwa!! So HEATS!!♫ - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/053-stronger-monsters",
+				answer: "Stronger Monsters - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/054-hotel",
+				answer: "Hotel - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/055-can-you-really-call-this-a",
+				answer: "Can You Really Call This A Hotel, I Didn't Receive A Mint On My Pillow Or Anything - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/056-confession",
+				answer: "Confession - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/057-live-report",
+				answer: "Live Report - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/058-death-report",
+				answer: "Death Report - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/059-spider-dance",
+				answer: "Spider Dance - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/060-wrong-enemy",
+				answer: "Wrong Enemy !? - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/061-oh-one-true-love",
+				answer: "Oh! One True Love - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/062-oh-dungeon",
+				answer: "Oh! Dungeon - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/063-its-raining-somewhere-else",
+				answer: "It's Raining Somewhere Else - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/064-core-approach",
+				answer: "CORE Approach - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/065-core",
+				answer: "CORE - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/066-last-episode",
+				answer: "Last Episode! - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/067-oh-my",
+				answer: "Oh My... - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/068-death-by-glamour",
+				answer: "Death by Glamour - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/069-for-the-fans",
+				answer: "For the Fans - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/070-long-elevator",
+				answer: "Long Elevator - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/071-undertale",
+				answer: "Undertale - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/072-song-that-might-play-when",
+				answer: "Song That Might Play When You Fight Sans - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/073-the-choice",
+				answer: "The Choice - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/074-small-shock",
+				answer: "Small Shock - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/075-barrier",
+				answer: "Barrier - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/076-bergentrückung",
+				answer: "Bergentrückung - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/077-asgore",
+				answer: "ASGORE - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/078-you-idiot",
+				answer: "You Idiot - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/079-your-best-nightmare",
+				answer: "Your Best Nightmare - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/080-finale",
+				answer: "Finale - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/081-an-ending",
+				answer: "An Ending - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/082-she's-playing-piano",
+				answer: "She's Playing Piano - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/083-here-we-are",
+				answer: "Here We Are - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/084-amalgam",
+				answer: "Amalgam - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/085-fallen-down-(reprise)",
+				answer: "Fallen Down (Reprise) - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/086-dont-give-up",
+				answer: "Don't Give Up - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/087-hopes-and-dreams",
+				answer: "Hopes and Dreams - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/088-burn-in-despair",
+				answer: "Burn in Despair! - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/089-save-the-world",
+				answer: "SAVE the World - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/090-his-theme",
+				answer: "His Theme - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/091-final-power",
+				answer: "Final Power - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/092-reunited",
+				answer: "Reunited - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/093-menu-full",
+				answer: "Menu (Full) - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/094-respite",
+				answer: "Respite - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/095-bring-it-in,-guys!",
+				answer: "Bring It In, Guys! - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/096-last-goodbye",
+				answer: "Last Goodbye - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/097-but-the-earth-refused-to-die",
+				answer: "But the Earth Refused to Die - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/098-battle-against-a-true-hero",
+				answer: "Battle Against a True Hero - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/099-power-of-neo",
+				answer: 'Power of "NEO" - Undertale',
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/100-megalovania",
+				answer: "MEGALOVANIA - Undertale",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/101-good-night",
+				answer: "Good Night - Undertale",
+			},
+		],
+
+		// deltarune chapter 1
+		deltarune_ch1: [
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/001-another-him",
+				answer: "ANOTHER HIM - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/002-beginning",
+				answer: "Beginning - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/003-school",
+				answer: "School - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/004-susie",
+				answer: "Susie - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/005-the-door",
+				answer: "The Door - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/006-cliffs",
+				answer: "Cliffs - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/007-the-chase",
+				answer: "The Chase - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/008-the-legend",
+				answer: "The Legend - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/009-lancer",
+				answer: "Lancer - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/010-rude-buster",
+				answer: "Rude Buster - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/011-empty-town",
+				answer: "Empty Town - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/012-weird-birds",
+				answer: "Weird Birds - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/013-field-of-hopes-and-dreams",
+				answer: "Field of Hopes and Dreams - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/014-fanfare-from-rose-of",
+				answer: "Fanfare (From Rose Of Winter) - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/015-lantern",
+				answer: "Lantern - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/016-i'm-very-bad",
+				answer: "I'm Very Bad - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/017-checker-dance",
+				answer: "Checker Dance - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/018-quiet-autumn",
+				answer: "Quiet Autumn - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/019-scarlet-forest",
+				answer: "Scarlet Forest - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/020-thrash-machine",
+				answer: "Thrash Machine - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/021-vs-lancer",
+				answer: "Vs. Lancer - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/022-basement",
+				answer: "Basement - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/023-imminent-death",
+				answer: "Imminent Death - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/024-vs-susie",
+				answer: "Vs. Susie - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/025-card-castle",
+				answer: "Card Castle - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/026-rouxls-kaard",
+				answer: "Rouxls Kaard - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/027-april-2012",
+				answer: "April 2012 - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/028-hip-shop",
+				answer: "Hip Shop - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/029-gallery",
+				answer: "Gallery - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/030-chaos-king",
+				answer: "Chaos King - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/031-darkness-falls",
+				answer: "Darkness Falls - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/032-the-circus",
+				answer: "The Circus - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/033-the-world-revolving",
+				answer: "THE WORLD REVOLVING - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/034-friendship",
+				answer: "Friendship - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/035-the-holy",
+				answer: "THE HOLY - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/036-your-power",
+				answer: "Your Power - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/037-a-town-called-hometown",
+				answer: "A Town Called Hometown - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/038-you-can-always-come-home",
+				answer: "You Can Always Come Home - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/039-laura-shigihara-dont",
+				answer: "Don't Forget by Laura Shigihara - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/toby-radiation-fox/040-before-the-story",
+				answer: "Before the Story - Deltarune",
+			},
+		],
+	};
+
+	const Cn = ue(songTitles),
 		On = {
 			subscribe: ue(
-				deterministicShuffle([
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/001-once-upon-a-time",
-						answer: "Once Upon a Time - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/002-start-menu",
-						answer: "Start Menu - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/003-your-best-friend",
-						answer: "Your Best Friend - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/004-fallen-down",
-						answer: "Fallen Down - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/005-ruins",
-						answer: "Ruins - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/006-uwa-so-temperate",
-						answer: "Uwa!! So Temperate♫ - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/007-anticipation",
-						answer: "Anticipation - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/008-unnecessary-tension",
-						answer: "Unnecessary Tension - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/009-enemy-approaching",
-						answer: "Enemy Approaching - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/010-ghost-fight",
-						answer: "Ghost Fight - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/011-determination",
-						answer: "Determination - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/012-home",
-						answer: "Home - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/013-home-music-box",
-						answer: "Home (Music Box) - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/014-heartache",
-						answer: "Heartache - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/015-sans.",
-						answer: "sans. - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/016-nyeh-heh-heh!",
-						answer: "Nyeh Heh Heh! - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/017-snowy",
-						answer: "Snowy - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/018-uwa-so-holiday",
-						answer: "Uwa!! So Holiday♫ - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/019-dogbass",
-						answer: "Dogbass - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/020-mysterious-place",
-						answer: "Mysterious Place - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/021-dogsong",
-						answer: "Dogsong - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/022-snowdin-town",
-						answer: "Snowdin Town - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/023-shop",
-						answer: "Shop - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/024-bonetrousle",
-						answer: "Bonetrousle - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/025-dating-start!",
-						answer: "Dating Start! - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/026-dating-tense!",
-						answer: "Dating Tense! - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/027-dating-fight!",
-						answer: "Dating Fight! - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/028-premonition",
-						answer: "Premonition - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/029-danger-mystery",
-						answer: "Danger Mystery - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/030-undyne",
-						answer: "Undyne - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/031-waterfall",
-						answer: "Waterfall - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/032-run!",
-						answer: "Run! - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/033-quiet-water",
-						answer: "Quiet Water - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/034-memory",
-						answer: "Memory - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/035-bird-that-carries-you-over",
-						answer: "Bird That Carries You Over A Disproportionately Small Gap - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/036-dummy!",
-						answer: "Dummy! - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/037-pathetic-house",
-						answer: "Pathetic House - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/038-spooktune",
-						answer: "Spooktune - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/039-spookwave",
-						answer: "Spookwave - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/040-ghouliday",
-						answer: "Ghouliday - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/041-chill",
-						answer: "Chill - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/042-thundersnail",
-						answer: "Thundersnail - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/043-temmie-village",
-						answer: "Temmie Village - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/044-tem-shop",
-						answer: "Tem Shop - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/045-ngahhh",
-						answer: "NGAHHH!! - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/046-spear-of-justice",
-						answer: "Spear of Justice - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/047-ooo",
-						answer: "Ooo - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/048-alphys",
-						answer: "Alphys - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/049-it's-showtime!",
-						answer: "It's Showtime! - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/050-metal-crusher",
-						answer: "Metal Crusher - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/051-another-medium",
-						answer: "Another Medium - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/052-uwa-so-heats",
-						answer: "Uwa!! So HEATS!!♫ - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/053-stronger-monsters",
-						answer: "Stronger Monsters - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/054-hotel",
-						answer: "Hotel - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/055-can-you-really-call-this-a",
-						answer: "Can You Really Call This A Hotel, I Didn't Receive A Mint On My Pillow Or Anything - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/056-confession",
-						answer: "Confession - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/057-live-report",
-						answer: "Live Report - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/058-death-report",
-						answer: "Death Report - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/059-spider-dance",
-						answer: "Spider Dance - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/060-wrong-enemy",
-						answer: "Wrong Enemy !? - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/061-oh-one-true-love",
-						answer: "Oh! One True Love - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/062-oh-dungeon",
-						answer: "Oh! Dungeon - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/063-its-raining-somewhere-else",
-						answer: "It's Raining Somewhere Else - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/064-core-approach",
-						answer: "CORE Approach - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/065-core",
-						answer: "CORE - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/066-last-episode",
-						answer: "Last Episode! - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/067-oh-my",
-						answer: "Oh My... - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/068-death-by-glamour",
-						answer: "Death by Glamour - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/069-for-the-fans",
-						answer: "For the Fans - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/070-long-elevator",
-						answer: "Long Elevator - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/071-undertale",
-						answer: "Undertale - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/072-song-that-might-play-when",
-						answer: "Song That Might Play When You Fight Sans - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/073-the-choice",
-						answer: "The Choice - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/074-small-shock",
-						answer: "Small Shock - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/075-barrier",
-						answer: "Barrier - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/076-bergentrückung",
-						answer: "Bergentrückung - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/077-asgore",
-						answer: "ASGORE - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/078-you-idiot",
-						answer: "You Idiot - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/079-your-best-nightmare",
-						answer: "Your Best Nightmare - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/080-finale",
-						answer: "Finale - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/081-an-ending",
-						answer: "An Ending - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/082-she's-playing-piano",
-						answer: "She's Playing Piano - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/083-here-we-are",
-						answer: "Here We Are - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/084-amalgam",
-						answer: "Amalgam - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/085-fallen-down-(reprise)",
-						answer: "Fallen Down (Reprise) - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/086-dont-give-up",
-						answer: "Don't Give Up - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/087-hopes-and-dreams",
-						answer: "Hopes and Dreams - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/088-burn-in-despair",
-						answer: "Burn in Despair! - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/089-save-the-world",
-						answer: "SAVE the World - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/090-his-theme",
-						answer: "His Theme - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/091-final-power",
-						answer: "Final Power - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/092-reunited",
-						answer: "Reunited - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/093-menu-full",
-						answer: "Menu (Full) - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/094-respite",
-						answer: "Respite - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/095-bring-it-in,-guys!",
-						answer: "Bring It In, Guys! - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/096-last-goodbye",
-						answer: "Last Goodbye - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/097-but-the-earth-refused-to-die",
-						answer: "But the Earth Refused to Die - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/098-battle-against-a-true-hero",
-						answer: "Battle Against a True Hero - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/099-power-of-neo",
-						answer: 'Power of "NEO" - Undertale',
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/100-megalovania",
-						answer: "MEGALOVANIA - Undertale",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/101-good-night",
-						answer: "Good Night - Undertale",
-					},
-
-					// deltarune chapter 1
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/001-another-him",
-						answer: "ANOTHER HIM - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/002-beginning",
-						answer: "Beginning - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/003-school",
-						answer: "School - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/004-susie",
-						answer: "Susie - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/005-the-door",
-						answer: "The Door - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/006-cliffs",
-						answer: "Cliffs - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/007-the-chase",
-						answer: "The Chase - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/008-the-legend",
-						answer: "The Legend - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/009-lancer",
-						answer: "Lancer - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/010-rude-buster",
-						answer: "Rude Buster - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/011-empty-town",
-						answer: "Empty Town - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/012-weird-birds",
-						answer: "Weird Birds - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/013-field-of-hopes-and-dreams",
-						answer: "Field of Hopes and Dreams - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/014-fanfare-from-rose-of",
-						answer: "Fanfare (From Rose Of Winter) - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/015-lantern",
-						answer: "Lantern - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/016-i'm-very-bad",
-						answer: "I'm Very Bad - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/017-checker-dance",
-						answer: "Checker Dance - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/018-quiet-autumn",
-						answer: "Quiet Autumn - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/019-scarlet-forest",
-						answer: "Scarlet Forest - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/020-thrash-machine",
-						answer: "Thrash Machine - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/021-vs-lancer",
-						answer: "Vs. Lancer - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/022-basement",
-						answer: "Basement - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/023-imminent-death",
-						answer: "Imminent Death - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/024-vs-susie",
-						answer: "Vs. Susie - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/025-card-castle",
-						answer: "Card Castle - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/026-rouxls-kaard",
-						answer: "Rouxls Kaard - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/027-april-2012",
-						answer: "April 2012 - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/028-hip-shop",
-						answer: "Hip Shop - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/029-gallery",
-						answer: "Gallery - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/030-chaos-king",
-						answer: "Chaos King - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/031-darkness-falls",
-						answer: "Darkness Falls - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/032-the-circus",
-						answer: "The Circus - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/033-the-world-revolving",
-						answer: "THE WORLD REVOLVING - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/034-friendship",
-						answer: "Friendship - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/035-the-holy",
-						answer: "THE HOLY - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/036-your-power",
-						answer: "Your Power - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/037-a-town-called-hometown",
-						answer: "A Town Called Hometown - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/038-you-can-always-come-home",
-						answer: "You Can Always Come Home - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/039-laura-shigihara-dont",
-						answer: "Don't Forget by Laura Shigihara - Deltarune",
-					},
-					{
-						url: "https://soundcloud.com/toby-radiation-fox/040-before-the-story",
-						answer: "Before the Story - Deltarune",
-					},
-
-					//End Of Links Pog
-				]),
+				deterministicShuffle(
+					[]
+						.concat(songData.undertale)
+						.concat(songData.deltarune_ch1),
+				),
 				Pn,
 			).subscribe,
 		};
@@ -2811,7 +2821,7 @@ var app = (function () {
 			c() {
 				(t = w("div")),
 					(t.innerHTML =
-						'<p><a href="https://docs.google.com/spreadsheets/d/12vCtRU4cKzgTZk60kVveHRxQvdC2u0yS5pEISWeDlZo/edit#gid=0">Click Here for the full list of Mario Heardle songs. <svg class="mt-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>'),
+						'<p><a href="https://github.com/IntangibleMatter/toby-fox-heardle/blob/main/songs.md">Click Here for the full list of Toby Fox Heardle songs. <svg class="mt-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>'),
 					M(
 						t,
 						"class",
@@ -10714,15 +10724,22 @@ var app = (function () {
 	function jn(e, t, n) {
 		let r, s, i, o;
 		u(e, Cn, (e) => n(26, (r = e))), u(e, On, (e) => n(27, (s = e)));
-		let a = x(Vt.startDate),
-			l = {
-				url: s[a].url,
-				correctAnswer: s[a].answer,
-				id: a,
-				guessList: [],
-				hasFinished: !1,
-				hasStarted: !1,
-			};
+		let a = x(Vt.startDate);
+		if (a > songTitles.length - 1) {
+			// hacky fix to make sure that we never go out of bounds.
+			a %= songTitles.length;
+		}
+		let l = {
+			url: s[a].url,
+			correctAnswer: s[a].answer,
+			id: a,
+			guessList: [],
+			hasFinished: !1,
+			hasStarted: !1,
+		};
+		console.log(
+			`Start date: ${startDate}. Days since start date: ${a}. Song count: ${songTitles.length}`,
+		);
 		//FIVERR NEW LINE. DO NOT ENABLE CONSOLE.LOG, JUST THE ONE ABOVE IT.
 		setCurrentHeardle(l);
 		// console.log("a", l);
@@ -10784,7 +10801,7 @@ var app = (function () {
 		}
 		function x(e) {
 			var t = Yn(e, "YYYY-MM-DD");
-			return Yn().diff(t, "days");
+			return Yn().diff(t, "days") % songTitles.length;
 		}
 		null == localStorage.getItem("firstTime") &&
 			(_("help", "how to play"),
