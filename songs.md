@@ -155,3 +155,119 @@ Heardle so far.
 - You Can Always Come Home
 - Don't Forget by Laura Shigihara
 - Before the Story
+
+### Chapter 2
+
+- Faint Glow
+- Girl Next Door
+- My Castle Town
+- Ohhhhohohoho!
+- Queen
+- A CYBER'S WORLD?
+- A Simple Diversion
+- Almost To The Guys!
+- Cool Beat
+- When I Get Mad I Dance Like This
+- Cyber Battle (Solo) (with Lena Raine)
+- When I Get Happy I Dance Like This
+- Sound Studio
+- Berdly
+- Smart Race
+- Faint Courage (Game Over)
+- WELCOME TO THE CITY
+- Mini Studio
+- Holiday Studio
+- Cool Mixtape
+- HEY EVERY !
+- Spamton
+- NOW'S YOUR CHANCE TO BE A
+- Elegant Entrance
+- Bluebird of Misfortune
+- Pandora Palace
+- KEYGEN
+- Acid Tunnel of Love
+- It's Pronounced "Rules"
+- Lost Girl
+- Ferris Wheel
+- Attack of the Killer Queen (with Lena Raine and Marcy Nabors)
+- Giga Size
+- Powers Combined
+- Knock You Down !!
+- The Dark Truth
+- Digital Roots
+- Deal Gone Wrong
+- BIG SHOT
+- A Real Boy!
+- Dialtone
+- Chill Jailbreak Alarm To Study And Relax To
+- Until Next Time
+- Berdly (Rejected Concept)
+
+### Chapters 3 + 4
+
+- Flashback(Excerpt)
+- Feature Presentation
+- And Now For Today’s Sponsors…!
+- MIKE, the BOARD, please!
+- Sandy Board
+- Adventure Board
+- Query?
+- Quiz!
+- Dig! Dig! To The Center of the Earth!
+- Pushing Buddies
+- Ruder Buster
+- Physical Challenge
+- Board Clear!
+- Welcome to the Green Room
+- Vapor Buster
+- Paradise, Paradise
+- Raft Ride
+- SOUTH OF THE BORDER!!
+- Sound Check
+- Raise Up Your Bat
+- KING OF ROLYPOLY
+- Glowing Snow
+- Big City Board
+- Doom Board
+- Metaphysical Challenge
+- TV WORLD
+- It’s TV Time!
+- Hall of Fame
+- Breath
+- Black Knife
+- Crickets
+- Old wooden rafters
+- Hymn
+- Another day in hometown
+- Friends
+- Castle Funk
+- Knock You Down!! (Rhythm Ver.)
+- Gingerbread House
+- The distance between two
+- C
+- ATRIUM
+- Dark Sanctuary
+- From Now On(Battle 2)
+- Gyaa Ha ha!
+- Fireplace
+- A DARK ZONE
+- Mysterious Ringing
+- Ever Higher
+- Wise words
+- Piano that may not be played that well
+- 12am
+- The Second Sanctuary
+- Ripple
+- 13am
+- The Third Sanctuary
+- Dark Place
+- Heavy Footsteps
+- Crumbling Tower
+- SPAWN
+- GUARDIAN
+- Need a hand!?
+- The place where it rained
+- The Ol’ Jitterbug
+- Neverending Night
+- The LEGEND...?
+- With Hope Crossed On Our Hearts

@@ -14692,6 +14692,7 @@ function appendMetadata(guess, row) {
 }
 
 function setCurrentHeardle(l) {
+	// console.log(l);
 	currentHeardle = l;
 	setTimeout(() => {
 		const rows = document.querySelectorAll(

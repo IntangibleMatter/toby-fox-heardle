@@ -1,7 +1,7 @@
 var app = (function () {
 	var artist = "Toby Fox";
 	var twitter = "intangible_dev";
-	var startDate = "2025-11-04";
+	var startDate = "2025-11-08";
 
 	//list of all the searchable song titles
 	const songTitles = [
@@ -195,6 +195,74 @@ var app = (function () {
 		"Chill Jailbreak Alarm To Study And Relax To - Deltarune",
 		"Until Next Time - Deltarune",
 		"Berdly (Rejected Concept) - Deltarune",
+
+		// Deltarune chapter 3+4 songs
+		"Flashback(Excerpt) - Deltarune",
+		"Feature Presentation - Deltarune",
+		"And Now For Today’s Sponsors…! - Deltarune",
+		"MIKE, the BOARD, please! - Deltarune",
+		"Sandy Board - Deltarune",
+		"Adventure Board - Deltarune",
+		"Query? - Deltarune",
+		"Quiz! - Deltarune",
+		"Dig! Dig! To The Center of the Earth! - Deltarune",
+		"Pushing Buddies - Deltarune",
+		"Ruder Buster - Deltarune",
+		"Physical Challenge - Deltarune",
+		"Board Clear! - Deltarune",
+		"Welcome to the Green Room - Deltarune",
+		"Vapor Buster - Deltarune",
+		"Paradise, Paradise - Deltarune",
+		"Raft Ride - Deltarune",
+		"SOUTH OF THE BORDER!! - Deltarune",
+		"Sound Check - Deltarune",
+		"Raise Up Your Bat - Deltarune",
+		"KING OF ROLYPOLY - Deltarune",
+		"Glowing Snow - Deltarune",
+		"Big City Board - Deltarune",
+		"Doom Board - Deltarune",
+		"Metaphysical Challenge - Deltarune",
+		"TV WORLD - Deltarune",
+		"It’s TV Time! - Deltarune",
+		"Hall of Fame - Deltarune",
+		"Breath - Deltarune",
+		"Black Knife - Deltarune",
+		"Crickets - Deltarune",
+		"Old wooden rafters - Deltarune",
+		"Hymn - Deltarune",
+		"Another day in hometown - Deltarune",
+		"Friends - Deltarune",
+		"Castle Funk - Deltarune",
+		"Knock You Down!! (Rhythm Ver.) - Deltarune",
+		"Gingerbread House - Deltarune",
+		"The distance between two - Deltarune",
+		"C  - Deltarune",
+		"ATRIUM - Deltarune",
+		"Dark Sanctuary - Deltarune",
+		"From Now On(Battle 2) - Deltarune",
+		"Gyaa Ha ha! - Deltarune",
+		"Fireplace - Deltarune",
+		"A DARK ZONE - Deltarune",
+		"Mysterious Ringing - Deltarune",
+		"Ever Higher - Deltarune",
+		"Wise words - Deltarune",
+		"Piano that may not be played that well - Deltarune",
+		"12am - Deltarune",
+		"The Second Sanctuary - Deltarune",
+		"Ripple - Deltarune",
+		"13am - Deltarune",
+		"The Third Sanctuary - Deltarune",
+		"Dark Place - Deltarune",
+		"Heavy Footsteps - Deltarune",
+		"Crumbling Tower - Deltarune",
+		"SPAWN - Deltarune",
+		"GUARDIAN - Deltarune",
+		"Need a hand!? - Deltarune",
+		"The place where it rained - Deltarune",
+		"The Ol’ Jitterbug - Deltarune",
+		"Neverending Night - Deltarune",
+		"The LEGEND...? - Deltarune",
+		"With Hope Crossed On Our Hearts - Deltarune",
 	];
 
 	const songData = {
@@ -256,11 +324,11 @@ var app = (function () {
 				answer: "Heartache - Undertale",
 			},
 			{
-				url: "https://soundcloud.com/toby-radiation-fox/015-sans.",
+				url: "https://soundcloud.com/toby-radiation-fox/015-sans",
 				answer: "sans. - Undertale",
 			},
 			{
-				url: "https://soundcloud.com/toby-radiation-fox/016-nyeh-heh-heh!",
+				url: "https://soundcloud.com/toby-radiation-fox/016-nyeh-heh-heh",
 				answer: "Nyeh Heh Heh! - Undertale",
 			},
 			{
@@ -296,15 +364,15 @@ var app = (function () {
 				answer: "Bonetrousle - Undertale",
 			},
 			{
-				url: "https://soundcloud.com/toby-radiation-fox/025-dating-start!",
+				url: "https://soundcloud.com/toby-radiation-fox/025-dating-start",
 				answer: "Dating Start! - Undertale",
 			},
 			{
-				url: "https://soundcloud.com/toby-radiation-fox/026-dating-tense!",
+				url: "https://soundcloud.com/toby-radiation-fox/026-dating-tense",
 				answer: "Dating Tense! - Undertale",
 			},
 			{
-				url: "https://soundcloud.com/toby-radiation-fox/027-dating-fight!",
+				url: "https://soundcloud.com/toby-radiation-fox/027-dating-fight",
 				answer: "Dating Fight! - Undertale",
 			},
 			{
@@ -340,7 +408,7 @@ var app = (function () {
 				answer: "Bird That Carries You Over A Disproportionately Small Gap - Undertale",
 			},
 			{
-				url: "https://soundcloud.com/toby-radiation-fox/036-dummy!",
+				url: "https://soundcloud.com/toby-radiation-fox/036-dummy",
 				answer: "Dummy! - Undertale",
 			},
 			{
@@ -500,7 +568,7 @@ var app = (function () {
 				answer: "Barrier - Undertale",
 			},
 			{
-				url: "https://soundcloud.com/toby-radiation-fox/076-bergentrückung",
+				url: "https://soundcloud.com/toby-radiation-fox/076-bergentrueckung",
 				answer: "Bergentrückung - Undertale",
 			},
 			{
@@ -524,7 +592,7 @@ var app = (function () {
 				answer: "An Ending - Undertale",
 			},
 			{
-				url: "https://soundcloud.com/toby-radiation-fox/082-she's-playing-piano",
+				url: "https://soundcloud.com/toby-radiation-fox/082-shes-playing-piano",
 				answer: "She's Playing Piano - Undertale",
 			},
 			{
@@ -536,7 +604,7 @@ var app = (function () {
 				answer: "Amalgam - Undertale",
 			},
 			{
-				url: "https://soundcloud.com/toby-radiation-fox/085-fallen-down-(reprise)",
+				url: "https://soundcloud.com/toby-radiation-fox/085-fallen-down-reprise",
 				answer: "Fallen Down (Reprise) - Undertale",
 			},
 			{
@@ -576,7 +644,7 @@ var app = (function () {
 				answer: "Respite - Undertale",
 			},
 			{
-				url: "https://soundcloud.com/toby-radiation-fox/095-bring-it-in,-guys!",
+				url: "https://soundcloud.com/toby-radiation-fox/095-bring-it-in-guys",
 				answer: "Bring It In, Guys! - Undertale",
 			},
 			{
@@ -584,7 +652,7 @@ var app = (function () {
 				answer: "Last Goodbye - Undertale",
 			},
 			{
-				url: "https://soundcloud.com/toby-radiation-fox/097-but-the-earth-refused-to-die",
+				url: "https://soundcloud.com/toby-radiation-fox/097-but-the-earth-refused-to",
 				answer: "But the Earth Refused to Die - Undertale",
 			},
 			{
@@ -946,6 +1014,272 @@ var app = (function () {
 				answer: "Berdly (Rejected Concept) - Deltarune",
 			},
 		],
+		deltarune_ch3_4: [
+			{
+				url: "https://soundcloud.com/tobyfox-music/flashbackexcerpt",
+				answer: "Flashback(Excerpt) - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/feature-presentation",
+				answer: "Feature Presentation - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/and-now-for-todays-sponsors",
+				answer: "And Now For Today’s Sponsors…! - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/mike-the-board-please",
+				answer: "MIKE, the BOARD, please! - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/sandy-board",
+				answer: "Sandy Board - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/adventure-board",
+				answer: "Adventure Board - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/query",
+				answer: "Query? - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/quiz",
+				answer: "Quiz! - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/dig-dig-to-the-center",
+				answer: "Dig! Dig! To The Center of the Earth! - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/pushing-buddies",
+				answer: "Pushing Buddies - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/ruder-buster",
+				answer: "Ruder Buster - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/physical-challenge",
+				answer: "Physical Challenge - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/board-clear",
+				answer: "Board Clear! - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/welcome-to-the-green-room",
+				answer: "Welcome to the Green Room - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/vapor-buster",
+				answer: "Vapor Buster - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/paradise-paradise",
+				answer: "Paradise, Paradise - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/raft-ride",
+				answer: "Raft Ride - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/south-of-the-border",
+				answer: "SOUTH OF THE BORDER!! - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/sound-check",
+				answer: "Sound Check - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/raise-up-your-bat",
+				answer: "Raise Up Your Bat - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/king-of-rolypoly",
+				answer: "KING OF ROLYPOLY - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/glowing-snow",
+				answer: "Glowing Snow - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/big-city-board",
+				answer: "Big City Board - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/doom-board",
+				answer: "Doom Board - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/metaphysical-challenge",
+				answer: "Metaphysical Challenge - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/tv-world",
+				answer: "TV WORLD - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/its-tv-time",
+				answer: "It’s TV Time! - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/hall-of-fame",
+				answer: "Hall of Fame - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/breath",
+				answer: "Breath - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/black-knife",
+				answer: "Black Knife - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/crickets",
+				answer: "Crickets - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/old-wooden-rafters",
+				answer: "Old wooden rafters - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/hymn",
+				answer: "Hymn - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/another-day-in-hometown",
+				answer: "Another day in hometown - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/friends",
+				answer: "Friends - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/castle-funk",
+				answer: "Castle Funk - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/knock-you-down-rhythm-ver",
+				answer: "Knock You Down!! (Rhythm Ver.) - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/gingerbread-house",
+				answer: "Gingerbread House - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/the-distance-between-two",
+				answer: "The distance between two - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/c",
+				answer: "C  - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/atrium",
+				answer: "ATRIUM - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/dark-sanctuary",
+				answer: "Dark Sanctuary - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/from-now-onbattle-2",
+				answer: "From Now On(Battle 2) - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/gyaa-ha-ha",
+				answer: "Gyaa Ha ha! - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/fireplace",
+				answer: "Fireplace - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/a-dark-zone",
+				answer: "A DARK ZONE - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/mysterious-ringing",
+				answer: "Mysterious Ringing - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/ever-higher",
+				answer: "Ever Higher - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/wise-words",
+				answer: "Wise words - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/piano-that-may-not-be",
+				answer: "Piano that may not be played that well - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/12am",
+				answer: "12am - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/the-second-sanctuary",
+				answer: "The Second Sanctuary - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/ripple",
+				answer: "Ripple - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/13am",
+				answer: "13am - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/the-third-sanctuary",
+				answer: "The Third Sanctuary - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/dark-place",
+				answer: "Dark Place - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/heavy-footsteps",
+				answer: "Heavy Footsteps - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/crumbling-tower",
+				answer: "Crumbling Tower - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/spawn",
+				answer: "SPAWN - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/guardian",
+				answer: "GUARDIAN - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/need-a-hand",
+				answer: "Need a hand!? - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/the-place-where-it-rained",
+				answer: "The place where it rained - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/the-ol-jitterbug",
+				answer: "The Ol’ Jitterbug - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/neverending-night",
+				answer: "Neverending Night - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/the-legend",
+				answer: "The LEGEND...? - Deltarune",
+			},
+			{
+				url: "https://soundcloud.com/tobyfox-music/with-hope-crossed-on-our",
+				answer: "With Hope Crossed On Our Hearts - Deltarune",
+			},
+		],
 	};
 
 	const Cn = ue(songTitles),
@@ -954,7 +1288,9 @@ var app = (function () {
 				deterministicShuffle(
 					[]
 						.concat(songData.undertale)
-						.concat(songData.deltarune_ch1),
+						.concat(songData.deltarune_ch1)
+						.concat(songData.deltarune_ch2)
+						.concat(songData.deltarune_ch3_4),
 				),
 				Pn,
 			).subscribe,
@@ -5091,7 +5427,7 @@ var app = (function () {
 				((n = w("div")),
 					(n.innerHTML =
 						//Fiverr new line
-						'<p class="mb-3">Mario Heardle is a version of Heardle that features songs from across the entire Mario franchise.</p> <p class="mb-3">Volume Slider and Scroll Bar code by <a href="https://github.com/morgvanny">morgvanny</a>.</p> <p class="mb-3">Metadata code by <a href="https://www.fiverr.com/gema_designer">gema_designer</a>.</p>\n\n<p class="mb-3">The full list of songs is available <a href="https://docs.google.com/spreadsheets/d/12vCtRU4cKzgTZk60kVveHRxQvdC2u0yS5pEISWeDlZo/edit#gid=0">here.</a> </p> \n\n<p class="mb-3"> If you have any technical issues, you can contact me @NinjiGalaxy on Bluesky, or by commenting on the previously linked Google Sheet. </p>'),
+						'<p class="mb-3">Toby Fox Heardle is a version of Heardle forked from <a href="https://ninjigalaxy.github.io/mario-heardle-infinite/">Mario Heardle</a>, featuring most of the songs that Toby Fox has ever written and released. (Thanks, <a href="https://hsmusic.wiki">HSMusic Wiki!</a></p> <p class="mb-3">Volume Slider and Scroll Bar code by <a href="https://github.com/morgvanny">morgvanny</a>.</p> <p class="mb-3">Metadata code by <a href="https://www.fiverr.com/gema_designer">gema_designer</a>.</p>\n\n<p class="mb-3">The full list of songs is available <a href="https://github.com/IntangibleMatter/toby-fox-heardle/blob/main/songs.md">here.</a> </p> \n\n<p class="mb-3"> If you have any technical issues, you can contact me @intangiblematter.net on bluesky or by making an issue on the <a href="https://github.com/IntangibleMatter/toby-fox-heardle/">Github Repo</a></p>'),
 					//FNL
 					M(n, "class", "text"));
 			},
