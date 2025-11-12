@@ -6,7 +6,19 @@ Heardle so far.
 - [Undertale](#Undertale)
 - [Deltarune](#Deltarune)
     - [Chapter 1](#chapter-1)
-
+- [EarthBound Halloween Hack](#earthbound-halloween-hack)
+- [Homestuck](#homestuck)
+    - [Midnight Crew: Drawing Dead](#midnight-crew-drawing-dead)
+    - [Homestuck Vol. 4](#homestuck-vol-4)
+    - [Homestuck Vol. 5](#homestuck-vol-5)
+    - [Alternia](#alternia)
+    - [Squiddles!](#squiddles)
+    - [The Baby is You](#the-baby-is-you)
+    - [The Felt](#the-felt)
+    - [Homestuck for the Holidays](#homestuck-for-the-holidays)
+    - [Homestuck Vol. 6: Heir Transparent](#homestuck-vol-6-heir-transparent)
+    - [AlterniaBound](#alterniabound)
+    - [Homestuck Vol. 7: At the Price of Oblivion](#homestuck-vol-7-at-the-price-of-oblivion)
 
 ## Undertale
 - Once Upon a Time
@@ -271,3 +283,136 @@ Heardle so far.
 - Neverending Night
 - The LEGEND...?
 - With Hope Crossed On Our Hearts
+
+## Earthbound Halloween Hack
+
+- File select - Earthbound Halloween Hack
+- Twoson Love Theme
+- Synchronicity
+- Dark Onett/Unused Intro
+- Game Over
+- Sewers
+- Winters
+- Andonauts Magicant
+- Blue Path (aka Dream Maze (Edit)
+- Dead Onett
+- No, No, No (aka Bad Morning to You (Edit))
+- Courage (aka Power (Edit))
+- Techno Boss Battle
+- The Id
+- Megalovania
+
+## Homestuck
+
+### Midnight Crew: Drawing Dead
+
+- Liquid Negrocity
+- The Ballad of Jack Noir
+
+### Homestuck Vol. 4
+
+- Carefree Victory
+- Contention
+- Atomyk Ebonpyre
+- Black
+
+### Homestuck Vol. 5
+
+- Skaian Skirmish
+- Savior of the Waking World
+- Happy Cat Song!
+- Hardchorale
+- White
+- Octoroon Rangoon
+- Lotus Land Story
+- Versus
+- Planet Healer
+- Dupliblaze COMAGMA
+- Moonshatter
+- Sunsetter
+- Get Up
+- Vertical Motion
+- Amphibious Subterrain
+- Snow Pollen
+- Descend
+
+### Alternia
+
+- Crustacean
+- Showdown
+- mIrAcLeS
+- The Lemonsnout Turnabout
+- Phaze and Blood
+- psych0ruins
+- Walls Covered In Blood
+- dESPERADO ROCKET CHAIRS,
+- Death of the Lusii
+- Virgin Orb
+- The La2t Frontiier
+- Skaian Summoning
+- The Thirteenth Hour
+- Spider's Claw
+- Staring
+- Keepers
+- Theme
+- Walls Covered in Blood DX
+
+### Squiddles
+
+- Squiddles the Movie Trailer - The Day the Unicorns Couldn't Play
+
+### The Baby is You
+
+- A History of Babies - The Baby is You
+- Throguh Song - The Baby is You
+- The Baby is You - The Baby is You
+- bootes - The Baby is You
+- rose pragnant - The Baby is You
+- the rose rap - The Baby is You
+- uh oh - The Baby is You
+- vs bros - The Baby is You
+- a baby is born - The Baby is You
+
+### The Felt
+
+- Humphrey's Lullaby
+- English
+
+### Homestuck for the Holidays
+
+- Carefree Perigee
+
+### Homestuck Vol. 6: Heir Transparent
+
+- Umbral Ultimatum
+- MeGaLoVania
+- Gaia Queen
+- Wacky Antics
+- Nic Cage Song
+- A Tender Moment
+
+### AlterniaBound
+
+- Karkat's Theme
+- Terezi's Theme
+- Vriska's Theme
+- FIDUSPAWN, GO! (w/ David Ko)
+- Darling Kanaya
+- Eridan's Theme
+- Nautical Nightmare
+- Nepeta's Theme
+- Blackest Heart (With Honks)
+- Killed by BR8K Spider!!!!!!!!
+- Catapult Capuchin
+- Science Seahorse
+- A Fairy Battle
+- The Blind Prophet
+- AlterniaBound
+- You Won A Combat
+- Rest A While
+
+### Homestuck Vol. 7: At the Price of Oblivion
+
+- Terezi Owns
+- Rumble at the Rink
+- Earthsea Borealis

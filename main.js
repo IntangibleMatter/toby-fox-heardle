@@ -1,7 +1,7 @@
 var app = (function () {
 	var artist = "Toby Fox";
 	var twitter = "intangible_dev";
-	var startDate = "2025-11-08";
+	var startDate = "2025-11-01";
 
 	//list of all the searchable song titles
 	const songTitles = [
@@ -263,6 +263,130 @@ var app = (function () {
 		"Neverending Night - Deltarune",
 		"The LEGEND...? - Deltarune",
 		"With Hope Crossed On Our Hearts - Deltarune",
+
+		// EarthBound Halloween Hack
+
+		// Technically missing File Select 2 and Game Over (Andonauts) but those
+		// are just variations of songs already here
+		"File select - Earthbound Halloween Hack",
+		"Twoson Love Theme - EarthBound Halloween Hack",
+		"Synchronicity - EarthBound Halloween Hack",
+		"Dark Onett/Unused Intro - EarthBound Halloween Hack",
+		"Game Over - EarthBound Halloween Hack",
+		"Sewers - EarthBound Halloween Hack",
+		"Winters - EarthBound Halloween Hack",
+		"Andonauts Magicant - EarthBound Halloween Hack",
+		"Blue Path - EarthBound Halloween Hack", // aka Dream Maze (Edit)
+		"Dead Onett - EarthBound Halloween Hack",
+		"No, No, No - EarthBound Halloween Hack", // aka Bad Morning to You (Edit)
+		"Courage - EarthBound Halloween Hack", // aka Power (Edit)
+		"Techno Boss Battle - EarthBound Halloween Hack",
+		"The Id - EarthBound Halloween Hack",
+		"Megalovania - EarthBound Halloween Hack",
+
+		// Homestuck
+
+		// Midnight Crew: Drawing Dead
+		"Liquid Negrocity - Midnight Crew: Drawing Dead",
+		"The Ballad of Jack Noir - Midnight Crew: Drawing Dead",
+
+		// Homestuck Vol 4
+		"Carefree Victory - Homestuck Vol. 4",
+		"Contention - Homestuck Vol. 4",
+		"Atomyk Ebonpyre - Homestuck Vol. 4",
+		"Black - Homestuck Vol. 4",
+
+		// Homestuck Vol 5
+		"Skaian Skirmish - Homestuck Vol. 5",
+		"Savior of the Waking World - Homestuck Vol. 5",
+		"Happy Cat Song! - Homestuck Vol. 5",
+		"Hardchorale - Homestuck Vol. 5",
+		"White - Homestuck Vol. 5",
+		"Octoroon Rangoon - Homestuck Vol. 5",
+		"Lotus Land Story - Homestuck Vol. 5",
+		"Versus - Homestuck Vol. 5",
+		"Planet Healer - Homestuck Vol. 5",
+		"Dupliblaze COMAGMA - Homestuck Vol. 5",
+		"Moonshatter - Homestuck Vol. 5",
+		"Sunsetter - Homestuck Vol. 5",
+		"Get Up - Homestuck Vol. 5",
+		"Vertical Motion - Homestuck Vol. 5",
+		"Amphibious Subterrain - Homestuck Vol. 5",
+		"Snow Pollen - Homestuck Vol. 5",
+		"Descend - Homestuck Vol. 5",
+
+		// Alternia
+		"Crustacean - Alternia",
+		"Showdown - Alternia",
+		"mIrAcLeS - Alternia",
+		"The Lemonsnout Turnabout - Alternia",
+		"Phaze and Blood - Alternia",
+		"psych0ruins - Alternia",
+		"Walls Covered In Blood - Alternia",
+		"dESPERADO ROCKET CHAIRS, - Alternia",
+		"Death of the Lusii - Alternia",
+		"Virgin Orb - Alternia",
+		"The La2t Frontiier - Alternia",
+		"Skaian Summoning - Alternia",
+		"The Thirteenth Hour - Alternia",
+		"Spider's Claw - Alternia",
+		"Staring - Alternia",
+		"Keepers - Alternia",
+		"Theme - Alternia",
+		"Walls Covered in Blood DX - Alternia",
+
+		// Squiddles
+		"Squiddles the Movie Trailer - The Day the Unicorns Couldn't Play - Squiddles",
+
+		// The Baby is You
+		"A History of Babies - The Baby is You",
+		"Throguh Song - The Baby is You",
+		"The Baby is You - The Baby is You",
+		"bootes - The Baby is You",
+		"rose pragnant - The Baby is You",
+		"the rose rap - The Baby is You",
+		"uh oh - The Baby is You",
+		"vs bros - The Baby is You",
+		"a baby is born - The Baby is You",
+
+		// The Felt
+		"Humphrey's Lullaby - The Felt",
+		"English - The Felt",
+
+		// Homestuck for the Holidays
+		"Carefree Perigee - Homestuck for the Holidays",
+
+		// Homestuck Vol. 6: Heir Transparent
+		"Umbral Ultimatum - Homestuck Vol. 6: Heir Transparent",
+		"MeGaLoVania - Homestuck Vol. 6: Heir Transparent",
+		"Gaia Queen - Homestuck Vol. 6: Heir Transparent",
+		"Wacky Antics - Homestuck Vol. 6: Heir Transparent",
+		"Nic Cage Song - Homestuck Vol. 6: Heir Transparent",
+		"A Tender Moment - Homestuck Vol. 6: Heir Transparent",
+
+		// AlterniaBound
+		"Karkat's Theme - AlterniaBound",
+		"Terezi's Theme - AlterniaBound",
+		"Vriska's Theme - AlterniaBound",
+		"FIDUSPAWN, GO! (w/ David Ko) - AlterniaBound",
+		"Darling Kanaya - AlterniaBound",
+		"Eridan's Theme - AlterniaBound",
+		"Nautical Nightmare - AlterniaBound",
+		"Nepeta's Theme - AlterniaBound",
+		"Blackest Heart (With Honks) - AlterniaBound",
+		"Killed by BR8K Spider!!!!!!!! - AlterniaBound",
+		"Catapult Capuchin - AlterniaBound",
+		"Science Seahorse - AlterniaBound",
+		"A Fairy Battle - AlterniaBound",
+		"The Blind Prophet - AlterniaBound",
+		"AlterniaBound - AlterniaBound",
+		"You Won A Combat - AlterniaBound",
+		"Rest A While - AlterniaBound",
+
+		// Homestuck Vol. 7: At the Price of Oblivion
+		"Terezi Owns - Homestuck Vol. 7: At the Price of Oblivion",
+		"Rumble at the Rink - Homestuck Vol. 7: At the Price of Oblivion",
+		"Earthsea Borealis - Homestuck Vol. 7: At the Price of Oblivion",
 	];
 
 	const songData = {
@@ -673,7 +797,7 @@ var app = (function () {
 			},
 		],
 
-		// deltarune chapter 1
+		// deltarune
 		deltarune_ch1: [
 			{
 				url: "https://soundcloud.com/toby-radiation-fox/001-another-him",
@@ -1280,6 +1404,441 @@ var app = (function () {
 				answer: "With Hope Crossed On Our Hearts - Deltarune",
 			},
 		],
+
+		// EarthBound Halloween Hack
+		halloween_hack: [
+			{
+				url: "https://soundcloud.com/user-464456627/file-select-earthbound-halloween-hack",
+				answer: "File select - EarthBound Halloween Hack",
+			},
+			{
+				url: "https://soundcloud.com/user-464456627/twoson-love-theme-earthbound-halloween-hack",
+				answer: "Twoson Love Theme - EarthBound Halloween Hack",
+			},
+			{
+				url: "https://soundcloud.com/user-464456627/synchronicity-earthbound-halloween-hack",
+				answer: "Synchronicity - EarthBound Halloween Hack",
+			},
+			{
+				url: "https://soundcloud.com/user-464456627/darkonettunused-intro-earthbound-halloween-hack",
+				answer: "Dark Onett/Unused Intro - EarthBound Halloween Hack",
+			},
+			{
+				url: "https://soundcloud.com/user-464456627/game-over-earthbound-halloween-hack",
+				answer: "Game Over - EarthBound Halloween Hack",
+			},
+			{
+				url: "https://soundcloud.com/user-464456627/sewers-earthbound-halloween-hack",
+				answer: "Sewers - EarthBound Halloween Hack",
+			},
+			{
+				url: "https://soundcloud.com/user-464456627/winters-earthbound-halloween-hack",
+				answer: "Winters - EarthBound Halloween Hack",
+			},
+			{
+				url: "https://soundcloud.com/user-464456627/andonauts-magicant-earthbound-halloween-hack",
+				answer: "Andonauts Magicant - EarthBound Halloween Hack",
+			},
+			{
+				url: "https://soundcloud.com/user-464456627/blue-path-earthbound-halloween-hack",
+				answer: "Blue Path - EarthBound Halloween Hack",
+			},
+			{
+				url: "https://soundcloud.com/user-464456627/dead-onett-earthbound-halloween-hack",
+				answer: "Dead Onett - EarthBound Halloween Hack",
+			},
+			{
+				url: "https://soundcloud.com/user-464456627/no-no-no-earthbound-halloween-hack",
+				answer: "No, No, No - EarthBound Halloween Hack",
+			},
+			{
+				url: "https://soundcloud.com/user-464456627/courage-earthbound-halloween-hack",
+				answer: "Courage - EarthBound Halloween Hack",
+			},
+			{
+				url: "https://soundcloud.com/user-464456627/techno-boss-battle-earthbound-halloween-hack",
+				answer: "Techno Boss Battle - EarthBound Halloween Hack",
+			},
+			{
+				url: "https://soundcloud.com/user-464456627/the-id-earthbound-halloween-hack",
+				answer: "The Id - EarthBound Halloween Hack",
+			},
+			{
+				url: "https://soundcloud.com/user-464456627/megalovania-earthbound-halloween-hack",
+				answer: "Megalovania - EarthBound Halloween Hack",
+			},
+		],
+
+		// Homestuck (hs prefix)
+		// Midnight Crew: Drawing Dead
+		hs_midnight_crew: [
+			{
+				url: "https://soundcloud.com/user-13000022/homestuck-liquid-negrocity-midnight-crew",
+				answer: "Liquid Negrocity - Midnight Crew: Drawing Dead",
+			},
+			{
+				url: "https://soundcloud.com/bryannash/ballad-of-jack-noir",
+				answer: "The Ballad of Jack Noir - Midnight Crew: Drawing Dead",
+			},
+		],
+
+		// Homestuck Volume 4
+		hs_vol_4: [
+			{
+				url: "https://soundcloud.com/soundstuck1/homestuck-vol4-04-carefree-victory",
+				answer: "Carefree Victory - Homestuck Vol. 4",
+			},
+			{
+				url: "https://soundcloud.com/soundstuck1/homestuck-vol4-06-contention",
+				answer: "Contention - Homestuck Vol. 4",
+			},
+			{
+				url: "https://soundcloud.com/soundstuck1/homestuck-vol4-12-atomyk-ebonpyre",
+				answer: "Atomyk Ebonpyre - Homestuck Vol. 4",
+			},
+			{
+				url: "https://soundcloud.com/soundstuck1/homestuck-vol4-13-black",
+				answer: "Black - Homestuck Vol. 4",
+			},
+		],
+
+		// Homestuck Volume 5
+		hs_vol_5: [
+			{
+				url: "https://soundcloud.com/altrip-2/skaian-skirmish-homestuck-vol",
+				answer: "Skaian Skirmish - Homestuck Vol. 5",
+			},
+			{
+				url: "https://soundcloud.com/altrip-2/savior-of-the-waking-world",
+				answer: "Savior of the Waking World - Homestuck Vol. 5",
+			},
+			{
+				url: "https://soundcloud.com/altrip-2/happy-cat-song-homestuck-vol-5",
+				answer: "Happy Cat Song! - Homestuck Vol. 5",
+			},
+			{
+				url: "https://soundcloud.com/altrip-2/hardchorale-homestuck-vol-5",
+				answer: "Hardchorale - Homestuck Vol. 5",
+			},
+			{
+				url: "https://soundcloud.com/altrip-2/white-homestuck-vol-5",
+				answer: "White - Homestuck Vol. 5",
+			},
+			{
+				url: "https://soundcloud.com/altrip-2/octoroon-rangoon-homestuck-vol",
+				answer: "Octoroon Rangoon - Homestuck Vol. 5",
+			},
+			{
+				url: "https://soundcloud.com/altrip-2/lotus-land-story-homestuck-vol",
+				answer: "Lotus Land Story - Homestuck Vol. 5",
+			},
+			{
+				url: "https://soundcloud.com/altrip-2/versus-homestuck-vol-5",
+				answer: "Versus - Homestuck Vol. 5",
+			},
+			{
+				url: "https://soundcloud.com/altrip-2/planet-healer-homestuck-vol-5",
+				answer: "Planet Healer - Homestuck Vol. 5",
+			},
+			{
+				url: "https://soundcloud.com/altrip-2/dupliblaze-comagma-homestuck-vol",
+				answer: "Dupliblaze COMAGMA - Homestuck Vol. 5",
+			},
+			{
+				url: "https://soundcloud.com/altrip-2/moonshatter-homestuck-vol-5",
+				answer: "Moonshatter - Homestuck Vol. 5",
+			},
+			{
+				url: "https://soundcloud.com/altrip-2/sunsetter-homestuck-vol-5",
+				answer: "Sunsetter - Homestuck Vol. 5",
+			},
+			{
+				url: "https://soundcloud.com/altrip-2/get-up-homestuck-vol-5",
+				answer: "Get Up - Homestuck Vol. 5",
+			},
+			{
+				url: "https://soundcloud.com/altrip-2/vertical-motion-homestuck-vol",
+				answer: "Vertical Motion - Homestuck Vol. 5",
+			},
+			{
+				url: "https://soundcloud.com/altrip-2/amphibious-subterrain",
+				answer: "Amphibious Subterrain - Homestuck Vol. 5",
+			},
+			{
+				url: "https://soundcloud.com/altrip-2/snow-pollen-homestuck-vol-5",
+				answer: "Snow Pollen - Homestuck Vol. 5",
+			},
+			{
+				url: "https://soundcloud.com/altrip-2/descend-homestuck-vol-5",
+				answer: "Descend - Homestuck Vol. 5",
+			},
+		],
+
+		// Alternia
+		hs_alternia: [
+			{
+				url: "https://soundcloud.com/altrip-3/crustacean-homestuck-alternia",
+				answer: "Crustacean - Alternia",
+			},
+			{
+				url: "https://soundcloud.com/altrip-3/showdown-homestuck-alternia",
+				answer: "Showdown - Alternia",
+			},
+			{
+				url: "https://soundcloud.com/altrip-3/miracles-homestuck-alternia",
+				answer: "mIrAcLeS - Alternia",
+			},
+			{
+				url: "https://soundcloud.com/altrip-3/the-lemonsnout-turnabout",
+				answer: "The Lemonsnout Turnabout - Alternia",
+			},
+			{
+				url: "https://soundcloud.com/altrip-3/phaze-and-blood-homestuck",
+				answer: "Phaze and Blood - Alternia",
+			},
+			{
+				url: "https://soundcloud.com/altrip-3/psych0ruins-homestuck-alternia",
+				answer: "psych0ruins - Alternia",
+			},
+			{
+				url: "https://soundcloud.com/altrip-3/walls-covered-in-blood",
+				answer: "Walls Covered In Blood - Alternia",
+			},
+			{
+				url: "https://soundcloud.com/altrip-3/desperado-rocket-chairs",
+				answer: "dESPERADO ROCKET CHAIRS, - Alternia",
+			},
+			{
+				url: "https://soundcloud.com/altrip-3/death-of-the-lusii-homestuck",
+				answer: "Death of the Lusii - Alternia",
+			},
+			{
+				url: "https://soundcloud.com/altrip-3/virgin-orb-homestuck",
+				answer: "Virgin Orb - Alternia",
+			},
+			{
+				url: "https://soundcloud.com/altrip-3/the-la2t-frontiier-homestuck",
+				answer: "The La2t Frontiier - Alternia",
+			},
+			{
+				url: "https://soundcloud.com/altrip-3/skaian-summoning-homestuck",
+				answer: "Skaian Summoning - Alternia",
+			},
+			{
+				url: "https://soundcloud.com/altrip-3/the-thirteenth-hour-homestuck",
+				answer: "The Thirteenth Hour - Alternia",
+			},
+			{
+				url: "https://soundcloud.com/altrip-3/spiders-claw-bonus-track",
+				answer: "Spider's Claw - Alternia",
+			},
+			{
+				url: "https://soundcloud.com/altrip-3/staring-bonus-track-homestuck",
+				answer: "Staring - Alternia",
+			},
+			{
+				url: "https://soundcloud.com/altrip-3/keepers-bonus-track-homestuck",
+				answer: "Keepers - Alternia",
+			},
+			{
+				url: "https://soundcloud.com/altrip-3/theme-bonus-track",
+				answer: "Theme - Alternia",
+			},
+			{
+				url: "https://soundcloud.com/altrip-3/walls-covered-in-blood-dx",
+				answer: "Walls Covered in Blood DX - Alternia",
+			},
+		],
+
+		// Squiddles!
+		hs_squiddles: [
+			// maybe shouldn't count? He just did the singing
+			/*{
+				url: "https://soundcloud.com/altrip-3/catchyegrabber-skipper",
+				answer: "Catchyegrabber (Skipper Plumbthroat's Song) - Squiddles!"
+			},*/
+			{
+				url: "https://soundcloud.com/altrip-3/squiddles-the-movie-trailer",
+				answer: "Squiddles the Movie Trailer - The Day the Unicorns Couldn't Play - Squiddles",
+			},
+		],
+
+		// The Baby is You
+		hs_baby_is_you: [
+			{
+				url: "https://soundcloud.com/wtfstuck/0-a-history-of-babies",
+				answer: "A History of Babies - The Baby is You",
+			},
+			{
+				url: "https://soundcloud.com/wtfstuck/1-throguh-song",
+				answer: "Throguh Song - The Baby is You",
+			},
+			{
+				url: "https://soundcloud.com/wtfstuck/2-the-baby-is-you",
+				answer: "The Baby is You - The Baby is You",
+			},
+			{
+				url: "https://soundcloud.com/wtfstuck/3-bootes",
+				answer: "bootes - The Baby is You",
+			},
+			{
+				url: "https://soundcloud.com/wtfstuck/4-rose-pragnant",
+				answer: "rose pragnant - The Baby is You",
+			},
+			{
+				url: "https://soundcloud.com/wtfstuck/5-the-rose-rap",
+				answer: "the rose rap - The Baby is You",
+			},
+			{
+				url: "https://soundcloud.com/wtfstuck/6-uh-oh",
+				answer: "uh oh - The Baby is You",
+			},
+			{
+				url: "https://soundcloud.com/wtfstuck/7-vs-bros",
+				answer: "vs bros - The Baby is You",
+			},
+			{
+				url: "https://soundcloud.com/wtfstuck/8-a-baby-is-born",
+				answer: "a baby is born - The Baby is You",
+			},
+		],
+
+		// The Felt
+		hs_the_felt: [
+			{
+				url: "https://soundcloud.com/altrip-3/humphreys-lullaby-homestuck",
+				answer: "Humphrey's Lullaby - The Felt",
+			},
+			{
+				url: "https://soundcloud.com/altrip-3/english-homestuck-the-felt",
+				answer: "English - The Felt",
+			},
+		],
+
+		hs_for_the_holidays: [
+			{
+				url: "https://soundcloud.com/homestuckgaiden/the-more-you-know",
+				answer: "Carefree Perigee - Homestuck for the Holidays",
+			},
+		],
+
+		hs_vol_6_heir_transparent: [
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/umbral-ultimatum-homestuck-vol",
+				answer: "Umbral Ultimatum - Homestuck Vol. 6: Heir Transparent",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/megalovania-homestuck-vol-6",
+				answer: "MeGaLoVania - Homestuck Vol. 6: Heir Transparent",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/gaia-queen-homestuck-vol-6",
+				answer: "Gaia Queen - Homestuck Vol. 6: Heir Transparent",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/wacky-antics-homestuck-vol-6",
+				answer: "Wacky Antics - Homestuck Vol. 6: Heir Transparent",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/nic-cage-song-homestuck-vol-6",
+				answer: "Nic Cage Song - Homestuck Vol. 6: Heir Transparent",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/a-tender-moment-homestuck-vol",
+				answer: "A Tender Moment - Homestuck Vol. 6: Heir Transparent",
+			},
+		],
+
+		// AlterniaBound
+		hs_alterniabound: [
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/karkats-theme-homestuck",
+				answer: "Karkat's Theme - AlterniaBound",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/terezis-theme-homestuck",
+				answer: "Terezi's Theme - AlterniaBound",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/vriskas-theme-homestuck",
+				answer: "Vriska's Theme - AlterniaBound",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/fiduspawn-go-homestuck",
+				answer: "FIDUSPAWN, GO! (w/ David Ko) - AlterniaBound",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/darling-kanaya-homestuck",
+				answer: "Darling Kanaya - AlterniaBound",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/eridans-theme-homestuck",
+				answer: "Eridan's Theme - AlterniaBound",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/nautical-nightmare-homestuck",
+				answer: "Nautical Nightmare - AlterniaBound",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/nepetas-theme-homestuck",
+				answer: "Nepeta's Theme - AlterniaBound",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/blackest-heart-with-honks",
+				answer: "Blackest Heart (With Honks) - AlterniaBound",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/killed-by-br8k-spider",
+				answer: "Killed by BR8K Spider!!!!!!!! - AlterniaBound",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/catapult-capuchin-homestuck",
+				answer: "Catapult Capuchin - AlterniaBound",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/science-seahorse-homestuck",
+				answer: "Science Seahorse - AlterniaBound",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/a-fairy-battle-bonus-track",
+				answer: "A Fairy Battle - AlterniaBound",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/the-blind-prophet-bonus-track",
+				answer: "The Blind Prophet - AlterniaBound",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/alterniabound-bonus-track",
+				answer: "AlterniaBound - AlterniaBound",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/you-won-a-combat-bonus-track",
+				answer: "You Won A Combat - AlterniaBound",
+			},
+			{
+				url: "https://soundcloud.com/altrip-4-428376342/rest-a-while-bonus-track",
+				answer: "Rest A While - AlterniaBound",
+			},
+		],
+
+		// Homestuck Vol. 7: At the Price of Oblivion
+		hs_vol_7_oblivion: [
+			{
+				url: "https://soundcloud.com/altrip-5/terezi-owns-homestuck-vol-7",
+				answer: "Terezi Owns - Homestuck Vol. 7: At the Price of Oblivion",
+			},
+			{
+				url: "https://soundcloud.com/altrip-5/rumble-at-the-rink-owns-homestuck",
+				answer: "Rumble at the Rink - Homestuck Vol. 7: At the Price of Oblivion",
+			},
+			{
+				url: "https://soundcloud.com/altrip-5/earthsea-borealis-homestuck",
+				answer: "Earthsea Borealis - Homestuck Vol. 7: At the Price of Oblivion",
+			},
+		],
+
+		// The Wanderers
+		hs_wanderers: [],
 	};
 
 	const Cn = ue(songTitles),
@@ -1290,7 +1849,20 @@ var app = (function () {
 						.concat(songData.undertale)
 						.concat(songData.deltarune_ch1)
 						.concat(songData.deltarune_ch2)
-						.concat(songData.deltarune_ch3_4),
+						.concat(songData.deltarune_ch3_4)
+						.concat(songData.halloween_hack)
+						.concat(songData.hs_midnight_crew)
+						.concat(songData.hs_vol_4)
+						.concat(songData.hs_vol_5)
+						.concat(songData.hs_alternia)
+						.concat(songData.hs_squiddles)
+						.concat(songData.hs_baby_is_you)
+						.concat(songData.hs_the_felt)
+						.concat(songData.hs_for_the_holidays)
+						.concat(songData.hs_vol_6_heir_transparent)
+						.concat(songData.hs_alterniabound)
+						.concat(songData.hs_vol_7_oblivion)
+						.concat(songData.hs_wanderers),
 				),
 				Pn,
 			).subscribe,
@@ -1342,9 +1914,7 @@ var app = (function () {
 	let o, a;
 	function l(e, t) {
 		return (
-			o || (o = document.createElement("a")),
-			(o.href = t),
-			e === o.href
+			o || (o = document.createElement("a")), (o.href = t), e === o.href
 		);
 	}
 	function u(t, n, r) {
@@ -1428,8 +1998,7 @@ var app = (function () {
 	}
 	function S(e, t, n, r) {
 		return (
-			e.addEventListener(t, n, r),
-			() => e.removeEventListener(t, n, r)
+			e.addEventListener(t, n, r), () => e.removeEventListener(t, n, r)
 		);
 	}
 	function M(e, t, n) {
@@ -1438,7 +2007,7 @@ var app = (function () {
 			: e.getAttribute(t) !== n && e.setAttribute(t, n);
 	}
 	function $(e, t) {
-		((t = "" + t), e.wholeText !== t && (e.data = t));
+		(t = "" + t), e.wholeText !== t && (e.data = t);
 	}
 	function D(e, t) {
 		e.value = null == t ? "" : t;
@@ -1469,7 +2038,7 @@ var app = (function () {
 			if (r) {
 				const s = (function (e, t, n = !1) {
 					const r = document.createEvent("CustomEvent");
-					return (r.initCustomEvent(e, n, !1, t), r);
+					return r.initCustomEvent(e, n, !1, t), r;
 				})(t, n);
 				r.slice().forEach((t) => {
 					t.call(e, s);
@@ -1497,7 +2066,7 @@ var app = (function () {
 		do {
 			for (; j < N.length; ) {
 				const e = N[j];
-				(j++, C(e), z(e.$$));
+				j++, C(e), z(e.$$);
 			}
 			for (C(null), N.length = 0, j = 0; H.length; ) H.pop()();
 			for (let e = 0; e < I.length; e += 1) {
@@ -1507,15 +2076,15 @@ var app = (function () {
 			I.length = 0;
 		} while (N.length);
 		for (; W.length; ) W.pop()();
-		((F = !1), E.clear(), C(e));
+		(F = !1), E.clear(), C(e);
 	}
 	function z(e) {
 		if (null !== e.fragment) {
-			(e.update(), r(e.before_update));
+			e.update(), r(e.before_update);
 			const t = e.dirty;
-			((e.dirty = [-1]),
+			(e.dirty = [-1]),
 				e.fragment && e.fragment.p(e.ctx, t),
-				e.after_update.forEach(G));
+				e.after_update.forEach(G);
 		}
 	}
 	const U = new Set();
@@ -1528,7 +2097,7 @@ var app = (function () {
 		};
 	}
 	function K() {
-		(V.r || r(V.c), (V = V.p));
+		V.r || r(V.c), (V = V.p);
 	}
 	function Z(e, t) {
 		e && e.i && (U.delete(e), e.i(t));
@@ -1536,11 +2105,11 @@ var app = (function () {
 	function q(e, t, n, r) {
 		if (e && e.o) {
 			if (U.has(e)) return;
-			(U.add(e),
+			U.add(e),
 				V.c.push(() => {
-					(U.delete(e), r && (n && e.d(1), r()));
+					U.delete(e), r && (n && e.d(1), r());
 				}),
-				e.o(t));
+				e.o(t);
 		}
 	}
 	const X =
@@ -1559,13 +2128,13 @@ var app = (function () {
 			on_destroy: u,
 			after_update: c,
 		} = e.$$;
-		(a && a.m(n, i),
+		a && a.m(n, i),
 			o ||
 				G(() => {
 					const n = l.map(t).filter(s);
-					(u ? u.push(...n) : r(n), (e.$$.on_mount = []));
+					u ? u.push(...n) : r(n), (e.$$.on_mount = []);
 				}),
-			c.forEach(G));
+			c.forEach(G);
 	}
 	function te(e, t) {
 		const n = e.$$;
@@ -1576,9 +2145,9 @@ var app = (function () {
 			(n.ctx = []));
 	}
 	function ne(e, t) {
-		(-1 === e.$$.dirty[0] &&
+		-1 === e.$$.dirty[0] &&
 			(N.push(e), F || ((F = !0), R.then(B)), e.$$.dirty.fill(0)),
-			(e.$$.dirty[(t / 31) | 0] |= 1 << t % 31));
+			(e.$$.dirty[(t / 31) | 0] |= 1 << t % 31);
 	}
 	function re(t, s, i, o, l, u, c, d = [-1]) {
 		const h = a;
@@ -1626,17 +2195,17 @@ var app = (function () {
 				const e = (function (e) {
 					return Array.from(e.childNodes);
 				})(s.target);
-				(f.fragment && f.fragment.l(e), e.forEach(y));
+				f.fragment && f.fragment.l(e), e.forEach(y);
 			} else f.fragment && f.fragment.c();
-			(s.intro && Z(t.$$.fragment),
+			s.intro && Z(t.$$.fragment),
 				ee(t, s.target, s.anchor, s.customElement),
-				B());
+				B();
 		}
 		C(h);
 	}
 	class se {
 		$destroy() {
-			(te(this, 1), (this.$destroy = e));
+			te(this, 1), (this.$destroy = e);
 		}
 		$on(e, t) {
 			const n = this.$$.callbacks[e] || (this.$$.callbacks[e] = []);
@@ -1663,7 +2232,7 @@ var app = (function () {
 			o = c(i, e, e[2], null);
 		return {
 			c() {
-				((t = w("button")),
+				(t = w("button")),
 					o && o.c(),
 					M(
 						t,
@@ -1671,30 +2240,30 @@ var app = (function () {
 						"px-2 py-2 uppercase tracking-widest bg-custom-mg border-none flex items-center font-semibold text-sm svelte-1r54uzk",
 					),
 					Y(t, "bg-custom-positive", e[0]),
-					Y(t, "bg-custom-mg", e[1]));
+					Y(t, "bg-custom-mg", e[1]);
 			},
 			m(i, a) {
-				(g(i, t, a),
+				g(i, t, a),
 					o && o.m(t, null),
 					(n = !0),
-					r || ((s = S(t, "click", e[4])), (r = !0)));
+					r || ((s = S(t, "click", e[4])), (r = !0));
 			},
 			p(e, [r]) {
-				(o &&
+				o &&
 					o.p &&
 					(!n || 4 & r) &&
 					f(o, i, e, e[2], n ? h(i, e[2], r, null) : m(e[2]), null),
 					1 & r && Y(t, "bg-custom-positive", e[0]),
-					2 & r && Y(t, "bg-custom-mg", e[1]));
+					2 & r && Y(t, "bg-custom-mg", e[1]);
 			},
 			i(e) {
 				n || (Z(o, e), (n = !0));
 			},
 			o(e) {
-				(q(o, e), (n = !1));
+				q(o, e), (n = !1);
 			},
 			d(e) {
-				(e && y(t), o && o.d(e), (r = !1), s());
+				e && y(t), o && o.d(e), (r = !1), s();
 			},
 		};
 	}
@@ -1704,9 +2273,9 @@ var app = (function () {
 			{ secondary: o = !1 } = t;
 		return (
 			(e.$$set = (e) => {
-				("primary" in e && n(0, (i = e.primary)),
+				"primary" in e && n(0, (i = e.primary)),
 					"secondary" in e && n(1, (o = e.secondary)),
-					"$$scope" in e && n(2, (s = e.$$scope)));
+					"$$scope" in e && n(2, (s = e.$$scope));
 			}),
 			[
 				i,
@@ -1721,11 +2290,11 @@ var app = (function () {
 	}
 	class ae extends se {
 		constructor(e) {
-			(super(),
+			super(),
 				re(this, e, oe, ie, i, {
 					primary: 0,
 					secondary: 1,
-				}));
+				});
 		}
 	}
 	const le = [];
@@ -1735,7 +2304,7 @@ var app = (function () {
 		function o(e) {
 			if (i(t, e) && ((t = e), r)) {
 				const e = !le.length;
-				for (const e of s) (e[1](), le.push(e, t));
+				for (const e of s) e[1](), le.push(e, t);
 				if (e) {
 					for (let e = 0; e < le.length; e += 2) le[e][0](le[e + 1]);
 					le.length = 0;
@@ -1754,7 +2323,7 @@ var app = (function () {
 					1 === s.size && (r = n(o) || e),
 					i(t),
 					() => {
-						(s.delete(l), 0 === s.size && (r(), (r = null)));
+						s.delete(l), 0 === s.size && (r(), (r = null));
 					}
 				);
 			},
@@ -1778,7 +2347,7 @@ var app = (function () {
 			!(function (e, t, n) {
 				let r = e.length;
 				function s() {
-					((r = --r), r < 1 && n());
+					(r = --r), r < 1 && n();
 				}
 				t()
 					? n()
@@ -1795,13 +2364,13 @@ var app = (function () {
 									i = document.createElement(
 										r ? "script" : "link",
 									);
-								(r
+								r
 									? ((i.src = t),
 										(i.async = n.async),
 										(i.defer = n.defer))
 									: ((i.rel = "stylesheet"), (i.href = t)),
 									(i.onload = s),
-									document.body.appendChild(i));
+									document.body.appendChild(i);
 							},
 						);
 			})(
@@ -1826,7 +2395,7 @@ var app = (function () {
 					let t = e.length && e.shift();
 					for (; t; ) {
 						const { event: n, data: r } = t;
-						(he("event", n, r), (t = e.shift()));
+						he("event", n, r), (t = e.shift());
 					}
 				})
 			);
@@ -1836,42 +2405,42 @@ var app = (function () {
 				i && o();
 			}),
 			(e.$$set = (e) => {
-				("properties" in e && n(0, (r = e.properties)),
+				"properties" in e && n(0, (r = e.properties)),
 					"configurations" in e && n(1, (s = e.configurations)),
-					"enabled" in e && n(2, (i = e.enabled)));
+					"enabled" in e && n(2, (i = e.enabled));
 			}),
 			[r, s, i, o]
 		);
 	}
 	class me extends se {
 		constructor(e) {
-			(super(),
+			super(),
 				re(this, e, fe, null, i, {
 					properties: 0,
 					configurations: 1,
 					enabled: 2,
 					init: 3,
-				}));
+				});
 		}
 		get init() {
 			return this.$$.ctx[3];
 		}
 	}
 	function pe(e, t) {
-		(t.send_to || delete t.send_to,
+		t.send_to || delete t.send_to,
 			ce.update((n) => [
 				...n,
 				{
 					event: e,
 					data: t,
 				},
-			]));
+			]);
 	}
 	function ge(e) {
 		let t, n, r, s;
 		return {
 			c() {
-				((t = k("svg")),
+				(t = k("svg")),
 					(n = k("circle")),
 					(r = k("line")),
 					(s = k("line")),
@@ -1894,10 +2463,10 @@ var app = (function () {
 					M(t, "stroke", "currentColor"),
 					M(t, "stroke-width", "2"),
 					M(t, "stroke-linecap", "round"),
-					M(t, "stroke-linejoin", "round"));
+					M(t, "stroke-linejoin", "round");
 			},
 			m(e, i) {
-				(g(e, t, i), p(t, n), p(t, r), p(t, s));
+				g(e, t, i), p(t, n), p(t, r), p(t, s);
 			},
 			d(e) {
 				e && y(t);
@@ -1908,7 +2477,7 @@ var app = (function () {
 		let t, n;
 		return {
 			c() {
-				((t = k("svg")),
+				(t = k("svg")),
 					(n = k("path")),
 					M(
 						n,
@@ -1923,10 +2492,10 @@ var app = (function () {
 					M(t, "stroke", "currentColor"),
 					M(t, "stroke-width", "2"),
 					M(t, "stroke-linecap", "round"),
-					M(t, "stroke-linejoin", "round"));
+					M(t, "stroke-linejoin", "round");
 			},
 			m(e, r) {
-				(g(e, t, r), p(t, n));
+				g(e, t, r), p(t, n);
 			},
 			d(e) {
 				e && y(t);
@@ -1937,7 +2506,7 @@ var app = (function () {
 		let t, n;
 		return {
 			c() {
-				((t = k("svg")),
+				(t = k("svg")),
 					(n = k("path")),
 					M(
 						n,
@@ -1952,10 +2521,10 @@ var app = (function () {
 					M(t, "stroke", "currentColor"),
 					M(t, "stroke-width", "2"),
 					M(t, "stroke-linecap", "round"),
-					M(t, "stroke-linejoin", "round"));
+					M(t, "stroke-linejoin", "round");
 			},
 			m(e, r) {
-				(g(e, t, r), p(t, n));
+				g(e, t, r), p(t, n);
 			},
 			d(e) {
 				e && y(t);
@@ -1966,7 +2535,7 @@ var app = (function () {
 		let t, n, r, s;
 		return {
 			c() {
-				((t = k("svg")),
+				(t = k("svg")),
 					(n = k("circle")),
 					(r = k("path")),
 					(s = k("line")),
@@ -1986,10 +2555,10 @@ var app = (function () {
 					M(t, "stroke", "currentColor"),
 					M(t, "stroke-width", "2"),
 					M(t, "stroke-linecap", "round"),
-					M(t, "stroke-linejoin", "round"));
+					M(t, "stroke-linejoin", "round");
 			},
 			m(e, i) {
-				(g(e, t, i), p(t, n), p(t, r), p(t, s));
+				g(e, t, i), p(t, n), p(t, r), p(t, s);
 			},
 			d(e) {
 				e && y(t);
@@ -2045,7 +2614,7 @@ var app = (function () {
 			m.$on("click", e[4]),
 			{
 				c() {
-					((t = w("header")),
+					(t = w("header")),
 						(n = w("div")),
 						(r = w("div")),
 						(s = w("div")),
@@ -2079,10 +2648,10 @@ var app = (function () {
 							//new M(r, "class", "flex flex-col items-center text-custom-fgcolor p-3 gap-y-2")
 						),
 						M(n, "class", "max-w-screen-md mx-auto "),
-						M(t, "class", "border-b border-custom-line"));
+						M(t, "class", "border-b border-custom-line");
 				},
 				m(e, y) {
-					(g(e, t, y),
+					g(e, t, y),
 						p(t, n),
 						p(n, r),
 						p(r, s),
@@ -2097,37 +2666,37 @@ var app = (function () {
 						ee(h, d, null),
 						p(d, f),
 						ee(m, d, null),
-						(v = !0));
+						(v = !0);
 				},
 				p(e, [t]) {
 					const n = {};
-					(64 & t &&
+					64 & t &&
 						(n.$$scope = {
 							dirty: t,
 							ctx: e,
 						}),
-						i.$set(n));
+						i.$set(n);
 					const r = {};
-					(64 & t &&
+					64 & t &&
 						(r.$$scope = {
 							dirty: t,
 							ctx: e,
 						}),
-						a.$set(r));
+						a.$set(r);
 					const s = {};
-					(64 & t &&
+					64 & t &&
 						(s.$$scope = {
 							dirty: t,
 							ctx: e,
 						}),
-						h.$set(s));
+						h.$set(s);
 					const o = {};
-					(64 & t &&
+					64 & t &&
 						(o.$$scope = {
 							dirty: t,
 							ctx: e,
 						}),
-						m.$set(o));
+						m.$set(o);
 				},
 				i(e) {
 					v ||
@@ -2138,14 +2707,14 @@ var app = (function () {
 						(v = !0));
 				},
 				o(e) {
-					(q(i.$$.fragment, e),
+					q(i.$$.fragment, e),
 						q(a.$$.fragment, e),
 						q(h.$$.fragment, e),
 						q(m.$$.fragment, e),
-						(v = !1));
+						(v = !1);
 				},
 				d(e) {
-					(e && y(t), te(i), te(a), te(h), te(m));
+					e && y(t), te(i), te(a), te(h), te(m);
 				},
 			}
 		);
@@ -2162,39 +2731,39 @@ var app = (function () {
 		return [
 			n,
 			() => {
-				(n("info", "about"),
+				n("info", "about"),
 					pe("clickInfo", {
 						name: "clickInfo",
-					}));
+					});
 			},
 			() => {
-				(n("donate", "support"),
+				n("donate", "support"),
 					pe("clickDonate", {
 						name: "clickDonate",
-					}));
+					});
 			},
 			() => {
-				(n("results", "stats"),
+				n("results", "stats"),
 					pe("clickStats", {
 						name: "clickStats",
-					}));
+					});
 			},
 			() => {
-				(n("help", "how to play"),
+				n("help", "how to play"),
 					pe("clickHelp", {
 						name: "clickHelp",
-					}));
+					});
 			},
 		];
 	}
 	class xe extends se {
 		constructor(e) {
-			(super(), re(this, e, _e, ke, i, {}));
+			super(), re(this, e, _e, ke, i, {});
 		}
 	}
 	function be(e, t, n) {
 		const r = e.slice();
-		return ((r[5] = t[n]), (r[7] = n), r);
+		return (r[5] = t[n]), (r[7] = n), r;
 	}
 	function Se(e) {
 		let t,
@@ -2225,7 +2794,7 @@ var app = (function () {
 				}
 			},
 			d(e) {
-				(e && y(t), v(r, e));
+				e && y(t), v(r, e);
 			},
 		};
 	}
@@ -2245,7 +2814,7 @@ var app = (function () {
 			f = e[1].artist && Le(e);
 		return {
 			c() {
-				((t = w("div")),
+				(t = w("div")),
 					(n = w("a")),
 					(r = w("div")),
 					h && h.c(),
@@ -2277,10 +2846,10 @@ var app = (function () {
 							" on SoundCloud"),
 					),
 					M(n, "class", "no-underline"),
-					M(t, "class", "p-3 pb-0 flex-col items-evenly"));
+					M(t, "class", "p-3 pb-0 flex-col items-evenly");
 			},
 			m(e, c) {
-				(g(e, t, c),
+				g(e, t, c),
 					p(t, n),
 					p(n, r),
 					h && h.m(r, null),
@@ -2290,10 +2859,10 @@ var app = (function () {
 					p(r, o),
 					p(r, a),
 					p(r, l),
-					p(r, u));
+					p(r, u);
 			},
 			p(e, t) {
-				(e[1].img
+				e[1].img
 					? h
 						? h.p(e, t)
 						: ((h = Ae(e)), h.c(), h.m(r, s))
@@ -2314,10 +2883,10 @@ var app = (function () {
 								" - " +
 								e[1].title +
 								" on SoundCloud") &&
-						M(n, "title", d));
+						M(n, "title", d);
 			},
 			d(e) {
-				(e && y(t), h && h.d(), f && f.d());
+				e && y(t), h && h.d(), f && f.d();
 			},
 		};
 	}
@@ -2325,7 +2894,7 @@ var app = (function () {
 		let n;
 		return {
 			c() {
-				((n = w("div")), M(n, "class", "w-5 h-5"));
+				(n = w("div")), M(n, "class", "w-5 h-5");
 			},
 			m(e, t) {
 				g(e, n, t);
@@ -2354,30 +2923,30 @@ var app = (function () {
 			u = l(e);
 		return {
 			c() {
-				((t = w("div")),
+				(t = w("div")),
 					o && o.c(),
 					(n = x()),
 					(r = w("div")),
 					u.c(),
 					M(t, "class", "mr-2"),
-					M(r, "class", "flex flex-1 justify-between items-center"));
+					M(r, "class", "flex flex-1 justify-between items-center");
 			},
 			m(e, s) {
-				(g(e, t, s),
+				g(e, t, s),
 					o && o.m(t, null),
 					g(e, n, s),
 					g(e, r, s),
-					u.m(r, null));
+					u.m(r, null);
 			},
 			p(e, n) {
-				(i !== (i = s(e)) &&
+				i !== (i = s(e)) &&
 					(o && o.d(1), (o = i && i(e)), o && (o.c(), o.m(t, null))),
 					l === (l = a(e)) && u
 						? u.p(e, n)
-						: (u.d(1), (u = l(e)), u && (u.c(), u.m(r, null))));
+						: (u.d(1), (u = l(e)), u && (u.c(), u.m(r, null)));
 			},
 			d(e) {
-				(e && y(t), o && o.d(), e && y(n), e && y(r), u.d());
+				e && y(t), o && o.d(), e && y(n), e && y(r), u.d();
 			},
 		};
 	}
@@ -2385,7 +2954,7 @@ var app = (function () {
 		let t, n;
 		return {
 			c() {
-				((t = k("svg")),
+				(t = k("svg")),
 					(n = k("rect")),
 					M(n, "x", "3"),
 					M(n, "y", "3"),
@@ -2402,10 +2971,10 @@ var app = (function () {
 					M(t, "stroke", "currentColor"),
 					M(t, "stroke-width", "2"),
 					M(t, "stroke-linecap", "round"),
-					M(t, "stroke-linejoin", "round"));
+					M(t, "stroke-linejoin", "round");
 			},
 			m(e, r) {
-				(g(e, t, r), p(t, n));
+				g(e, t, r), p(t, n);
 			},
 			d(e) {
 				e && y(t);
@@ -2416,7 +2985,7 @@ var app = (function () {
 		let t, n, r;
 		return {
 			c() {
-				((t = k("svg")),
+				(t = k("svg")),
 					(n = k("line")),
 					(r = k("line")),
 					M(n, "x1", "18"),
@@ -2436,10 +3005,10 @@ var app = (function () {
 					M(t, "stroke", "currentColor"),
 					M(t, "stroke-width", "2"),
 					M(t, "stroke-linecap", "round"),
-					M(t, "stroke-linejoin", "round"));
+					M(t, "stroke-linejoin", "round");
 			},
 			m(e, s) {
-				(g(e, t, s), p(t, n), p(t, r));
+				g(e, t, s), p(t, n), p(t, r);
 			},
 			d(e) {
 				e && y(t);
@@ -2452,12 +3021,10 @@ var app = (function () {
 			r = e[0][e[7]].answer + "";
 		return {
 			c() {
-				((t = w("div")),
-					(n = _(r)),
-					M(t, "class", "text-white text-sm"));
+				(t = w("div")), (n = _(r)), M(t, "class", "text-white text-sm");
 			},
 			m(e, r) {
-				(g(e, t, r), p(t, n));
+				g(e, t, r), p(t, n);
 			},
 			p(e, t) {
 				1 & t && r !== (r = e[0][e[7]].answer + "") && $(n, r);
@@ -2471,13 +3038,13 @@ var app = (function () {
 		let n;
 		return {
 			c() {
-				((n = w("div")),
+				(n = w("div")),
 					(n.textContent = "SKIPPED"),
 					M(
 						n,
 						"class",
 						"text-custom-mg tracking-widest font-semibold",
-					));
+					);
 			},
 			m(e, t) {
 				g(e, n, t);
@@ -2497,7 +3064,7 @@ var app = (function () {
 			i = s(e);
 		return {
 			c() {
-				((t = w("div")),
+				(t = w("div")),
 					i.c(),
 					(n = x()),
 					M(
@@ -2505,19 +3072,19 @@ var app = (function () {
 						"class",
 						"p-2 mb-2 border border-custom-mg flex items-center last:mb-0",
 					),
-					Y(t, "border-custom-line", e[7] == e[0].length));
+					Y(t, "border-custom-line", e[7] == e[0].length);
 			},
 			m(e, r) {
-				(g(e, t, r), i.m(t, null), p(t, n));
+				g(e, t, r), i.m(t, null), p(t, n);
 			},
 			p(e, o) {
-				(s === (s = r(e)) && i
+				s === (s = r(e)) && i
 					? i.p(e, o)
 					: (i.d(1), (i = s(e)), i && (i.c(), i.m(t, n))),
-					1 & o && Y(t, "border-custom-line", e[7] == e[0].length));
+					1 & o && Y(t, "border-custom-line", e[7] == e[0].length);
 			},
 			d(e) {
-				(e && y(t), i.d());
+				e && y(t), i.d();
 			},
 		};
 	}
@@ -2525,19 +3092,19 @@ var app = (function () {
 		let t, n, r;
 		return {
 			c() {
-				((t = w("img")),
+				(t = w("img")),
 					l(t.src, (n = e[1].img)) || M(t, "src", n),
 					M(t, "class", "h-14 w-14 "),
-					M(t, "alt", (r = e[1].artist + " - " + e[1].title)));
+					M(t, "alt", (r = e[1].artist + " - " + e[1].title));
 			},
 			m(e, n) {
 				g(e, t, n);
 			},
 			p(e, s) {
-				(2 & s && !l(t.src, (n = e[1].img)) && M(t, "src", n),
+				2 & s && !l(t.src, (n = e[1].img)) && M(t, "src", n),
 					2 & s &&
 						r !== (r = e[1].artist + " - " + e[1].title) &&
-						M(t, "alt", r));
+						M(t, "alt", r);
 			},
 			d(e) {
 				e && y(t);
@@ -2554,23 +3121,23 @@ var app = (function () {
 			a = e[1].title + "";
 		return {
 			c() {
-				((t = w("p")),
+				(t = w("p")),
 					(n = _(o)),
 					(r = x()),
 					(s = w("p")),
 					(i = _(a)),
 					M(t, "class", ""),
-					M(s, "class", "text-sm "));
+					M(s, "class", "text-sm ");
 			},
 			m(e, o) {
-				(g(e, t, o), p(t, n), g(e, r, o), g(e, s, o), p(s, i));
+				g(e, t, o), p(t, n), g(e, r, o), g(e, s, o), p(s, i);
 			},
 			p(e, t) {
-				(2 & t && o !== (o = e[1].artist + "") && $(n, o),
-					2 & t && a !== (a = e[1].title + "") && $(i, a));
+				2 & t && o !== (o = e[1].artist + "") && $(n, o),
+					2 & t && a !== (a = e[1].title + "") && $(i, a);
 			},
 			d(e) {
-				(e && y(t), e && y(r), e && y(s));
+				e && y(t), e && y(r), e && y(s);
 			},
 		};
 	}
@@ -2583,10 +3150,10 @@ var app = (function () {
 			i = s(t);
 		return {
 			c() {
-				(i.c(), (n = b()));
+				i.c(), (n = b());
 			},
 			m(e, t) {
-				(i.m(e, t), g(e, n, t));
+				i.m(e, t), g(e, n, t);
 			},
 			p(e, [t]) {
 				s === (s = r(e)) && i
@@ -2596,7 +3163,7 @@ var app = (function () {
 			i: e,
 			o: e,
 			d(e) {
-				(i.d(e), e && y(n));
+				i.d(e), e && y(n);
 			},
 		};
 	}
@@ -2608,10 +3175,10 @@ var app = (function () {
 			{ todaysGame: a } = t;
 		return (
 			(e.$$set = (e) => {
-				("userGuesses" in e && n(0, (s = e.userGuesses)),
+				"userGuesses" in e && n(0, (s = e.userGuesses)),
 					"maxAttempts" in e && n(4, (i = e.maxAttempts)),
 					"currentHeardle" in e && n(1, (o = e.currentHeardle)),
-					"todaysGame" in e && n(2, (a = e.todaysGame)));
+					"todaysGame" in e && n(2, (a = e.todaysGame));
 			}),
 			(e.$$.update = () => {
 				21 & e.$$.dirty &&
@@ -2622,27 +3189,27 @@ var app = (function () {
 	}
 	class Ie extends se {
 		constructor(e) {
-			(super(),
+			super(),
 				re(this, e, He, Ne, i, {
 					userGuesses: 0,
 					maxAttempts: 4,
 					currentHeardle: 1,
 					todaysGame: 2,
-				}));
+				});
 		}
 	}
 	function We(t) {
 		let n, r;
 		return {
 			c() {
-				((n = w("div")),
+				(n = w("div")),
 					(r = w("i")),
 					M(r, "class", "gg-loadbar-sound svelte-15swa4o"),
 					Y(r, "musicIsPlaying", t[0]),
-					M(n, "class", "scale-150 transform relative"));
+					M(n, "class", "scale-150 transform relative");
 			},
 			m(e, t) {
-				(g(e, n, t), p(n, r));
+				g(e, n, t), p(n, r);
 			},
 			p(e, [t]) {
 				1 & t && Y(r, "musicIsPlaying", e[0]);
@@ -2665,10 +3232,10 @@ var app = (function () {
 	}
 	class Fe extends se {
 		constructor(e) {
-			(super(),
+			super(),
 				re(this, e, Re, We, i, {
 					musicIsPlaying: 0,
-				}));
+				});
 		}
 	}
 	function Ge(t) {
@@ -2690,21 +3257,21 @@ var app = (function () {
 	}
 	class Ee extends se {
 		constructor(e) {
-			(super(), re(this, e, null, Ge, i, {}));
+			super(), re(this, e, null, Ge, i, {});
 		}
 	}
 	const { document: je } = X;
 	function Be(e, t, n) {
 		const r = e.slice();
-		return ((r[33] = t[n]), (r[35] = n), r);
+		return (r[33] = t[n]), (r[35] = n), r;
 	}
 	function ze(e, t, n) {
 		const r = e.slice();
-		return ((r[33] = t[n]), (r[35] = n), r);
+		return (r[33] = t[n]), (r[35] = n), r;
 	}
 	function Ue(e, t, n) {
 		const r = e.slice();
-		return ((r[33] = t[n]), (r[35] = n), r);
+		return (r[33] = t[n]), (r[35] = n), r;
 	}
 	function Ve(e) {
 		let t, n, r, s;
@@ -2718,20 +3285,20 @@ var app = (function () {
 			(r = o[n] = i[n](e)),
 			{
 				c() {
-					((t = w("div")),
+					(t = w("div")),
 						r.c(),
 						M(
 							t,
 							"class",
 							"text-sm text-center text-custom-line p-6",
-						));
+						);
 				},
 				m(e, r) {
-					(g(e, t, r), o[n].m(t, null), (s = !0));
+					g(e, t, r), o[n].m(t, null), (s = !0);
 				},
 				p(e, s) {
 					let l = n;
-					((n = a(e)),
+					(n = a(e)),
 						n === l
 							? o[n].p(e, s)
 							: (J(),
@@ -2742,16 +3309,16 @@ var app = (function () {
 								(r = o[n]),
 								r ? r.p(e, s) : ((r = o[n] = i[n](e)), r.c()),
 								Z(r, 1),
-								r.m(t, null)));
+								r.m(t, null));
 				},
 				i(e) {
 					s || (Z(r), (s = !0));
 				},
 				o(e) {
-					(q(r), (s = !1));
+					q(r), (s = !1);
 				},
 				d(e) {
-					(e && y(t), o[n].d());
+					e && y(t), o[n].d();
 				},
 			}
 		);
@@ -2768,14 +3335,14 @@ var app = (function () {
 			(n = o[t] = i[t](e)),
 			{
 				c() {
-					(n.c(), (r = b()));
+					n.c(), (r = b());
 				},
 				m(e, n) {
-					(o[t].m(e, n), g(e, r, n), (s = !0));
+					o[t].m(e, n), g(e, r, n), (s = !0);
 				},
 				p(e, s) {
 					let l = t;
-					((t = a(e)),
+					(t = a(e)),
 						t === l
 							? o[t].p(e, s)
 							: (J(),
@@ -2786,16 +3353,16 @@ var app = (function () {
 								(n = o[t]),
 								n ? n.p(e, s) : ((n = o[t] = i[t](e)), n.c()),
 								Z(n, 1),
-								n.m(r.parentNode, r)));
+								n.m(r.parentNode, r));
 				},
 				i(e) {
 					s || (Z(n), (s = !0));
 				},
 				o(e) {
-					(q(n), (s = !1));
+					q(n), (s = !1);
 				},
 				d(e) {
-					(o[t].d(e), e && y(r));
+					o[t].d(e), e && y(r);
 				},
 			}
 		);
@@ -2806,23 +3373,23 @@ var app = (function () {
 			(n = new Ee({})),
 			{
 				c() {
-					(Q(n.$$.fragment),
+					Q(n.$$.fragment),
 						(r = x()),
 						(s = w("p")),
-						(s.textContent = "loading player"));
+						(s.textContent = "loading player");
 				},
 				m(e, t) {
-					(ee(n, e, t), g(e, r, t), g(e, s, t), (i = !0));
+					ee(n, e, t), g(e, r, t), g(e, s, t), (i = !0);
 				},
 				p: e,
 				i(e) {
 					i || (Z(n.$$.fragment, e), (i = !0));
 				},
 				o(e) {
-					(q(n.$$.fragment, e), (i = !1));
+					q(n.$$.fragment, e), (i = !1);
 				},
 				d(e) {
-					(te(n, e), e && y(r), e && y(s));
+					te(n, e), e && y(r), e && y(s);
 				},
 			}
 		);
@@ -2843,39 +3410,39 @@ var app = (function () {
 			s.$on("click", e[22]),
 			{
 				c() {
-					((t = w("p")),
+					(t = w("p")),
 						(t.textContent =
 							"(Seems like a dog has curled up on the play button. Maybe if you refresh the page, he'll wake up and leave?)"),
 						(n = x()),
 						(r = w("div")),
 						Q(s.$$.fragment),
 						M(t, "class", "mb-3"),
-						M(r, "class", "flex justify-center"));
+						M(r, "class", "flex justify-center");
 				},
 				m(e, o) {
-					(g(e, t, o),
+					g(e, t, o),
 						g(e, n, o),
 						g(e, r, o),
 						ee(s, r, null),
-						(i = !0));
+						(i = !0);
 				},
 				p(e, t) {
 					const n = {};
-					(128 & t[1] &&
+					128 & t[1] &&
 						(n.$$scope = {
 							dirty: t,
 							ctx: e,
 						}),
-						s.$set(n));
+						s.$set(n);
 				},
 				i(e) {
 					i || (Z(s.$$.fragment, e), (i = !0));
 				},
 				o(e) {
-					(q(s.$$.fragment, e), (i = !1));
+					q(s.$$.fragment, e), (i = !1);
 				},
 				d(e) {
-					(e && y(t), e && y(n), e && y(r), te(s));
+					e && y(t), e && y(n), e && y(r), te(s);
 				},
 			}
 		);
@@ -2884,7 +3451,7 @@ var app = (function () {
 		let t, n;
 		return {
 			c() {
-				((t = k("svg")),
+				(t = k("svg")),
 					(n = k("path")),
 					M(n, "d", "M2.5 2v6h6M2.66 15.57a10 10 0 1 0 .57-8.38"),
 					M(t, "xmlns", "http://www.w3.org/2000/svg"),
@@ -2895,10 +3462,10 @@ var app = (function () {
 					M(t, "stroke", "currentColor"),
 					M(t, "stroke-width", "2"),
 					M(t, "stroke-linecap", "round"),
-					M(t, "stroke-linejoin", "round"));
+					M(t, "stroke-linejoin", "round");
 			},
 			m(e, r) {
-				(g(e, t, r), p(t, n));
+				g(e, t, r), p(t, n);
 			},
 			d(e) {
 				e && y(t);
@@ -2917,7 +3484,7 @@ var app = (function () {
 			c = t[4].gameIsActive && et(t);
 		return {
 			c() {
-				((n = w("div")),
+				(n = w("div")),
 					(r = w("div")),
 					(s = w("div")),
 					(i = w("div")),
@@ -2938,10 +3505,10 @@ var app = (function () {
 						n,
 						"class",
 						"max-w-screen-sm w-full mx-auto px-3 flex-col",
-					));
+					);
 			},
 			m(e, t) {
-				(g(e, n, t),
+				g(e, n, t),
 					p(n, r),
 					p(r, s),
 					p(s, i),
@@ -2949,7 +3516,7 @@ var app = (function () {
 					p(s, a),
 					p(a, l),
 					p(a, u),
-					c && c.m(a, null));
+					c && c.m(a, null);
 			},
 			p(e, t) {
 				e[4].gameIsActive
@@ -2961,7 +3528,7 @@ var app = (function () {
 			i: e,
 			o: e,
 			d(e) {
-				(e && y(n), c && c.d());
+				e && y(n), c && c.d();
 			},
 		};
 	}
@@ -3021,7 +3588,7 @@ var app = (function () {
 			}),
 			{
 				c() {
-					(N && N.c(),
+					N && N.c(),
 						(t = x()),
 						(n = w("div")),
 						(r = w("div")),
@@ -3098,10 +3665,10 @@ var app = (function () {
 							"class",
 							"max-w-screen-sm w-full mx-auto flex-col",
 						),
-						M(c, "class", "border-t border-custom-line"));
+						M(c, "class", "border-t border-custom-line");
 				},
 				m(e, s) {
-					(N && N.m(e, s),
+					N && N.m(e, s),
 						g(e, t, s),
 						g(e, n, s),
 						p(n, r),
@@ -3116,12 +3683,12 @@ var app = (function () {
 						p(d, h),
 						p(h, f),
 						p(f, m),
-						p(m, v));
+						p(m, v);
 					if (!/Mobi/i.test(window.navigator.userAgent)) {
 						f.classList.add("with-volume");
-						(p(f, volumeDiv),
+						p(f, volumeDiv),
 							p(volumeDiv, volumeIcon),
-							p(volumeIcon, volumeSvg));
+							p(volumeIcon, volumeSvg);
 
 						// Create the slider container
 						const sliderContainer = document.createElement("div");
@@ -3294,17 +3861,17 @@ var app = (function () {
 					} else {
 						f.classList.add("without-volume");
 					}
-					(p(v, k),
+					p(v, k),
 						p(f, b),
 						p(f, S),
 						ee(D, S, null),
 						p(f, Y),
 						p(f, C),
 						p(C, O),
-						(P = !0));
+						(P = !0);
 				},
 				p(n, r) {
-					((e = n)[12] || 1 != e[0]
+					(e = n)[12] || 1 != e[0]
 						? N && (N.d(1), (N = null))
 						: N || ((N = tt()), N.c(), N.m(t.parentNode, t)),
 						(!P || 1024 & r[0]) && T(a, "width", e[10] + "%"),
@@ -3315,9 +3882,9 @@ var app = (function () {
 							: (W.d(1), (W = I(e)), W && (W.c(), W.m(i, null))),
 						(!P || 2048 & r[0]) &&
 							A !== (A = mt(e[11]) + "") &&
-							$(k, A));
+							$(k, A);
 					const s = {};
-					((262144 & r[0]) | (128 & r[1]) &&
+					(262144 & r[0]) | (128 & r[1]) &&
 						(s.$$scope = {
 							dirty: r,
 							ctx: e,
@@ -3334,22 +3901,22 @@ var app = (function () {
 													e[2].attemptInterval
 											: e[3],
 									) + "") &&
-							$(O, L));
+							$(O, L);
 				},
 				i(e) {
 					P || (Z(D.$$.fragment, e), (P = !0));
 				},
 				o(e) {
-					(q(D.$$.fragment, e), (P = !1));
+					q(D.$$.fragment, e), (P = !1);
 				},
 				d(e) {
-					(N && N.d(e),
+					N && N.d(e),
 						e && y(t),
 						e && y(n),
 						W.d(),
 						e && y(u),
 						e && y(c),
-						te(D));
+						te(D);
 				},
 			}
 		);
@@ -3359,7 +3926,7 @@ var app = (function () {
 		let t, n, r, s, i, o;
 		return {
 			c() {
-				((t = w("p")),
+				(t = w("p")),
 					(n = _("We're really sorry. The answer is ")),
 					(r = w("a")),
 					(s = _("here")),
@@ -3367,10 +3934,10 @@ var app = (function () {
 						", though, if you want to maintain your streak.\n                                We won't tell...",
 					)),
 					M(r, "href", (i = e[1].url)),
-					M(t, "class", "text-xs text-custom-line pt-1"));
+					M(t, "class", "text-xs text-custom-line pt-1");
 			},
 			m(e, i) {
-				(g(e, t, i), p(t, n), p(t, r), p(r, s), p(t, o));
+				g(e, t, i), p(t, n), p(t, r), p(r, s), p(t, o);
 			},
 			p(e, t) {
 				2 & t[0] && i !== (i = e[1].url) && M(r, "href", i);
@@ -3384,14 +3951,14 @@ var app = (function () {
 		let t;
 		return {
 			c() {
-				((t = w("div")),
+				(t = w("div")),
 					(t.innerHTML =
 						'<p><a href="https://github.com/IntangibleMatter/toby-fox-heardle/blob/main/songs.md">Click Here for the full list of Toby Fox Heardle songs. <svg class="mt-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>'),
 					M(
 						t,
 						"class",
 						"text-center p-3 flex flex-col items-center text-sm text-custom-line",
-					));
+					);
 			},
 			m(e, n) {
 				g(e, t, n);
@@ -3410,16 +3977,16 @@ var app = (function () {
 			s = r(e);
 		return {
 			c() {
-				((t = w("div")),
+				(t = w("div")),
 					s.c(),
 					M(
 						t,
 						"class",
 						"flex w-full h-full absolute justify-between",
-					));
+					);
 			},
 			m(e, n) {
-				(g(e, t, n), s.m(t, null));
+				g(e, t, n), s.m(t, null);
 			},
 			p(e, i) {
 				r === (r = n(e)) && s
@@ -3427,7 +3994,7 @@ var app = (function () {
 					: (s.d(1), (s = r(e)), s && (s.c(), s.m(t, null)));
 			},
 			d(e) {
-				(e && y(t), s.d());
+				e && y(t), s.d();
 			},
 		};
 	}
@@ -3436,12 +4003,12 @@ var app = (function () {
 			n = e[15] && lt(e);
 		return {
 			c() {
-				((t = w("div")),
+				(t = w("div")),
 					n && n.c(),
-					M(t, "class", "w-full h-full absolute"));
+					M(t, "class", "w-full h-full absolute");
 			},
 			m(e, r) {
-				(g(e, t, r), n && n.m(t, null));
+				g(e, t, r), n && n.m(t, null);
 			},
 			p(e, r) {
 				e[15]
@@ -3451,7 +4018,7 @@ var app = (function () {
 					: n && (n.d(1), (n = null));
 			},
 			d(e) {
-				(e && y(t), n && n.d());
+				e && y(t), n && n.d();
 			},
 		};
 	}
@@ -3478,17 +4045,17 @@ var app = (function () {
 						i < n.length;
 						i += 1
 					)
-						(Be(e, n, i),
+						Be(e, n, i),
 							r[i] ||
 								((r[i] = ot()),
 								r[i].c(),
-								r[i].m(t.parentNode, t)));
+								r[i].m(t.parentNode, t));
 					for (i = n.length; i < s; i += 1) r[i].d(1);
 					r.length = n.length;
 				}
 			},
 			d(e) {
-				(v(r, e), e && y(t));
+				v(r, e), e && y(t);
 			},
 		};
 	}
@@ -3516,17 +4083,17 @@ var app = (function () {
 						i < n.length;
 						i += 1
 					)
-						(ze(e, n, i),
+						ze(e, n, i),
 							r[i] ||
 								((r[i] = at()),
 								r[i].c(),
-								r[i].m(t.parentNode, t)));
+								r[i].m(t.parentNode, t));
 					for (i = n.length; i < s; i += 1) r[i].d(1);
 					r.length = n.length;
 				}
 			},
 			d(e) {
-				(v(r, e), e && y(t));
+				v(r, e), e && y(t);
 			},
 		};
 	}
@@ -3534,7 +4101,7 @@ var app = (function () {
 		let t;
 		return {
 			c() {
-				((t = w("div")), M(t, "class", "bg-custom-bg w-px h-full"));
+				(t = w("div")), M(t, "class", "bg-custom-bg w-px h-full");
 			},
 			m(e, n) {
 				g(e, t, n);
@@ -3548,7 +4115,7 @@ var app = (function () {
 		let t;
 		return {
 			c() {
-				((t = w("div")), M(t, "class", "bg-custom-bg w-px h-full"));
+				(t = w("div")), M(t, "class", "bg-custom-bg w-px h-full");
 			},
 			m(e, n) {
 				g(e, t, n);
@@ -3568,21 +4135,21 @@ var app = (function () {
 		for (let t = 0; t < i.length; t += 1) o[t] = ut(Ue(e, i, t));
 		return {
 			c() {
-				((t = w("div")), (n = x()));
+				(t = w("div")), (n = x());
 				for (let e = 0; e < o.length; e += 1) o[e].c();
-				((r = x()),
+				(r = x()),
 					(s = w("div")),
 					M(
 						t,
 						"class",
 						"bg-custom-line w-px h-full absolute right-0",
 					),
-					M(s, "class", "bg-custom-mg w-px h-full absolute right-0"));
+					M(s, "class", "bg-custom-mg w-px h-full absolute right-0");
 			},
 			m(e, i) {
-				(g(e, t, i), g(e, n, i));
+				g(e, t, i), g(e, n, i);
 				for (let t = 0; t < o.length; t += 1) o[t].m(e, i);
-				(g(e, r, i), g(e, s, i));
+				g(e, r, i), g(e, s, i);
 			},
 			p(e, t) {
 				if (384 & t[0]) {
@@ -3600,7 +4167,7 @@ var app = (function () {
 				}
 			},
 			d(e) {
-				(e && y(t), e && y(n), v(o, e), e && y(r), e && y(s));
+				e && y(t), e && y(n), v(o, e), e && y(r), e && y(s);
 			},
 		};
 	}
@@ -3608,22 +4175,22 @@ var app = (function () {
 		let t;
 		return {
 			c() {
-				((t = w("div")),
+				(t = w("div")),
 					M(t, "class", "w-px h-full absolute"),
 					T(t, "left", (e[8][e[35]] / e[8].slice(-1)[0]) * 100 + "%"),
 					Y(t, "bg-custom-bg", e[35] < e[7] - 1),
 					Y(t, "bg-custom-mg", e[35] > e[7] - 1),
-					Y(t, "bg-custom-line", e[35] == e[7] - 1));
+					Y(t, "bg-custom-line", e[35] == e[7] - 1);
 			},
 			m(e, n) {
 				g(e, t, n);
 			},
 			p(e, n) {
-				(256 & n[0] &&
+				256 & n[0] &&
 					T(t, "left", (e[8][e[35]] / e[8].slice(-1)[0]) * 100 + "%"),
 					128 & n[0] && Y(t, "bg-custom-bg", e[35] < e[7] - 1),
 					128 & n[0] && Y(t, "bg-custom-mg", e[35] > e[7] - 1),
-					128 & n[0] && Y(t, "bg-custom-line", e[35] == e[7] - 1));
+					128 & n[0] && Y(t, "bg-custom-line", e[35] == e[7] - 1);
 			},
 			d(e) {
 				e && y(t);
@@ -3634,10 +4201,10 @@ var app = (function () {
 		let n;
 		return {
 			c() {
-				((n = w("div")),
+				(n = w("div")),
 					(n.innerHTML =
 						'<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>'),
-					M(n, "class", "ml-1 relative z-10"));
+					M(n, "class", "ml-1 relative z-10");
 			},
 			m(e, t) {
 				g(e, n, t);
@@ -3660,25 +4227,25 @@ var app = (function () {
 			})),
 			{
 				c() {
-					((t = w("div")),
+					(t = w("div")),
 						Q(n.$$.fragment),
-						M(t, "class", "relative z-10"));
+						M(t, "class", "relative z-10");
 				},
 				m(e, s) {
-					(g(e, t, s), ee(n, t, null), (r = !0));
+					g(e, t, s), ee(n, t, null), (r = !0);
 				},
 				p(e, t) {
 					const r = {};
-					(262144 & t[0] && (r.musicIsPlaying = e[18]), n.$set(r));
+					262144 & t[0] && (r.musicIsPlaying = e[18]), n.$set(r);
 				},
 				i(e) {
 					r || (Z(n.$$.fragment, e), (r = !0));
 				},
 				o(e) {
-					(q(n.$$.fragment, e), (r = !1));
+					q(n.$$.fragment, e), (r = !1);
 				},
 				d(e) {
-					(e && y(t), te(n));
+					e && y(t), te(n);
 				},
 			}
 		);
@@ -3695,20 +4262,20 @@ var app = (function () {
 			(r = o[n] = i[n](e)),
 			{
 				c() {
-					((t = w("div")),
+					(t = w("div")),
 						r.c(),
 						M(
 							t,
 							"class",
 							"flex justify-center items-center text-custom-fg h-14 w-14 border-2 rounded-full relative overflow-hidden",
-						));
+						);
 				},
 				m(e, r) {
-					(g(e, t, r), o[n].m(t, null), (s = !0));
+					g(e, t, r), o[n].m(t, null), (s = !0);
 				},
 				p(e, s) {
 					let l = n;
-					((n = a(e)),
+					(n = a(e)),
 						n === l
 							? o[n].p(e, s)
 							: (J(),
@@ -3719,16 +4286,16 @@ var app = (function () {
 								(r = o[n]),
 								r ? r.p(e, s) : ((r = o[n] = i[n](e)), r.c()),
 								Z(r, 1),
-								r.m(t, null)));
+								r.m(t, null));
 				},
 				i(e) {
 					s || (Z(r), (s = !0));
 				},
 				o(e) {
-					(q(r), (s = !1));
+					q(r), (s = !1);
 				},
 				d(e) {
-					(e && y(t), o[n].d());
+					e && y(t), o[n].d();
 				},
 			}
 		);
@@ -3745,7 +4312,7 @@ var app = (function () {
 			(i = m[s] = f[s](e)),
 			{
 				c() {
-					((t = w("script")),
+					(t = w("script")),
 						(r = x()),
 						i.c(),
 						(o = x()),
@@ -3760,10 +4327,10 @@ var app = (function () {
 								"src",
 								"https://w.soundcloud.com/player/api.js",
 							),
-						M(a, "class", "hidden"));
+						M(a, "class", "hidden");
 				},
 				m(n, i) {
-					(p(je.head, t),
+					p(je.head, t),
 						g(n, r, i),
 						m[s].m(n, i),
 						g(n, o, i),
@@ -3771,11 +4338,11 @@ var app = (function () {
 						p(a, u),
 						e[23](u),
 						(c = !0),
-						d || ((h = S(t, "load", e[19])), (d = !0)));
+						d || ((h = S(t, "load", e[19])), (d = !0));
 				},
 				p(e, t) {
 					let n = s;
-					((s = v(e)),
+					(s = v(e)),
 						s === n
 							? m[s].p(e, t)
 							: (J(),
@@ -3786,23 +4353,23 @@ var app = (function () {
 								(i = m[s]),
 								i ? i.p(e, t) : ((i = m[s] = f[s](e)), i.c()),
 								Z(i, 1),
-								i.m(o.parentNode, o)));
+								i.m(o.parentNode, o));
 				},
 				i(e) {
 					c || (Z(i), (c = !0));
 				},
 				o(e) {
-					(q(i), (c = !1));
+					q(i), (c = !1);
 				},
 				d(n) {
-					(y(t),
+					y(t),
 						n && y(r),
 						m[s].d(n),
 						n && y(o),
 						n && y(a),
 						e[23](null),
 						(d = !1),
-						h());
+						h();
 				},
 			}
 		);
@@ -3830,7 +4397,7 @@ var app = (function () {
 			b = !1,
 			S = !1;
 		const M = () => {
-			(y.seekTo(0), y.pause());
+			y.seekTo(0), y.pause();
 		};
 		function $(e) {
 			c("updatePlayerState", {
@@ -3842,17 +4409,17 @@ var app = (function () {
 			(y = SC.Widget("soundcloud" + h.id)).bind(
 				SC.Widget.Events.READY,
 				function () {
-					(y.getCurrentSound(function (e) {
-						("BLOCK" === e.policy && n(9, (g = !0)),
+					y.getCurrentSound(function (e) {
+						"BLOCK" === e.policy && n(9, (g = !0)),
 							c("updateSong", {
 								currentSong: e,
-							}));
+							});
 					}),
 						y.bind(SC.Widget.Events.PAUSE, function () {
 							$(!1);
 						}),
 						y.bind(SC.Widget.Events.PLAY, function () {
-							(b ||
+							b ||
 								(pe("startGame", {
 									name: "startGame",
 								}),
@@ -3861,10 +4428,10 @@ var app = (function () {
 								}),
 								(b = !0)),
 								$(!0),
-								n(12, (x = !0)));
+								n(12, (x = !0));
 						}),
 						y.bind(SC.Widget.Events.PLAY_PROGRESS, function (e) {
-							(n(11, (w = e.currentPosition)),
+							n(11, (w = e.currentPosition)),
 								1 == s
 									? p.isPrime
 										? (n(10, (v = (w / u) * 100)),
@@ -3879,14 +4446,14 @@ var app = (function () {
 											),
 											w > d * f.attemptInterval && M())
 									: (n(10, (v = (w / m) * 100)),
-										w > m && M()));
-						}));
+										w > m && M());
+						});
 				},
 			);
 		}
 		P(() => {
 			const e = document.createElement("iframe");
-			((e.name = h.id),
+			(e.name = h.id),
 				(e.id = "soundcloud" + h.id),
 				(e.allow = "autoplay"),
 				(e.height = 0),
@@ -3901,18 +4468,18 @@ var app = (function () {
 					(setTimeout(() => {
 						n(13, (S = !0));
 					}, 6e3),
-					T()));
+					T());
 		});
 		return (
 			(e.$$set = (e) => {
-				("currentAttempt" in e && n(0, (d = e.currentAttempt)),
+				"currentAttempt" in e && n(0, (d = e.currentAttempt)),
 					"currentHeardle" in e && n(1, (h = e.currentHeardle)),
 					"config" in e && n(2, (f = e.config)),
 					"trackDuration" in e && n(3, (m = e.trackDuration)),
-					"gameState" in e && n(4, (p = e.gameState)));
+					"gameState" in e && n(4, (p = e.gameState));
 			}),
 			(e.$$.update = () => {
-				(16 & e.$$.dirty[0] && n(18, (r = p.musicIsPlaying)),
+				16 & e.$$.dirty[0] && n(18, (r = p.musicIsPlaying)),
 					16 & e.$$.dirty[0] && n(15, (s = p.gameIsActive)),
 					16 & e.$$.dirty[0] && n(17, (i = p.playerIsReady)),
 					1 & e.$$.dirty[0] && n(7, (o = d)),
@@ -3924,7 +4491,7 @@ var app = (function () {
 								? (a[o - 1] / a.slice(-1)[0]) * 100
 								: (d / f.maxAttempts) * 100),
 						),
-					384 & e.$$.dirty[0] && (u = a[o - 1]));
+					384 & e.$$.dirty[0] && (u = a[o - 1]);
 			}),
 			[
 				d,
@@ -3933,7 +4500,7 @@ var app = (function () {
 				m,
 				p,
 				() => {
-					(y.seekTo(0), y.play());
+					y.seekTo(0), y.play();
 				},
 				M,
 				o,
@@ -3949,25 +4516,25 @@ var app = (function () {
 				i,
 				r,
 				function () {
-					((k = !0),
+					(k = !0),
 						_ &&
 							(setTimeout(() => {
 								n(13, (S = !0));
 							}, 6e3),
-							T()));
+							T());
 				},
 				() => {
 					y.toggle();
 				},
 				() => {
-					(y.seekTo(0), y.play());
+					y.seekTo(0), y.play();
 				},
 				() => {
 					window.location.reload();
 				},
 				function (e) {
 					H[e ? "unshift" : "push"](() => {
-						((D = e), n(14, D));
+						(D = e), n(14, D);
 					});
 				},
 			]
@@ -3975,7 +4542,7 @@ var app = (function () {
 	}
 	class gt extends se {
 		constructor(e) {
-			(super(),
+			super(),
 				re(
 					this,
 					e,
@@ -3995,7 +4562,7 @@ var app = (function () {
 					},
 					null,
 					[-1, -1],
-				));
+				);
 		}
 		get togglePlayState() {
 			return this.$$.ctx[20];
@@ -4021,7 +4588,7 @@ var app = (function () {
 		var t = {
 			exports: {},
 		};
-		return (e(t, t.exports), t.exports);
+		return e(t, t.exports), t.exports;
 	}
 	function vt(e) {
 		throw new Error(
@@ -4032,17 +4599,17 @@ var app = (function () {
 	}
 	var wt = yt(function (e, t) {
 			var n;
-			((n = function () {
+			(n = function () {
 				function e(e, t) {
 					var n = Object.keys(e);
 					if (Object.getOwnPropertySymbols) {
 						var r = Object.getOwnPropertySymbols(e);
-						(t &&
+						t &&
 							(r = r.filter(function (t) {
 								return Object.getOwnPropertyDescriptor(e, t)
 									.enumerable;
 							})),
-							n.push.apply(n, r));
+							n.push.apply(n, r);
 					}
 					return n;
 				}
@@ -4162,10 +4729,10 @@ var app = (function () {
 								a(s[0]).insertAdjacentElement(s[1], n);
 							else if ("around" === r) {
 								var i = s;
-								(i.parentNode.insertBefore(n, i),
+								i.parentNode.insertBefore(n, i),
 									n.append(i),
 									null != i.getAttribute("autofocus") &&
-										i.focus());
+										i.focus();
 							} else r in n ? (n[r] = s) : n.setAttribute(r, s);
 						}
 						return n;
@@ -4260,7 +4827,7 @@ var app = (function () {
 						var n = t.data,
 							r = t.searchEngine,
 							s = [];
-						(n.store.forEach(function (o, a) {
+						n.store.forEach(function (o, a) {
 							var l = function (n) {
 								var i = n ? o[n] : o,
 									a =
@@ -4277,7 +4844,7 @@ var app = (function () {
 										match: a,
 										value: o,
 									};
-									(n && (l.key = n), s.push(l));
+									n && (l.key = n), s.push(l);
 								}
 							};
 							if (n.keys) {
@@ -4328,10 +4895,10 @@ var app = (function () {
 											},
 											n: function () {
 												var e = n.next();
-												return ((a = e.done), e);
+												return (a = e.done), e;
 											},
 											e: function (e) {
-												((l = !0), (o = e));
+												(l = !0), (o = e);
 											},
 											f: function () {
 												try {
@@ -4353,14 +4920,14 @@ var app = (function () {
 								}
 							} else l();
 						}),
-							n.filter && (s = n.filter(s)));
+							n.filter && (s = n.filter(s));
 						var o = s.slice(0, t.resultsList.maxResults);
-						((t.feedback = {
+						(t.feedback = {
 							query: e,
 							matches: s,
 							results: o,
 						}),
-							d("results", t));
+							d("results", t);
 					},
 					p = "aria-expanded",
 					g = "aria-activedescendant",
@@ -4396,7 +4963,7 @@ var app = (function () {
 							var o,
 								a,
 								l = t.cursor;
-							(e >= r.length && (e = 0),
+							e >= r.length && (e = 0),
 								e < 0 && (e = r.length - 1),
 								(t.cursor = e),
 								l > -1 &&
@@ -4416,7 +4983,7 @@ var app = (function () {
 									5),
 								(t.feedback.cursor = t.cursor),
 								v(t, e),
-								d("navigate", t));
+								d("navigate", t);
 						}
 					},
 					x = function (e) {
@@ -4475,7 +5042,7 @@ var app = (function () {
 															) {
 																var u =
 																	new DocumentFragment();
-																(a.forEach(
+																a.forEach(
 																	function (
 																		e,
 																		n,
@@ -4516,7 +5083,7 @@ var app = (function () {
 																			r,
 																			i,
 																		),
-																	w(e));
+																	w(e);
 															} else k(e);
 														})(e),
 													u.call(r));
@@ -4598,10 +5165,10 @@ var app = (function () {
 										}),
 										(r = e.debounce),
 										function () {
-											(clearTimeout(s),
+											clearTimeout(s),
 												(s = setTimeout(function () {
 													return n();
-												}, r)));
+												}, r));
 										}),
 									a = (e.events = t(
 										{
@@ -4621,16 +5188,16 @@ var app = (function () {
 													switch (e.keyCode) {
 														case 40:
 														case 38:
-															(e.preventDefault(),
+															e.preventDefault(),
 																40 === e.keyCode
 																	? x(t)
-																	: b(t));
+																	: b(t);
 															break;
 														case 13:
-															(t.submit ||
+															t.submit ||
 																e.preventDefault(),
 																t.cursor >= 0 &&
-																	S(t, e));
+																	S(t, e);
 															break;
 														case 9:
 															t.resultsList
@@ -4639,9 +5206,9 @@ var app = (function () {
 																S(t, e);
 															break;
 														case 27:
-															((t.input.value =
+															(t.input.value =
 																""),
-																k(t));
+																k(t);
 													}
 												})(t, e);
 											},
@@ -4670,13 +5237,13 @@ var app = (function () {
 											},
 										},
 									};
-								($(l, function (t, n) {
+								$(l, function (t, n) {
 									(e.resultsList || "input" === n) &&
 										(a[t][n] || (a[t][n] = l[t][n]));
 								}),
 									$(a, function (t, n) {
 										e[t].addEventListener(n, a[t][n]);
-									}));
+									});
 							})(e),
 							e.data.cache)
 						)
@@ -4688,14 +5255,14 @@ var app = (function () {
 								}
 							}, s);
 						function u() {
-							return (d("init", e), r());
+							return d("init", e), r();
 						}
 						return u.call(n);
 					});
 				}
 				function T(e) {
 					var t = e.prototype;
-					((t.init = function () {
+					(t.init = function () {
 						D(this);
 					}),
 						(t.start = function (e) {
@@ -4704,8 +5271,8 @@ var app = (function () {
 						(t.unInit = function () {
 							if (this.wrapper) {
 								var e = this.wrapper.parentNode;
-								(e.insertBefore(this.input, this.wrapper),
-									e.removeChild(this.wrapper));
+								e.insertBefore(this.input, this.wrapper),
+									e.removeChild(this.wrapper);
 							}
 							var t;
 							$((t = this).events, function (e, n) {
@@ -4732,10 +5299,10 @@ var app = (function () {
 						}),
 						(t.search = function (e, t, n) {
 							return h(e, t, n);
-						}));
+						});
 				}
 				return function e(t) {
-					((this.options = t),
+					(this.options = t),
 						(this.id = e.instances = (e.instances || 0) + 1),
 						(this.name = "autoComplete"),
 						(this.wrapper = 1),
@@ -4759,17 +5326,17 @@ var app = (function () {
 									for (var l in (e[o] || (e[o] = {}), r[o]))
 										e[o][l] = r[o][l];
 								else e[o] = r[o];
-							((e.selector = e.selector || "#" + t),
+							(e.selector = e.selector || "#" + t),
 								(s.destination = s.destination || e.selector),
 								(s.id = s.id || t + "_list_" + e.id),
 								(i.id = i.id || t + "_result"),
-								(e.input = a(e.selector)));
+								(e.input = a(e.selector));
 						})(this),
 						T.call(this, e),
-						D(this));
+						D(this);
 				};
 			}),
-				(e.exports = n()));
+				(e.exports = n());
 		}),
 		kt = _t(2);
 	function _t(e) {
@@ -4793,14 +5360,14 @@ var app = (function () {
 	}
 	function xt(e, t) {
 		let n, r, s, i;
-		(Array.isArray(e)
+		Array.isArray(e)
 			? (s = e.map((e) => String(e).toLowerCase()))
 			: ((n = String(e).toLowerCase()),
 				(s = 1 === n.length ? [n] : kt(n))),
 			Array.isArray(t)
 				? (i = t.map((e) => String(e).toLowerCase()))
 				: ((r = String(t).toLowerCase()),
-					(i = 1 === r.length ? [r] : kt(r))));
+					(i = 1 === r.length ? [r] : kt(r)));
 		let o,
 			a,
 			l,
@@ -4809,7 +5376,7 @@ var app = (function () {
 		for (; ++u < s.length; )
 			for (o = s[u], l = -1; ++l < i.length; )
 				if (((a = i[l]), o === a)) {
-					(c++, (i[l] = ""));
+					c++, (i[l] = "");
 					break;
 				}
 		return (2 * c) / (s.length + i.length);
@@ -4818,14 +5385,14 @@ var app = (function () {
 		let n, r;
 		return {
 			c() {
-				((n = _("Skip")), (r = w("span")), (r.textContent = "(+1.5s)"));
+				(n = _("Skip")), (r = w("span")), (r.textContent = "(+1.5s)");
 			},
 			m(e, t) {
-				(g(e, n, t), g(e, r, t));
+				g(e, n, t), g(e, r, t);
 			},
 			p: e,
 			d(e) {
-				(e && y(n), e && y(r));
+				e && y(n), e && y(r);
 			},
 		};
 	}
@@ -4834,23 +5401,23 @@ var app = (function () {
 		let t, n, r, s, i;
 		return {
 			c() {
-				((t = _("Skip ")),
+				(t = _("Skip ")),
 					(n = w("span")),
 					(r = _("(+")),
 					(s = _(e[0])),
 					(i = _("s)")),
 					M(n, "class", "tracking-normal lowercase"),
-					Y(n, "hidden", e[0] >= e[1].maxAttempts));
+					Y(n, "hidden", e[0] >= e[1].maxAttempts);
 			},
 			m(e, o) {
-				(g(e, t, o), g(e, n, o), p(n, r), p(n, s), p(n, i));
+				g(e, t, o), g(e, n, o), p(n, r), p(n, s), p(n, i);
 			},
 			p(e, t) {
-				(1 & t && $(s, e[0]),
-					3 & t && Y(n, "hidden", e[0] >= e[1].maxAttempts));
+				1 & t && $(s, e[0]),
+					3 & t && Y(n, "hidden", e[0] >= e[1].maxAttempts);
 			},
 			d(e) {
-				(e && y(t), e && y(n));
+				e && y(t), e && y(n);
 			},
 		};
 	}
@@ -4863,10 +5430,10 @@ var app = (function () {
 			s = r(e);
 		return {
 			c() {
-				(s.c(), (t = b()));
+				s.c(), (t = b());
 			},
 			m(e, n) {
-				(s.m(e, n), g(e, t, n));
+				s.m(e, n), g(e, t, n);
 			},
 			p(e, i) {
 				r === (r = n(e)) && s
@@ -4874,7 +5441,7 @@ var app = (function () {
 					: (s.d(1), (s = r(e)), s && (s.c(), s.m(t.parentNode, t)));
 			},
 			d(e) {
-				(s.d(e), e && y(t));
+				s.d(e), e && y(t);
 			},
 		};
 	}
@@ -4925,7 +5492,7 @@ var app = (function () {
 			}),
 			{
 				c() {
-					((t = w("div")),
+					(t = w("div")),
 						(n = w("div")),
 						(s = w("div")),
 						(i = w("div")),
@@ -4980,10 +5547,10 @@ var app = (function () {
 							t,
 							"class",
 							"max-w-screen-sm w-full mx-auto flex-col",
-						));
+						);
 				},
 				m(r, y) {
-					(g(r, t, y),
+					g(r, t, y),
 						p(t, n),
 						p(n, s),
 						p(s, i),
@@ -5003,33 +5570,33 @@ var app = (function () {
 						($ = !0),
 						T ||
 							((Y = [S(c, "input", e[8]), S(h, "click", e[9])]),
-							(T = !0)));
+							(T = !0));
 				},
 				p(e, [t]) {
 					16 & t && D(c, e[4]);
 					const n = {};
-					(32775 & t &&
+					32775 & t &&
 						(n.$$scope = {
 							dirty: t,
 							ctx: e,
 						}),
-						v.$set(n));
+						v.$set(n);
 					const r = {};
-					(32768 & t &&
+					32768 & t &&
 						(r.$$scope = {
 							dirty: t,
 							ctx: e,
 						}),
-						b.$set(r));
+						b.$set(r);
 				},
 				i(e) {
 					$ || (Z(v.$$.fragment, e), Z(b.$$.fragment, e), ($ = !0));
 				},
 				o(e) {
-					(q(v.$$.fragment, e), q(b.$$.fragment, e), ($ = !1));
+					q(v.$$.fragment, e), q(b.$$.fragment, e), ($ = !1);
 				},
 				d(e) {
-					(e && y(t), te(v), te(b), (T = !1), r(Y));
+					e && y(t), te(v), te(b), (T = !1), r(Y);
 				},
 			}
 		);
@@ -5045,8 +5612,8 @@ var app = (function () {
 					document.getElementById("autoComplete").focus();
 				},
 				clear() {
-					((document.getElementById("autoComplete").value = ""),
-						n(4, (r = "")));
+					(document.getElementById("autoComplete").value = ""),
+						n(4, (r = ""));
 				},
 			},
 			u = A();
@@ -5109,7 +5676,7 @@ var app = (function () {
 						input: {
 							selection: (t) => {
 								let s = t.detail.selection.value;
-								((e.input.value = s), n(4, (r = s)));
+								(e.input.value = s), n(4, (r = s));
 							},
 						},
 					},
@@ -5120,10 +5687,10 @@ var app = (function () {
 			(e.$$set = (e) => {
 				s.pop();
 				// console.log('all', s)
-				("allOptions" in e && n(6, (s = e.allOptions)),
+				"allOptions" in e && n(6, (s = e.allOptions)),
 					"currentAttempt" in e && n(0, (i = e.currentAttempt)),
 					"config" in e && n(1, (o = e.config)),
-					"isPrime" in e && n(2, (a = e.isPrime)));
+					"isPrime" in e && n(2, (a = e.isPrime));
 			}),
 			[
 				i,
@@ -5137,7 +5704,7 @@ var app = (function () {
 					soundcloudWidget.toggle();
 				},
 				function () {
-					((r = this.value), n(4, r));
+					(r = this.value), n(4, r);
 				},
 				() => l.clear(),
 				() => c("skipped"),
@@ -5147,7 +5714,7 @@ var app = (function () {
 	_t(3);
 	class Yt extends se {
 		constructor(e) {
-			(super(),
+			super(),
 				re(this, e, Tt, Dt, i, {
 					allOptions: 6,
 					currentAttempt: 0,
@@ -5155,7 +5722,7 @@ var app = (function () {
 					isPrime: 2,
 					guessInput: 3,
 					togglePlayState: 7,
-				}));
+				});
 		}
 		get guessInput() {
 			return this.$$.ctx[3];
@@ -5170,7 +5737,7 @@ var app = (function () {
 			D = c(b, e, e[5], null);
 		return {
 			c() {
-				((t = w("div")),
+				(t = w("div")),
 					(n = w("div")),
 					(r = w("div")),
 					(s = w("h2")),
@@ -5192,10 +5759,10 @@ var app = (function () {
 					M(l, "class", "border-none text-custom-mg"),
 					M(a, "class", "justify-self-end flex"),
 					M(n, "class", "flex items-center justify-center mb-6"),
-					M(t, "class", "bg-custom-bg border border-custom-mg p-6"));
+					M(t, "class", "bg-custom-bg border border-custom-mg p-6");
 			},
 			m(c, h) {
-				(g(c, t, h),
+				g(c, t, h),
 					p(t, n),
 					p(n, r),
 					p(r, s),
@@ -5207,10 +5774,10 @@ var app = (function () {
 					D && D.m(t, null),
 					(d = !0),
 					l.focus(),
-					v || ((k = S(l, "click", e[3])), (v = !0)));
+					v || ((k = S(l, "click", e[3])), (v = !0));
 			},
 			p(e, t) {
-				((!d || 1 & t) && $(i, e[0]),
+				(!d || 1 & t) && $(i, e[0]),
 					D &&
 						D.p &&
 						(!d || 32 & t) &&
@@ -5221,16 +5788,16 @@ var app = (function () {
 							e[5],
 							d ? h(b, e[5], t, null) : m(e[5]),
 							null,
-						));
+						);
 			},
 			i(e) {
 				d || (Z(D, e), (d = !0));
 			},
 			o(e) {
-				(q(D, e), (d = !1));
+				q(D, e), (d = !1);
 			},
 			d(e) {
-				(e && y(t), D && D.d(e), (v = !1), k());
+				e && y(t), D && D.d(e), (v = !1), k();
 			},
 		};
 	}
@@ -5240,7 +5807,7 @@ var app = (function () {
 			a = c(o, e, e[5], null);
 		return {
 			c() {
-				((t = w("button")),
+				(t = w("button")),
 					(t.innerHTML =
 						'<svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>'),
 					(n = x()),
@@ -5250,15 +5817,15 @@ var app = (function () {
 						t,
 						"class",
 						"border-none text-custom-mg absolute right-3 top-3",
-					));
+					);
 			},
 			m(o, l) {
-				(g(o, t, l),
+				g(o, t, l),
 					g(o, n, l),
 					a && a.m(o, l),
 					(r = !0),
 					t.focus(),
-					s || ((i = S(t, "click", e[3])), (s = !0)));
+					s || ((i = S(t, "click", e[3])), (s = !0));
 			},
 			p(e, t) {
 				a &&
@@ -5270,10 +5837,10 @@ var app = (function () {
 				r || (Z(a, e), (r = !0));
 			},
 			o(e) {
-				(q(a, e), (r = !1));
+				q(a, e), (r = !1);
 			},
 			d(e) {
-				(e && y(t), e && y(n), a && a.d(e), (s = !1), i());
+				e && y(t), e && y(n), a && a.d(e), (s = !1), i();
 			},
 		};
 	}
@@ -5289,7 +5856,7 @@ var app = (function () {
 			(a = h[o] = d[o](e)),
 			{
 				c() {
-					((t = w("div")),
+					(t = w("div")),
 						(n = x()),
 						(s = w("div")),
 						(i = w("div")),
@@ -5310,10 +5877,10 @@ var app = (function () {
 							s,
 							"class",
 							"modal-background p-3 pointer-events-none svelte-1nyqrwd",
-						));
+						);
 				},
 				m(r, a) {
-					(g(r, t, a),
+					g(r, t, a),
 						g(r, n, a),
 						g(r, s, a),
 						p(s, i),
@@ -5325,11 +5892,11 @@ var app = (function () {
 								S(window, "keydown", e[4]),
 								S(t, "click", e[3]),
 							]),
-							(u = !0)));
+							(u = !0));
 				},
 				p(e, [t]) {
 					let n = o;
-					((o = f(e)),
+					(o = f(e)),
 						o === n
 							? h[o].p(e, t)
 							: (J(),
@@ -5340,22 +5907,22 @@ var app = (function () {
 								(a = h[o]),
 								a ? a.p(e, t) : ((a = h[o] = d[o](e)), a.c()),
 								Z(a, 1),
-								a.m(i, null)));
+								a.m(i, null));
 				},
 				i(e) {
 					l || (Z(a), (l = !0));
 				},
 				o(e) {
-					(q(a), (l = !1));
+					q(a), (l = !1);
 				},
 				d(i) {
-					(i && y(t),
+					i && y(t),
 						i && y(n),
 						i && y(s),
 						h[o].d(),
 						e[7](null),
 						(u = !1),
-						r(c));
+						r(c);
 				},
 			}
 		);
@@ -5376,9 +5943,9 @@ var app = (function () {
 				}),
 				O().$$.on_destroy.push(d)),
 			(e.$$set = (e) => {
-				("title" in e && n(0, (l = e.title)),
+				"title" in e && n(0, (l = e.title)),
 					"hasFrame" in e && n(1, (u = e.hasFrame)),
-					"$$scope" in e && n(5, (s = e.$$scope)));
+					"$$scope" in e && n(5, (s = e.$$scope));
 			}),
 			[
 				l,
@@ -5393,11 +5960,11 @@ var app = (function () {
 									(e) => e.tabIndex >= 0,
 								);
 							let r = n.indexOf(document.activeElement);
-							(-1 === r && e.shiftKey && (r = 0),
+							-1 === r && e.shiftKey && (r = 0),
 								(r += n.length + (e.shiftKey ? -1 : 1)),
 								(r %= n.length),
 								n[r].focus(),
-								e.preventDefault());
+								e.preventDefault();
 						}
 					} else o();
 				},
@@ -5405,7 +5972,7 @@ var app = (function () {
 				r,
 				function (e) {
 					H[e ? "unshift" : "push"](() => {
-						((a = e), n(2, a));
+						(a = e), n(2, a);
 					});
 				},
 			]
@@ -5413,23 +5980,23 @@ var app = (function () {
 	}
 	class Lt extends se {
 		constructor(e) {
-			(super(),
+			super(),
 				re(this, e, At, Pt, i, {
 					title: 0,
 					hasFrame: 1,
-				}));
+				});
 		}
 	}
 	function Nt(t) {
 		let n;
 		return {
 			c() {
-				((n = w("div")),
+				(n = w("div")),
 					(n.innerHTML =
 						//Fiverr new line
-						'<p class="mb-3">Toby Fox Heardle is a version of Heardle forked from <a href="https://ninjigalaxy.github.io/mario-heardle-infinite/">Mario Heardle</a>, featuring most of the songs that Toby Fox has ever written and released. (Thanks, <a href="https://hsmusic.wiki">HSMusic Wiki!</a></p> <p class="mb-3">Volume Slider and Scroll Bar code by <a href="https://github.com/morgvanny">morgvanny</a>.</p> <p class="mb-3">Metadata code by <a href="https://www.fiverr.com/gema_designer">gema_designer</a>.</p>\n\n<p class="mb-3">The full list of songs is available <a href="https://github.com/IntangibleMatter/toby-fox-heardle/blob/main/songs.md">here.</a> </p> \n\n<p class="mb-3"> If you have any technical issues, you can contact me @intangiblematter.net on bluesky or by making an issue on the <a href="https://github.com/IntangibleMatter/toby-fox-heardle/">Github Repo</a></p>'),
+						'<p class="mb-3">Toby Fox Heardle is a version of Heardle forked from <a href="https://ninjigalaxy.github.io/mario-heardle-infinite/">Mario Heardle</a>, initially forked by <a href="https://github.com/cs-deathmatch">cs_deathmatch</a> who added the new font and changed the name, and added two songs, before I added the everything else. This Heardle variant features most of the songs that Toby Fox has ever written and released. (Thanks, <a href="https://hsmusic.wiki">HSMusic Wiki!</a>)</p> <p class="mb-3">Volume Slider and Scroll Bar code by <a href="https://github.com/morgvanny">morgvanny</a>.</p> <p class="mb-3">Metadata code by <a href="https://www.fiverr.com/gema_designer">gema_designer</a>.</p>\n\n<p class="mb-3">The full list of songs is available <a href="https://github.com/IntangibleMatter/toby-fox-heardle/blob/main/songs.md">here.</a> </p> \n\n<p class="mb-3"> If you have any technical issues, you can contact me @intangiblematter.net on bluesky or by making an issue on the <a href="https://github.com/IntangibleMatter/toby-fox-heardle/">Github Repo</a></p>'),
 					//FNL
-					M(n, "class", "text"));
+					M(n, "class", "text");
 			},
 			//Each ' + artist + ' Heardle is randomly chosen from ' + artist + '\'s discography </p> \n\n\n\n <p class="mb-3">
 			m(e, t) {
@@ -5445,14 +6012,14 @@ var app = (function () {
 	}
 	class Ht extends se {
 		constructor(e) {
-			(super(), re(this, e, null, Nt, i, {}));
+			super(), re(this, e, null, Nt, i, {});
 		}
 	}
 	function It(t) {
 		let n, r, s, i;
 		return {
 			c() {
-				((n = w("div")),
+				/*(n = w("div")),
 					(r = w("a")),
 					(r.innerHTML =
 						'<span class="kofitext svelte-1d3p4dy"><img src="https://i.imgur.com/uuaLiEE.png" alt="Mario Heardle Infinite" class="kofiimg mr-2 mb-1 svelte-1d3p4dy"/>Click here to play</p>Mario Heardle Infinite!'),
@@ -5471,18 +6038,16 @@ var app = (function () {
 						n,
 						"class",
 						"text-center flex justify-center items-center flex-col ",
-					));
+					);*/
 			},
 			m(e, o) {
-				(g(e, n, o),
-					p(n, r),
-					s || ((i = S(r, "click", t[0])), (s = !0)));
+				g(e, n, o), p(n, r), s || ((i = S(r, "click", t[0])), (s = !0));
 			},
 			p: e,
 			i: e,
 			o: e,
 			d(e) {
-				(e && y(n), (s = !1), i());
+				e && y(n), (s = !1), i();
 			},
 		};
 	}
@@ -5497,7 +6062,7 @@ var app = (function () {
 	}
 	class Rt extends se {
 		constructor(e) {
-			(super(), re(this, e, Wt, It, i, {}));
+			super(), re(this, e, Wt, It, i, {});
 		}
 	}
 	function Ft(t) {
@@ -5509,14 +6074,14 @@ var app = (function () {
 					Q(n.$$.fragment);
 				},
 				m(e, t) {
-					(ee(n, e, t), (r = !0));
+					ee(n, e, t), (r = !0);
 				},
 				p: e,
 				i(e) {
 					r || (Z(n.$$.fragment, e), (r = !0));
 				},
 				o(e) {
-					(q(n.$$.fragment, e), (r = !1));
+					q(n.$$.fragment, e), (r = !1);
 				},
 				d(e) {
 					te(n, e);
@@ -5528,7 +6093,7 @@ var app = (function () {
 		let n, r, s, i, o, a, l, u, c, d;
 		return {
 			c() {
-				((n = w("div")),
+				(n = w("div")),
 					(r = w("div")),
 					(s = x()),
 					(i = w("div")),
@@ -5557,10 +6122,10 @@ var app = (function () {
 						"linear-gradient(to bottom, rgba(18,18,18,0), rgba(18,18,18,1)) no-repeat bottom",
 					),
 					T(d, "background-size", "100% 100%"),
-					M(n, "class", "relative"));
+					M(n, "class", "relative");
 			},
 			m(e, t) {
-				(g(e, n, t),
+				g(e, n, t),
 					p(n, r),
 					p(n, s),
 					p(n, i),
@@ -5569,7 +6134,7 @@ var app = (function () {
 					p(o, l),
 					p(o, u),
 					p(n, c),
-					p(n, d));
+					p(n, d);
 			},
 			p(e, t) {
 				1 & t && $(u, e[0]);
@@ -5593,14 +6158,14 @@ var app = (function () {
 			(n = o[t] = i[t](e)),
 			{
 				c() {
-					(n.c(), (r = b()));
+					n.c(), (r = b());
 				},
 				m(e, n) {
-					(o[t].m(e, n), g(e, r, n), (s = !0));
+					o[t].m(e, n), g(e, r, n), (s = !0);
 				},
 				p(e, [s]) {
 					let l = t;
-					((t = a(e)),
+					(t = a(e)),
 						t === l
 							? o[t].p(e, s)
 							: (J(),
@@ -5611,16 +6176,16 @@ var app = (function () {
 								(n = o[t]),
 								n ? n.p(e, s) : ((n = o[t] = i[t](e)), n.c()),
 								Z(n, 1),
-								n.m(r.parentNode, r)));
+								n.m(r.parentNode, r));
 				},
 				i(e) {
 					s || (Z(n), (s = !0));
 				},
 				o(e) {
-					(q(n), (s = !1));
+					q(n), (s = !1);
 				},
 				d(e) {
-					(o[t].d(e), e && y(r));
+					o[t].d(e), e && y(r);
 				},
 			}
 		);
@@ -5643,22 +6208,24 @@ var app = (function () {
 	}
 	class Bt extends se {
 		constructor(e) {
-			(super(), re(this, e, jt, Et, i, {}));
+			super(), re(this, e, jt, Et, i, {});
 		}
 	}
 	function zt(t) {
 		let n, r, s, i, o, a, l, u, c;
+		// for some reason this box isn't connected to the "close" function??? Should figure
+		// it out at some point but it's not terrible and can be resolved by restarting
 		return (
 			(a = new Rt({})),
 			(u = new Bt({})),
 			{
 				c() {
-					((n = w("p")),
+					(n = w("p")),
 						(s = w("p")),
 						(n.textContent =
 							"Have questions/run into bugs? Tweet/DM me @" +
 							twitter +
-							" on Discord or Bluesky."),
+							" on Discord or Bluesky. (Also this box's close button doesn't work and I can't figure out how to fix it. Sorry! Issues with working with someone else's obfuscated JS code. You'll have to reload the page :/ )"),
 						(r = x()),
 						(s = w("p")),
 						(i = x()),
@@ -5668,10 +6235,10 @@ var app = (function () {
 						Q(u.$$.fragment),
 						M(n, "class", "mb-3"),
 						M(s, "class", "mb-3"),
-						M(o, "class", "pt-6"));
+						M(o, "class", "pt-6");
 				},
 				m(e, t) {
-					(g(e, n, t),
+					g(e, n, t),
 						g(e, r, t),
 						g(e, s, t),
 						g(e, i, t),
@@ -5679,31 +6246,31 @@ var app = (function () {
 						ee(a, o, null),
 						g(e, l, t),
 						ee(u, e, t),
-						(c = !0));
+						(c = !0);
 				},
 				p: e,
 				i(e) {
 					c || (Z(a.$$.fragment, e), Z(u.$$.fragment, e), (c = !0));
 				},
 				o(e) {
-					(q(a.$$.fragment, e), q(u.$$.fragment, e), (c = !1));
+					q(a.$$.fragment, e), q(u.$$.fragment, e), (c = !1);
 				},
 				d(e) {
-					(e && y(n),
+					e && y(n),
 						e && y(r),
 						e && y(s),
 						e && y(i),
 						e && y(o),
 						te(a),
 						e && y(l),
-						te(u, e));
+						te(u, e);
 				},
 			}
 		);
 	}
 	class Ut extends se {
 		constructor(e) {
-			(super(), re(this, e, null, zt, i, {}));
+			super(), re(this, e, null, zt, i, {});
 		}
 	}
 	// Interval pog
@@ -5718,12 +6285,12 @@ var app = (function () {
 		let n, r;
 		return {
 			c() {
-				((n = w("div")),
+				(n = w("div")),
 					(r = _(t[0])),
-					M(n, "class", "tracking-widest text-lg"));
+					M(n, "class", "tracking-widest text-lg");
 			},
 			m(e, t) {
-				(g(e, n, t), p(n, r));
+				g(e, n, t), p(n, r);
 			},
 			p(e, [t]) {
 				1 & t && $(r, e[0]);
@@ -5746,7 +6313,7 @@ var app = (function () {
 			let e = Math.floor(i / 3600),
 				t = Math.floor((i - 3600 * e) / 60),
 				s = Math.floor(i % 60);
-			(n(
+			n(
 				0,
 				(r =
 					("00" + e).slice(-2) +
@@ -5756,18 +6323,18 @@ var app = (function () {
 					("00" + s).slice(-2)),
 			),
 				i--,
-				0 == e && 0 == t && 0 == s && location.reload(!0));
+				0 == e && 0 == t && 0 == s && location.reload(!0);
 		}
-		return (o(), setInterval(o, 1e3), [r]);
+		return o(), setInterval(o, 1e3), [r];
 	}
 	class qt extends se {
 		constructor(e) {
-			(super(), re(this, e, Zt, Kt, i, {}));
+			super(), re(this, e, Zt, Kt, i, {});
 		}
 	}
 	function Xt(e, t, n) {
 		const r = e.slice();
-		return ((r[10] = t[n]), (r[12] = n), r);
+		return (r[10] = t[n]), (r[12] = n), r;
 	}
 	function Qt(e) {
 		let t,
@@ -5820,13 +6387,13 @@ var app = (function () {
 			(O = new Rt({})),
 			{
 				c() {
-					((t = w("div")),
+					(t = w("div")),
 						(n = w("p")),
 						(r = _(A)),
 						(s = x()),
-						(i = w("div")));
+						(i = w("div"));
 					for (let e = 0; e < N.length; e += 1) N[e].c();
-					((o = x()),
+					(o = x()),
 						(a = w("p")),
 						W.c(),
 						(l = x()),
@@ -5862,17 +6429,17 @@ var app = (function () {
 							"class",
 							"flex flex-col justify-center items-center mb-6 mx-3",
 						),
-						M(Y, "class", "flex justify-center items-center mb-3"),
-						M(
+						M(Y, "class", "flex justify-center items-center mb-3"); //,
+					/*M(
 							T,
 							"class",
 							"bg-custom-highlight py-3 pb-5 mx-3 rounded-t-md",
-						));
+						)*/
 				},
 				m(e, y) {
-					(g(e, t, y), p(t, n), p(n, r), p(t, s), p(t, i));
+					g(e, t, y), p(t, n), p(n, r), p(t, s), p(t, i);
 					for (let e = 0; e < N.length; e += 1) N[e].m(i, null);
-					(p(t, o),
+					p(t, o),
 						p(t, a),
 						W.m(a, null),
 						p(t, l),
@@ -5891,7 +6458,7 @@ var app = (function () {
 						p(T, Y),
 						p(T, C),
 						ee(O, T, null),
-						(P = !0));
+						(P = !0);
 				},
 				p(e, n) {
 					if (
@@ -5912,19 +6479,19 @@ var app = (function () {
 						for (; t < N.length; t += 1) N[t].d(1);
 						N.length = L.length;
 					}
-					(I === (I = H(e)) && W
+					I === (I = H(e)) && W
 						? W.p(e, n)
 						: (W.d(1), (W = I(e)), W && (W.c(), W.m(a, null))),
 						e[5]
 							? R || ((R = cn()), R.c(), R.m(t, u))
-							: R && (R.d(1), (R = null)));
+							: R && (R.d(1), (R = null));
 					const s = {};
-					(8192 & n &&
+					8192 & n &&
 						(s.$$scope = {
 							dirty: n,
 							ctx: e,
 						}),
-						d.$set(s));
+						d.$set(s);
 				},
 				i(e) {
 					P ||
@@ -5934,13 +6501,13 @@ var app = (function () {
 						(P = !0));
 				},
 				o(e) {
-					(q(d.$$.fragment, e),
+					q(d.$$.fragment, e),
 						q(S.$$.fragment, e),
 						q(O.$$.fragment, e),
-						(P = !1));
+						(P = !1);
 				},
 				d(e) {
-					(e && y(t),
+					e && y(t),
 						v(N, e),
 						W.d(),
 						R && R.d(),
@@ -5948,7 +6515,7 @@ var app = (function () {
 						e && y(h),
 						e && y(f),
 						te(S),
-						te(O));
+						te(O);
 				},
 			}
 		);
@@ -5957,7 +6524,7 @@ var app = (function () {
 		let n;
 		return {
 			c() {
-				((n = w("div")), M(n, "class", "w-4 h-1 m-0.5 bg-custom-fg"));
+				(n = w("div")), M(n, "class", "w-4 h-1 m-0.5 bg-custom-fg");
 			},
 			m(e, t) {
 				g(e, n, t);
@@ -5983,10 +6550,10 @@ var app = (function () {
 			s = r && r(e);
 		return {
 			c() {
-				(s && s.c(), (t = b()));
+				s && s.c(), (t = b());
 			},
 			m(e, n) {
-				(s && s.m(e, n), g(e, t, n));
+				s && s.m(e, n), g(e, t, n);
 			},
 			p(e, i) {
 				r !== (r = n(e)) &&
@@ -5995,7 +6562,7 @@ var app = (function () {
 					s && (s.c(), s.m(t.parentNode, t)));
 			},
 			d(e) {
-				(s && s.d(e), e && y(t));
+				s && s.d(e), e && y(t);
 			},
 		};
 	}
@@ -6003,8 +6570,8 @@ var app = (function () {
 		let t;
 		return {
 			c() {
-				((t = w("div")),
-					M(t, "class", "w-4 h-1 m-0.5 bg-custom-positive"));
+				(t = w("div")),
+					M(t, "class", "w-4 h-1 m-0.5 bg-custom-positive");
 			},
 			m(e, n) {
 				g(e, t, n);
@@ -6018,8 +6585,8 @@ var app = (function () {
 		let t;
 		return {
 			c() {
-				((t = w("div")),
-					M(t, "class", "w-4 h-1 m-0.5 bg-custom-negative"));
+				(t = w("div")),
+					M(t, "class", "w-4 h-1 m-0.5 bg-custom-negative");
 			},
 			m(e, n) {
 				g(e, t, n);
@@ -6033,7 +6600,7 @@ var app = (function () {
 		let t;
 		return {
 			c() {
-				((t = w("div")), M(t, "class", "w-4 h-1 m-0.5 bg-custom-mg"));
+				(t = w("div")), M(t, "class", "w-4 h-1 m-0.5 bg-custom-mg");
 			},
 			m(e, n) {
 				g(e, t, n);
@@ -6052,10 +6619,10 @@ var app = (function () {
 			s = r(e);
 		return {
 			c() {
-				(s.c(), (t = b()));
+				s.c(), (t = b());
 			},
 			m(e, n) {
-				(s.m(e, n), g(e, t, n));
+				s.m(e, n), g(e, t, n);
 			},
 			p(e, i) {
 				r === (r = n(e)) && s
@@ -6063,7 +6630,7 @@ var app = (function () {
 					: (s.d(1), (s = r(e)), s && (s.c(), s.m(t.parentNode, t)));
 			},
 			d(e) {
-				(s.d(e), e && y(t));
+				s.d(e), e && y(t);
 			},
 		};
 	}
@@ -6074,14 +6641,14 @@ var app = (function () {
 			s = (e[0].length * e[1].attemptInterval) / 1e3 + "";
 		return {
 			c() {
-				((t = _(
+				(t = _(
 					"You got today's " + artist + " Heardle within the first ",
 				)),
 					(n = _(s)),
-					(r = _(" seconds.")));
+					(r = _(" seconds."));
 			},
 			m(e, s) {
-				(g(e, t, s), g(e, n, s), g(e, r, s));
+				g(e, t, s), g(e, n, s), g(e, r, s);
 			},
 			p(e, t) {
 				3 & t &&
@@ -6090,7 +6657,7 @@ var app = (function () {
 					$(n, s);
 			},
 			d(e) {
-				(e && y(t), e && y(n), e && y(r));
+				e && y(t), e && y(n), e && y(r);
 			},
 		};
 	}
@@ -6104,17 +6671,17 @@ var app = (function () {
 			a = e[1].attemptIntervalAlt[e[0].length - 1] / 1e3 > 1 ? "s" : "";
 		return {
 			c() {
-				((t = _("You got today's " + artist + " Heardle within ")),
+				(t = _("You got today's " + artist + " Heardle within ")),
 					(n = _(o)),
 					(r = _("\n                second")),
 					(s = _(a)),
-					(i = _(".")));
+					(i = _("."));
 			},
 			m(e, o) {
-				(g(e, t, o), g(e, n, o), g(e, r, o), g(e, s, o), g(e, i, o));
+				g(e, t, o), g(e, n, o), g(e, r, o), g(e, s, o), g(e, i, o);
 			},
 			p(e, t) {
-				(3 & t &&
+				3 & t &&
 					o !==
 						(o =
 							e[1].attemptIntervalAlt[e[0].length - 1] / 1e3 +
@@ -6127,10 +6694,10 @@ var app = (function () {
 								1
 									? "s"
 									: "") &&
-						$(s, a));
+						$(s, a);
 			},
 			d(e) {
-				(e && y(t), e && y(n), e && y(r), e && y(s), e && y(i));
+				e && y(t), e && y(n), e && y(r), e && y(s), e && y(i);
 			},
 		};
 	}
@@ -6157,13 +6724,13 @@ var app = (function () {
 		let t;
 		return {
 			c() {
-				((t = w("div")),
+				(t = w("div")),
 					(t.textContent = "Copied to clipboard!"),
 					M(
 						t,
 						"class",
 						"tracking-widest uppercase text-xs text-custom-line p-3 pb-0 text-center",
-					));
+					);
 			},
 			m(e, n) {
 				g(e, t, n);
@@ -6177,7 +6744,7 @@ var app = (function () {
 		let t, n, r, s, i, o, a;
 		return {
 			c() {
-				((t = _("Share\n                ")),
+				(t = _("Share\n                ")),
 					(n = k("svg")),
 					(r = k("circle")),
 					(s = k("circle")),
@@ -6210,19 +6777,19 @@ var app = (function () {
 					M(n, "stroke", "currentColor"),
 					M(n, "stroke-width", "2"),
 					M(n, "stroke-linecap", "round"),
-					M(n, "stroke-linejoin", "round"));
+					M(n, "stroke-linejoin", "round");
 			},
 			m(e, l) {
-				(g(e, t, l),
+				g(e, t, l),
 					g(e, n, l),
 					p(n, r),
 					p(n, s),
 					p(n, i),
 					p(n, o),
-					p(n, a));
+					p(n, a);
 			},
 			d(e) {
-				(e && y(t), e && y(n));
+				e && y(t), e && y(n);
 			},
 		};
 	}
@@ -6232,10 +6799,10 @@ var app = (function () {
 			r = e[2] && Qt(e);
 		return {
 			c() {
-				(r && r.c(), (t = b()));
+				r && r.c(), (t = b());
 			},
 			m(e, s) {
-				(r && r.m(e, s), g(e, t, s), (n = !0));
+				r && r.m(e, s), g(e, t, s), (n = !0);
 			},
 			p(e, [n]) {
 				e[2]
@@ -6253,10 +6820,10 @@ var app = (function () {
 				n || (Z(r), (n = !0));
 			},
 			o(e) {
-				(q(r), (n = !1));
+				q(r), (n = !1);
 			},
 			d(e) {
-				(r && r.d(e), e && y(t));
+				r && r.d(e), e && y(t);
 			},
 		};
 	}
@@ -6273,13 +6840,13 @@ var app = (function () {
 		return (
 			A(),
 			(e.$$set = (e) => {
-				("userGuesses" in e && n(0, (r = e.userGuesses)),
+				"userGuesses" in e && n(0, (r = e.userGuesses)),
 					"currentHeardle" in e && n(7, (s = e.currentHeardle)),
 					"config" in e && n(1, (i = e.config)),
 					"hasFinished" in e && n(2, (o = e.hasFinished)),
 					"gotCorrect" in e && n(8, (a = e.gotCorrect)),
 					"guessRef" in e && n(3, (l = e.guessRef)),
-					"isPrime" in e && n(4, (u = e.isPrime)));
+					"isPrime" in e && n(4, (u = e.isPrime));
 			}),
 			[
 				r,
@@ -6351,7 +6918,7 @@ var app = (function () {
 	}
 	class mn extends se {
 		constructor(e) {
-			(super(),
+			super(),
 				re(this, e, fn, hn, i, {
 					userGuesses: 0,
 					currentHeardle: 0,
@@ -6360,7 +6927,7 @@ var app = (function () {
 					gotCorrect: 8,
 					guessRef: 3,
 					isPrime: 4,
-				}));
+				});
 		}
 	}
 	function pn(e) {
@@ -6394,7 +6961,7 @@ var app = (function () {
 			u.$on("click", e[0]),
 			{
 				c() {
-					((t = w("div")),
+					(t = w("div")),
 						(n = w("div")),
 						(n.innerHTML =
 							'<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct ' +
@@ -6414,10 +6981,10 @@ var app = (function () {
 						M(n, "class", "flex items-center mb-6"),
 						M(s, "class", "flex items-center mb-6"),
 						M(o, "class", "flex items-center mb-6"),
-						M(l, "class", "justify-center flex py-2 mt-2"));
+						M(l, "class", "justify-center flex py-2 mt-2");
 				},
 				m(e, d) {
-					(g(e, t, d),
+					g(e, t, d),
 						p(t, n),
 						p(t, r),
 						p(t, s),
@@ -6426,25 +6993,25 @@ var app = (function () {
 						p(t, a),
 						p(t, l),
 						ee(u, l, null),
-						(c = !0));
+						(c = !0);
 				},
 				p(e, [t]) {
 					const n = {};
-					(4 & t &&
+					4 & t &&
 						(n.$$scope = {
 							dirty: t,
 							ctx: e,
 						}),
-						u.$set(n));
+						u.$set(n);
 				},
 				i(e) {
 					c || (Z(u.$$.fragment, e), (c = !0));
 				},
 				o(e) {
-					(q(u.$$.fragment, e), (c = !1));
+					q(u.$$.fragment, e), (c = !1);
 				},
 				d(e) {
-					(e && y(t), te(u));
+					e && y(t), te(u);
 				},
 			}
 		);
@@ -6455,24 +7022,24 @@ var app = (function () {
 	}
 	class vn extends se {
 		constructor(e) {
-			(super(), re(this, e, yn, gn, i, {}));
+			super(), re(this, e, yn, gn, i, {});
 		}
 	}
 	function wn(e, t, n) {
 		const r = e.slice();
-		return ((r[15] = t[n]), (r[17] = n), r);
+		return (r[15] = t[n]), (r[17] = n), r;
 	}
 	function kn(t) {
 		let n;
 		return {
 			c() {
-				((n = w("div")),
+				(n = w("div")),
 					(n.textContent = "Play daily to see your stats"),
 					M(
 						n,
 						"class",
 						"text-center py-3 text-custom-line font-semibold",
-					));
+					);
 			},
 			m(e, t) {
 				g(e, n, t);
@@ -6528,7 +7095,7 @@ var app = (function () {
 			c() {
 				t = w("div");
 				for (let e = 0; e < J.length; e += 1) J[e].c();
-				((n = x()),
+				(n = x()),
 					(r = w("div")),
 					(s = w("div")),
 					(i = w("div")),
@@ -6591,12 +7158,12 @@ var app = (function () {
 						P,
 						"class",
 						"flex justify-between text-center w-full py-3 pt-0",
-					));
+					);
 			},
 			m(e, y) {
 				g(e, t, y);
 				for (let e = 0; e < J.length; e += 1) J[e].m(t, null);
-				(g(e, n, y),
+				g(e, n, y),
 					g(e, r, y),
 					p(r, s),
 					p(s, i),
@@ -6628,7 +7195,7 @@ var app = (function () {
 					p(R, F),
 					p(F, G),
 					p(R, E),
-					p(R, j));
+					p(R, j);
 			},
 			p(e, n) {
 				if (1567 & n) {
@@ -6642,7 +7209,7 @@ var app = (function () {
 					for (; r < J.length; r += 1) J[r].d(1);
 					J.length = V.length;
 				}
-				(64 & n && $(o, e[6]),
+				64 & n && $(o, e[6]),
 					256 & n && $(h, e[8]),
 					320 & n &&
 						B !==
@@ -6652,15 +7219,10 @@ var app = (function () {
 									: 0) + "") &&
 						$(D, B),
 					128 & n && z !== (z = e[7].slice(-1)[0] + "") && $(N, z),
-					128 & n && U !== (U = Math.max(...e[7]) + "") && $(G, U));
+					128 & n && U !== (U = Math.max(...e[7]) + "") && $(G, U);
 			},
 			d(e) {
-				(e && y(t),
-					v(J, e),
-					e && y(n),
-					e && y(r),
-					e && y(O),
-					e && y(P));
+				e && y(t), v(J, e), e && y(n), e && y(r), e && y(O), e && y(P);
 			},
 		};
 	}
@@ -6671,10 +7233,10 @@ var app = (function () {
 			s = ((e[17] + 1) * e[0].attemptInterval) / 1e3 + "";
 		return {
 			c() {
-				((t = _("< ")), (n = _(s)), (r = _("s")));
+				(t = _("< ")), (n = _(s)), (r = _("s"));
 			},
 			m(e, s) {
-				(g(e, t, s), g(e, n, s), g(e, r, s));
+				g(e, t, s), g(e, n, s), g(e, r, s);
 			},
 			p(e, t) {
 				1 & t &&
@@ -6683,7 +7245,7 @@ var app = (function () {
 					$(n, s);
 			},
 			d(e) {
-				(e && y(t), e && y(n), e && y(r));
+				e && y(t), e && y(n), e && y(r);
 			},
 		};
 	}
@@ -6696,7 +7258,7 @@ var app = (function () {
 			o = e[17] + 1 + "";
 		return {
 			c() {
-				((t = w("span")),
+				(t = w("span")),
 					(n = _(o)),
 					(r = _("°")),
 					(s = x()),
@@ -6712,13 +7274,13 @@ var app = (function () {
 						"text-custom-negative",
 						e[17] == e[1] && 0 == e[4] && e[2],
 					),
-					M(i, "class", "text-custom-positive"));
+					M(i, "class", "text-custom-positive");
 			},
 			m(e, o) {
-				(g(e, t, o), p(t, n), p(t, r), g(e, s, o), g(e, i, o));
+				g(e, t, o), p(t, n), p(t, r), g(e, s, o), g(e, i, o);
 			},
 			p(e, n) {
-				(6 & n && Y(t, "font-semibold", e[17] == e[1] - 1 && e[2]),
+				6 & n && Y(t, "font-semibold", e[17] == e[1] - 1 && e[2]),
 					22 & n &&
 						Y(
 							t,
@@ -6730,10 +7292,10 @@ var app = (function () {
 							t,
 							"text-custom-negative",
 							e[17] == e[1] && 0 == e[4] && e[2],
-						));
+						);
 			},
 			d(e) {
-				(e && y(t), e && y(s), e && y(i));
+				e && y(t), e && y(s), e && y(i);
 			},
 		};
 	}
@@ -6741,7 +7303,7 @@ var app = (function () {
 		let t, n, r;
 		return {
 			c() {
-				((t = k("svg")),
+				(t = k("svg")),
 					(n = k("line")),
 					(r = k("line")),
 					M(n, "x1", "18"),
@@ -6766,10 +7328,10 @@ var app = (function () {
 						t,
 						"text-custom-negative",
 						e[17] == e[1] && 0 == e[4] && e[2],
-					));
+					);
 			},
 			m(e, s) {
-				(g(e, t, s), p(t, n), p(t, r));
+				g(e, t, s), p(t, n), p(t, r);
 			},
 			p(e, n) {
 				22 & n &&
@@ -6801,7 +7363,7 @@ var app = (function () {
 			h = d(e);
 		return {
 			c() {
-				((t = w("div")),
+				(t = w("div")),
 					(n = w("div")),
 					(r = w("div")),
 					(s = w("div")),
@@ -6837,10 +7399,10 @@ var app = (function () {
 						"class",
 						"text-center border-right text-xs pt-1 text-custom-line",
 					),
-					M(t, "class", "flex flex-col items-stretch "));
+					M(t, "class", "flex flex-col items-stretch ");
 			},
 			m(e, u) {
-				(g(e, t, u),
+				g(e, t, u),
 					p(t, n),
 					p(n, r),
 					p(r, s),
@@ -6848,10 +7410,10 @@ var app = (function () {
 					p(t, o),
 					p(t, a),
 					h.m(a, null),
-					p(t, l));
+					p(t, l);
 			},
 			p(e, t) {
-				(512 & t &&
+				512 & t &&
 					u !== (u = (e[15] > 0 ? e[15] : " ") + "") &&
 					$(i, u),
 					22 & t &&
@@ -6869,10 +7431,10 @@ var app = (function () {
 					1536 & t && T(r, "height", (e[15] / e[10]) * 100 + "%"),
 					d === (d = c(e)) && h
 						? h.p(e, t)
-						: (h.d(1), (h = d(e)), h && (h.c(), h.m(a, null))));
+						: (h.d(1), (h = d(e)), h && (h.c(), h.m(a, null)));
 			},
 			d(e) {
-				(e && y(t), h.d());
+				e && y(t), h.d();
 			},
 		};
 	}
@@ -6885,10 +7447,10 @@ var app = (function () {
 			i = s(t);
 		return {
 			c() {
-				(i.c(), (n = b()));
+				i.c(), (n = b());
 			},
 			m(e, t) {
-				(i.m(e, t), g(e, n, t));
+				i.m(e, t), g(e, n, t);
 			},
 			p(e, [t]) {
 				s === (s = r(e)) && i
@@ -6898,7 +7460,7 @@ var app = (function () {
 			i: e,
 			o: e,
 			d(e) {
-				(i.d(e), e && y(n));
+				i.d(e), e && y(n);
 			},
 		};
 	}
@@ -6935,20 +7497,20 @@ var app = (function () {
 		}
 		return (
 			(e.$$set = (e) => {
-				("userStats" in e && n(11, (r = e.userStats)),
+				"userStats" in e && n(11, (r = e.userStats)),
 					"config" in e && n(0, (s = e.config)),
 					"todaysScore" in e && n(1, (i = e.todaysScore)),
 					"hasFinished" in e && n(2, (o = e.hasFinished)),
 					"daysSince" in e && n(12, (a = e.daysSince)),
 					"isPrime" in e && n(3, (f = e.isPrime)),
-					"guessRef" in e && n(4, (m = e.guessRef)));
+					"guessRef" in e && n(4, (m = e.guessRef));
 			}),
 			[s, i, o, f, m, l, u, c, h, p, g, r, a]
 		);
 	}
 	class Tn extends se {
 		constructor(e) {
-			(super(),
+			super(),
 				re(this, e, Dn, $n, i, {
 					userStats: 11,
 					config: 0,
@@ -6957,7 +7519,7 @@ var app = (function () {
 					daysSince: 12,
 					isPrime: 3,
 					guessRef: 4,
-				}));
+				});
 		}
 	}
 	var Yn = yt(function (e, t) {
@@ -7044,7 +7606,7 @@ var app = (function () {
 				};
 			}
 			function g(e) {
-				return (null == e._pf && (e._pf = p()), e._pf);
+				return null == e._pf && (e._pf = p()), e._pf;
 			}
 			function y(e) {
 				if (null == e._isValid) {
@@ -7080,10 +7642,7 @@ var app = (function () {
 			}
 			function v(e) {
 				var t = m(NaN);
-				return (
-					null != e ? f(g(t), e) : (g(t).userInvalidated = !0),
-					t
-				);
+				return null != e ? f(g(t), e) : (g(t).userInvalidated = !0), t;
 			}
 			n = Array.prototype.some
 				? Array.prototype.some
@@ -7118,10 +7677,10 @@ var app = (function () {
 				return e;
 			}
 			function x(e) {
-				(_(this, e),
+				_(this, e),
 					(this._d = new Date(null != e._d ? e._d.getTime() : NaN)),
 					this.isValid() || (this._d = new Date(NaN)),
-					!1 === k && ((k = !0), r.updateOffset(this), (k = !1)));
+					!1 === k && ((k = !0), r.updateOffset(this), (k = !1));
 			}
 			function b(e) {
 				return (
@@ -7157,14 +7716,14 @@ var app = (function () {
 							} else s = arguments[i];
 							l.push(s);
 						}
-						(S(
+						S(
 							e +
 								"\nArguments: " +
 								Array.prototype.slice.call(l).join("") +
 								"\n" +
 								new Error().stack,
 						),
-							(n = !1));
+							(n = !1);
 					}
 					return t.apply(this, arguments);
 				}, t);
@@ -7172,8 +7731,8 @@ var app = (function () {
 			var $,
 				D = {};
 			function T(e, t) {
-				(null != r.deprecationHandler && r.deprecationHandler(e, t),
-					D[e] || (S(t), (D[e] = !0)));
+				null != r.deprecationHandler && r.deprecationHandler(e, t),
+					D[e] || (S(t), (D[e] = !0));
 			}
 			function Y(e) {
 				return (
@@ -7186,13 +7745,13 @@ var app = (function () {
 				for (n in e)
 					a(e, n) &&
 						(Y((t = e[n])) ? (this[n] = t) : (this["_" + n] = t));
-				((this._config = e),
+				(this._config = e),
 					(this._dayOfMonthOrdinalParseLenient = new RegExp(
 						(this._dayOfMonthOrdinalParse.source ||
 							this._ordinalParse.source) +
 							"|" +
 							/\d{1,2}/.source,
-					)));
+					));
 			}
 			function O(e, t) {
 				var n,
@@ -7211,7 +7770,7 @@ var app = (function () {
 			function P(e) {
 				null != e && this.set(e);
 			}
-			((r.suppressDeprecationWarnings = !1),
+			(r.suppressDeprecationWarnings = !1),
 				(r.deprecationHandler = null),
 				($ = Object.keys
 					? Object.keys
@@ -7220,7 +7779,7 @@ var app = (function () {
 								n = [];
 							for (t in e) a(e, t) && n.push(t);
 							return n;
-						}));
+						});
 			var A = {
 				sameDay: "[Today at] LT",
 				nextDay: "[Tomorrow at] LT",
@@ -7249,7 +7808,7 @@ var app = (function () {
 				R = {};
 			function F(e, t, n, r) {
 				var s = r;
-				("string" == typeof r &&
+				"string" == typeof r &&
 					(s = function () {
 						return this[r]();
 					}),
@@ -7264,7 +7823,7 @@ var app = (function () {
 								s.apply(this, arguments),
 								e,
 							);
-						}));
+						});
 			}
 			function G(e) {
 				return e.match(/\[[\s\S]/)
@@ -7298,7 +7857,7 @@ var app = (function () {
 					return t.longDateFormat(e) || e;
 				}
 				for (I.lastIndex = 0; n >= 0 && I.test(e); )
-					((e = e.replace(I, r)), (I.lastIndex = 0), (n -= 1));
+					(e = e.replace(I, r)), (I.lastIndex = 0), (n -= 1);
 				return e;
 			}
 			var z = {
@@ -7408,7 +7967,7 @@ var app = (function () {
 			function ce(e) {
 				var t = +e,
 					n = 0;
-				return (0 !== t && isFinite(t) && (n = ue(t)), n);
+				return 0 !== t && isFinite(t) && (n = ue(t)), n;
 			}
 			function de(e, t) {
 				return function (n) {
@@ -7514,7 +8073,7 @@ var app = (function () {
 			}
 			function Fe(e, t) {
 				Re(e, function (e, n, r, s) {
-					((r._w = r._w || {}), t(e, r._w, r, s));
+					(r._w = r._w || {}), t(e, r._w, r, s);
 				});
 			}
 			function Ge(e, t, n) {
@@ -7541,7 +8100,7 @@ var app = (function () {
 					1 === n ? (le(e) ? 29 : 28) : 31 - ((n % 7) % 2)
 				);
 			}
-			((Ee = Array.prototype.indexOf
+			(Ee = Array.prototype.indexOf
 				? Array.prototype.indexOf
 				: function (e) {
 						var t;
@@ -7574,7 +8133,7 @@ var app = (function () {
 				Re(["MMM", "MMMM"], function (e, t, n, r) {
 					var s = n._locale.monthsParse(e, r, n._strict);
 					null != s ? (t[Be] = s) : (g(n).invalidMonth = e);
-				}));
+				});
 			var et =
 					"January_February_March_April_May_June_July_August_September_October_November_December".split(
 						"_",
@@ -7623,7 +8182,7 @@ var app = (function () {
 						r < 12;
 						++r
 					)
-						((i = m([2e3, r])),
+						(i = m([2e3, r])),
 							(this._shortMonthsParse[r] = this.monthsShort(
 								i,
 								"",
@@ -7631,7 +8190,7 @@ var app = (function () {
 							(this._longMonthsParse[r] = this.months(
 								i,
 								"",
-							).toLocaleLowerCase()));
+							).toLocaleLowerCase());
 				return n
 					? "MMM" === t
 						? -1 !== (s = Ee.call(this._shortMonthsParse, o))
@@ -7746,18 +8305,15 @@ var app = (function () {
 					s = [],
 					i = [];
 				for (t = 0; t < 12; t++)
-					((n = m([2e3, t])),
+					(n = m([2e3, t])),
 						r.push(this.monthsShort(n, "")),
 						s.push(this.months(n, "")),
 						i.push(this.months(n, "")),
-						i.push(this.monthsShort(n, "")));
+						i.push(this.monthsShort(n, ""));
 				for (r.sort(e), s.sort(e), i.sort(e), t = 0; t < 12; t++)
-					((r[t] = Ie(r[t])), (s[t] = Ie(s[t])));
+					(r[t] = Ie(r[t])), (s[t] = Ie(s[t]));
 				for (t = 0; t < 24; t++) i[t] = Ie(i[t]);
-				((this._monthsRegex = new RegExp(
-					"^(" + i.join("|") + ")",
-					"i",
-				)),
+				(this._monthsRegex = new RegExp("^(" + i.join("|") + ")", "i")),
 					(this._monthsShortRegex = this._monthsRegex),
 					(this._monthsStrictRegex = new RegExp(
 						"^(" + s.join("|") + ")",
@@ -7766,12 +8322,12 @@ var app = (function () {
 					(this._monthsShortStrictRegex = new RegExp(
 						"^(" + r.join("|") + ")",
 						"i",
-					)));
+					));
 			}
 			function pt(e) {
 				return le(e) ? 366 : 365;
 			}
-			(F("Y", 0, 0, function () {
+			F("Y", 0, 0, function () {
 				var e = this.year();
 				return e <= 9999 ? N(e, 4) : "+" + e;
 			}),
@@ -7800,7 +8356,7 @@ var app = (function () {
 				}),
 				(r.parseTwoDigitYear = function (e) {
 					return ce(e) + (ce(e) > 68 ? 1900 : 2e3);
-				}));
+				});
 			var gt = de("FullYear", !0);
 			function yt() {
 				return le(this.year());
@@ -7872,7 +8428,7 @@ var app = (function () {
 			function Mt(e) {
 				return bt(e, this._week.dow, this._week.doy).week;
 			}
-			(F("w", ["ww", 2], "wo", "week"),
+			F("w", ["ww", 2], "wo", "week"),
 				F("W", ["WW", 2], "Wo", "isoWeek"),
 				ne("week", "w"),
 				ne("isoWeek", "W"),
@@ -7884,7 +8440,7 @@ var app = (function () {
 				Le("WW", xe, ve),
 				Fe(["w", "ww", "W", "WW"], function (e, t, n, r) {
 					t[r.substr(0, 1)] = ce(e);
-				}));
+				});
 			var $t = {
 				dow: 0,
 				doy: 6,
@@ -7922,7 +8478,7 @@ var app = (function () {
 			function At(e, t) {
 				return e.slice(t, 7).concat(e.slice(0, t));
 			}
-			(F("d", 0, "do", "day"),
+			F("d", 0, "do", "day"),
 				F("dd", 0, 0, function (e) {
 					return this.localeData().weekdaysMin(this, e);
 				}),
@@ -7958,7 +8514,7 @@ var app = (function () {
 				}),
 				Fe(["d", "e", "E"], function (e, t, n, r) {
 					t[r] = ce(e);
-				}));
+				});
 			var Lt =
 					"Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday".split(
 						"_",
@@ -8006,7 +8562,7 @@ var app = (function () {
 						r < 7;
 						++r
 					)
-						((i = m([2e3, 1]).day(r)),
+						(i = m([2e3, 1]).day(r)),
 							(this._minWeekdaysParse[r] = this.weekdaysMin(
 								i,
 								"",
@@ -8018,7 +8574,7 @@ var app = (function () {
 							(this._weekdaysParse[r] = this.weekdays(
 								i,
 								"",
-							).toLocaleLowerCase()));
+							).toLocaleLowerCase());
 				return n
 					? "dddd" === t
 						? -1 !== (s = Ee.call(this._weekdaysParse, o))
@@ -8188,7 +8744,7 @@ var app = (function () {
 					l = [],
 					u = [];
 				for (t = 0; t < 7; t++)
-					((n = m([2e3, 1]).day(t)),
+					(n = m([2e3, 1]).day(t)),
 						(r = Ie(this.weekdaysMin(n, ""))),
 						(s = Ie(this.weekdaysShort(n, ""))),
 						(i = Ie(this.weekdays(n, ""))),
@@ -8197,8 +8753,8 @@ var app = (function () {
 						l.push(i),
 						u.push(r),
 						u.push(s),
-						u.push(i));
-				(o.sort(e),
+						u.push(i);
+				o.sort(e),
 					a.sort(e),
 					l.sort(e),
 					u.sort(e),
@@ -8219,7 +8775,7 @@ var app = (function () {
 					(this._weekdaysMinStrictRegex = new RegExp(
 						"^(" + o.join("|") + ")",
 						"i",
-					)));
+					));
 			}
 			function Xt() {
 				return this.hours() % 12 || 12;
@@ -8242,7 +8798,7 @@ var app = (function () {
 			function nn(e) {
 				return "p" === (e + "").toLowerCase().charAt(0);
 			}
-			(F("H", ["HH", 2], 0, "hour"),
+			F("H", ["HH", 2], 0, "hour"),
 				F("h", ["hh", 2], 0, Xt),
 				F("k", ["kk", 2], 0, Qt),
 				F("hmm", 0, 0, function () {
@@ -8289,36 +8845,36 @@ var app = (function () {
 					t[Ue] = 24 === r ? 0 : r;
 				}),
 				Re(["a", "A"], function (e, t, n) {
-					((n._isPm = n._locale.isPM(e)), (n._meridiem = e));
+					(n._isPm = n._locale.isPM(e)), (n._meridiem = e);
 				}),
 				Re(["h", "hh"], function (e, t, n) {
-					((t[Ue] = ce(e)), (g(n).bigHour = !0));
+					(t[Ue] = ce(e)), (g(n).bigHour = !0);
 				}),
 				Re("hmm", function (e, t, n) {
 					var r = e.length - 2;
-					((t[Ue] = ce(e.substr(0, r))),
+					(t[Ue] = ce(e.substr(0, r))),
 						(t[Ve] = ce(e.substr(r))),
-						(g(n).bigHour = !0));
+						(g(n).bigHour = !0);
 				}),
 				Re("hmmss", function (e, t, n) {
 					var r = e.length - 4,
 						s = e.length - 2;
-					((t[Ue] = ce(e.substr(0, r))),
+					(t[Ue] = ce(e.substr(0, r))),
 						(t[Ve] = ce(e.substr(r, 2))),
 						(t[Je] = ce(e.substr(s))),
-						(g(n).bigHour = !0));
+						(g(n).bigHour = !0);
 				}),
 				Re("Hmm", function (e, t, n) {
 					var r = e.length - 2;
-					((t[Ue] = ce(e.substr(0, r))), (t[Ve] = ce(e.substr(r))));
+					(t[Ue] = ce(e.substr(0, r))), (t[Ve] = ce(e.substr(r)));
 				}),
 				Re("Hmmss", function (e, t, n) {
 					var r = e.length - 4,
 						s = e.length - 2;
-					((t[Ue] = ce(e.substr(0, r))),
+					(t[Ue] = ce(e.substr(0, r))),
 						(t[Ve] = ce(e.substr(r, 2))),
-						(t[Je] = ce(e.substr(s))));
-				}));
+						(t[Je] = ce(e.substr(s)));
+				});
 			var rn = /[ap]\.?m?\.?/i,
 				sn = de("Hours", !0);
 			function on(e, t, n) {
@@ -8371,7 +8927,7 @@ var app = (function () {
 				var n = null;
 				if (void 0 === un[t] && e && e.exports)
 					try {
-						((n = an._abbr), vt("./locale/" + t), pn(n));
+						(n = an._abbr), vt("./locale/" + t), pn(n);
 					} catch (e) {
 						un[t] = null;
 					}
@@ -8398,11 +8954,11 @@ var app = (function () {
 					var n,
 						r = ln;
 					if (((t.abbr = e), null != un[e]))
-						(T(
+						T(
 							"defineLocaleOverride",
 							"use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info.",
 						),
-							(r = un[e]._config));
+							(r = un[e]._config);
 					else if (null != t.parentLocale)
 						if (null != un[t.parentLocale])
 							r = un[t.parentLocale]._config;
@@ -8429,21 +8985,21 @@ var app = (function () {
 						un[e]
 					);
 				}
-				return (delete un[e], null);
+				return delete un[e], null;
 			}
 			function yn(e, t) {
 				if (null != t) {
 					var n,
 						r,
 						s = ln;
-					(null != un[e] && null != un[e].parentLocale
+					null != un[e] && null != un[e].parentLocale
 						? un[e].set(O(un[e]._config, t))
 						: (null != (r = mn(e)) && (s = r._config),
 							(t = O(s, t)),
 							null == r && (t.abbr = e),
 							((n = new P(t)).parentLocale = un[e]),
 							(un[e] = n)),
-						pn(e));
+						pn(e);
 				} else
 					null != un[e] &&
 						(null != un[e].parentLocale
@@ -8560,7 +9116,7 @@ var app = (function () {
 				if (l) {
 					for (g(e).iso = !0, t = 0, n = Sn.length; t < n; t++)
 						if (Sn[t][1].exec(l[1])) {
-							((s = Sn[t][0]), (r = !1 !== Sn[t][2]));
+							(s = Sn[t][0]), (r = !1 !== Sn[t][2]);
 							break;
 						}
 					if (null == s) return void (e._isValid = !1);
@@ -8577,7 +9133,7 @@ var app = (function () {
 						if (!bn.exec(l[4])) return void (e._isValid = !1);
 						o = "Z";
 					}
-					((e._f = s + (i || "") + (o || "")), Gn(e));
+					(e._f = s + (i || "") + (o || "")), Gn(e);
 				} else e._isValid = !1;
 			}
 			function Cn(e, t, n, r, s, i) {
@@ -8588,7 +9144,7 @@ var app = (function () {
 					parseInt(r, 10),
 					parseInt(s, 10),
 				];
-				return (i && o.push(parseInt(i, 10)), o);
+				return i && o.push(parseInt(i, 10)), o;
 			}
 			function On(e) {
 				var t = parseInt(e, 10);
@@ -8624,11 +9180,11 @@ var app = (function () {
 						!An(n[1], t, e))
 					)
 						return;
-					((e._a = t),
+					(e._a = t),
 						(e._tzm = Ln(n[8], n[9], n[10])),
 						(e._d = kt.apply(null, e._a)),
 						e._d.setUTCMinutes(e._d.getUTCMinutes() - e._tzm),
-						(g(e).rfc2822 = !0));
+						(g(e).rfc2822 = !0);
 				} else e._isValid = !1;
 			}
 			function Hn(e) {
@@ -8683,7 +9239,7 @@ var app = (function () {
 					for (; t < 7; t++)
 						e._a[t] = o[t] =
 							null == e._a[t] ? (2 === t ? 1 : 0) : e._a[t];
-					(24 === e._a[Ue] &&
+					24 === e._a[Ue] &&
 						0 === e._a[Ve] &&
 						0 === e._a[Je] &&
 						0 === e._a[Ke] &&
@@ -8696,12 +9252,12 @@ var app = (function () {
 						e._w &&
 							void 0 !== e._w.d &&
 							e._w.d !== s &&
-							(g(e).weekdayMismatch = !0));
+							(g(e).weekdayMismatch = !0);
 				}
 			}
 			function Fn(e) {
 				var t, n, r, s, i, o, a, l, u;
-				(null != (t = e._w).GG || null != t.W || null != t.E
+				null != (t = e._w).GG || null != t.W || null != t.E
 					? ((i = 1),
 						(o = 4),
 						(n = In(t.GG, e._a[je], bt(Kn(), 1, 4).year)),
@@ -8724,12 +9280,12 @@ var app = (function () {
 							? (g(e)._overflowWeekday = !0)
 							: ((a = xt(n, r, s, i, o)),
 								(e._a[je] = a.year),
-								(e._dayOfYear = a.dayOfYear)));
+								(e._dayOfYear = a.dayOfYear));
 			}
 			function Gn(e) {
 				if (e._f !== r.ISO_8601)
 					if (e._f !== r.RFC_2822) {
-						((e._a = []), (g(e).empty = !0));
+						(e._a = []), (g(e).empty = !0);
 						var t,
 							n,
 							s,
@@ -8744,7 +9300,7 @@ var app = (function () {
 							t < s.length;
 							t++
 						)
-							((i = s[t]),
+							(i = s[t]),
 								(n = (l.match(Ne(i, e)) || [])[0]) &&
 									((o = l.substr(0, l.indexOf(n))).length >
 										0 && g(e).unusedInput.push(o),
@@ -8757,8 +9313,8 @@ var app = (function () {
 										Ge(i, n, e))
 									: e._strict &&
 										!n &&
-										g(e).unusedTokens.push(i));
-						((g(e).charsLeftOver = u - c),
+										g(e).unusedTokens.push(i);
+						(g(e).charsLeftOver = u - c),
 							l.length > 0 && g(e).unusedInput.push(l),
 							e._a[Ue] <= 12 &&
 								!0 === g(e).bigHour &&
@@ -8773,7 +9329,7 @@ var app = (function () {
 									e._a[je],
 								)),
 							Rn(e),
-							kn(e));
+							kn(e);
 					} else Nn(e);
 				else Yn(e);
 			}
@@ -8799,11 +9355,10 @@ var app = (function () {
 					a = !1;
 				if (0 === e._f.length)
 					return (
-						(g(e).invalidFormat = !0),
-						void (e._d = new Date(NaN))
+						(g(e).invalidFormat = !0), void (e._d = new Date(NaN))
 					);
 				for (s = 0; s < e._f.length; s++)
-					((i = 0),
+					(i = 0),
 						(o = !1),
 						(t = _({}, e)),
 						null != e._useUTC && (t._useUTC = e._useUTC),
@@ -8816,14 +9371,14 @@ var app = (function () {
 						a
 							? i < r && ((r = i), (n = t))
 							: (null == r || i < r || o) &&
-								((r = i), (n = t), o && (a = !0)));
+								((r = i), (n = t), o && (a = !0));
 				f(e, n || t);
 			}
 			function Bn(e) {
 				if (!e._d) {
 					var t = se(e._i),
 						n = void 0 === t.day ? t.date : t.day;
-					((e._a = h(
+					(e._a = h(
 						[
 							t.year,
 							t.month,
@@ -8837,15 +9392,12 @@ var app = (function () {
 							return e && parseInt(e, 10);
 						},
 					)),
-						Rn(e));
+						Rn(e);
 				}
 			}
 			function zn(e) {
 				var t = new x(kn(Un(e)));
-				return (
-					t._nextDay && (t.add(1, "d"), (t._nextDay = void 0)),
-					t
-				);
+				return t._nextDay && (t.add(1, "d"), (t._nextDay = void 0)), t;
 			}
 			function Un(e) {
 				var t = e._i,
@@ -8909,14 +9461,14 @@ var app = (function () {
 			function Kn(e, t, n, r) {
 				return Jn(e, t, n, r, !1);
 			}
-			((r.createFromInputFallback = M(
+			(r.createFromInputFallback = M(
 				"value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.",
 				function (e) {
 					e._d = new Date(e._i + (e._useUTC ? " UTC" : ""));
 				},
 			)),
 				(r.ISO_8601 = function () {}),
-				(r.RFC_2822 = function () {}));
+				(r.RFC_2822 = function () {});
 			var Zn = M(
 					"moment().min is deprecated, use moment.max instead. http://momentjs.com/guides/#/warnings/min-max/",
 					function () {
@@ -9001,14 +9553,14 @@ var app = (function () {
 					l = t.minute || 0,
 					u = t.second || 0,
 					c = t.millisecond || 0;
-				((this._isValid = rr(t)),
+				(this._isValid = rr(t)),
 					(this._milliseconds =
 						+c + 1e3 * u + 6e4 * l + 1e3 * a * 60 * 60),
 					(this._days = +o + 7 * i),
 					(this._months = +s + 3 * r + 12 * n),
 					(this._data = {}),
 					(this._locale = vn()),
-					this._bubble());
+					this._bubble();
 			}
 			function ar(e) {
 				return e instanceof or;
@@ -9036,13 +9588,13 @@ var app = (function () {
 					);
 				});
 			}
-			(cr("Z", ":"),
+			cr("Z", ":"),
 				cr("ZZ", ""),
 				Le("Z", Oe),
 				Le("ZZ", Oe),
 				Re(["Z", "ZZ"], function (e, t, n) {
-					((n._useUTC = !0), (n._tzm = hr(Oe, e)));
-				}));
+					(n._useUTC = !0), (n._tzm = hr(Oe, e));
+				});
 			var dr = /([\+\-]|\d\d)/gi;
 			function hr(e, t) {
 				var n,
@@ -9280,7 +9832,7 @@ var app = (function () {
 					i && e._d.setTime(e._d.valueOf() + i * n),
 					s && r.updateOffset(e, o || a));
 			}
-			((Tr.fn = or.prototype), (Tr.invalid = ir));
+			(Tr.fn = or.prototype), (Tr.invalid = ir);
 			var Lr = Pr(1, "add"),
 				Nr = Pr(-1, "subtract");
 			function Hr(e) {
@@ -9323,7 +9875,7 @@ var app = (function () {
 						"ms",
 					];
 				for (t = 0; t < i.length; t += 1)
-					((n = i[t]), (s = s || a(e, n)));
+					(n = i[t]), (s = s || a(e, n));
 				return r && s;
 			}
 			function Rr(e) {
@@ -9353,7 +9905,7 @@ var app = (function () {
 						"sameElse",
 					];
 				for (t = 0; t < i.length; t += 1)
-					((n = i[t]), (s = s || a(e, n)));
+					(n = i[t]), (s = s || a(e, n));
 				return r && s;
 			}
 			function Gr(e, t) {
@@ -9585,8 +10137,8 @@ var app = (function () {
 					? this._locale._abbr
 					: (null != (t = vn(e)) && (this._locale = t), this);
 			}
-			((r.defaultFormat = "YYYY-MM-DDTHH:mm:ssZ"),
-				(r.defaultFormatUtc = "YYYY-MM-DDTHH:mm:ss[Z]"));
+			(r.defaultFormat = "YYYY-MM-DDTHH:mm:ssZ"),
+				(r.defaultFormatUtc = "YYYY-MM-DDTHH:mm:ss[Z]");
 			var as = M(
 				"moment().lang() is deprecated. Instead, use moment().localeData() to get the language configuration. Use moment().locale() to change languages.",
 				function (e) {
@@ -9654,19 +10206,19 @@ var app = (function () {
 						t = n(this.year(), this.month(), this.date());
 						break;
 					case "hour":
-						((t = this._d.valueOf()),
+						(t = this._d.valueOf()),
 							(t -= fs(
 								t + (this._isUTC ? 0 : this.utcOffset() * cs),
 								ds,
-							)));
+							));
 						break;
 					case "minute":
-						((t = this._d.valueOf()), (t -= fs(t, cs)));
+						(t = this._d.valueOf()), (t -= fs(t, cs));
 						break;
 					case "second":
-						((t = this._d.valueOf()), (t -= fs(t, us)));
+						(t = this._d.valueOf()), (t -= fs(t, us));
 				}
-				return (this._d.setTime(t), r.updateOffset(this, !0), this);
+				return this._d.setTime(t), r.updateOffset(this, !0), this;
 			}
 			function ys(e) {
 				var t, n;
@@ -9712,7 +10264,7 @@ var app = (function () {
 						t = n(this.year(), this.month(), this.date() + 1) - 1;
 						break;
 					case "hour":
-						((t = this._d.valueOf()),
+						(t = this._d.valueOf()),
 							(t +=
 								ds -
 								fs(
@@ -9722,15 +10274,15 @@ var app = (function () {
 											: this.utcOffset() * cs),
 									ds,
 								) -
-								1));
+								1);
 						break;
 					case "minute":
-						((t = this._d.valueOf()), (t += cs - fs(t, cs) - 1));
+						(t = this._d.valueOf()), (t += cs - fs(t, cs) - 1);
 						break;
 					case "second":
-						((t = this._d.valueOf()), (t += us - fs(t, us) - 1));
+						(t = this._d.valueOf()), (t += us - fs(t, us) - 1);
 				}
-				return (this._d.setTime(t), r.updateOffset(this, !0), this);
+				return this._d.setTime(t), r.updateOffset(this, !0), this;
 			}
 			function vs() {
 				return this._d.valueOf() - 6e4 * (this._offset || 0);
@@ -9802,8 +10354,8 @@ var app = (function () {
 							o[n].until = 1 / 0;
 							break;
 						case "string":
-							((i = r(o[n].until).startOf("day").valueOf()),
-								(o[n].until = i.valueOf()));
+							(i = r(o[n].until).startOf("day").valueOf()),
+								(o[n].until = i.valueOf());
 					}
 				return o;
 			}
@@ -9944,13 +10496,13 @@ var app = (function () {
 					i = [],
 					o = this.eras();
 				for (e = 0, t = o.length; e < t; ++e)
-					(r.push(Ie(o[e].name)),
+					r.push(Ie(o[e].name)),
 						n.push(Ie(o[e].abbr)),
 						s.push(Ie(o[e].narrow)),
 						i.push(Ie(o[e].name)),
 						i.push(Ie(o[e].abbr)),
-						i.push(Ie(o[e].narrow)));
-				((this._erasRegex = new RegExp("^(" + i.join("|") + ")", "i")),
+						i.push(Ie(o[e].narrow));
+				(this._erasRegex = new RegExp("^(" + i.join("|") + ")", "i")),
 					(this._erasNameRegex = new RegExp(
 						"^(" + r.join("|") + ")",
 						"i",
@@ -9962,7 +10514,7 @@ var app = (function () {
 					(this._erasNarrowRegex = new RegExp(
 						"^(" + s.join("|") + ")",
 						"i",
-					)));
+					));
 			}
 			function js(e, t) {
 				F(0, [e, e.length], 0, t);
@@ -10023,7 +10575,7 @@ var app = (function () {
 					? Math.ceil((this.month() + 1) / 3)
 					: this.month(3 * (e - 1) + (this.month() % 3));
 			}
-			(F("N", 0, 0, "eraAbbr"),
+			F("N", 0, 0, "eraAbbr"),
 				F("NN", 0, 0, "eraAbbr"),
 				F("NNN", 0, 0, "eraAbbr"),
 				F("NNNN", 0, 0, "eraName"),
@@ -10049,11 +10601,11 @@ var app = (function () {
 				Re(["y", "yy", "yyy", "yyyy"], je),
 				Re(["yo"], function (e, t, n, r) {
 					var s;
-					(n._locale._eraYearOrdinalRegex &&
+					n._locale._eraYearOrdinalRegex &&
 						(s = e.match(n._locale._eraYearOrdinalRegex)),
 						n._locale.eraYearOrdinalParse
 							? (t[je] = n._locale.eraYearOrdinalParse(e, s))
-							: (t[je] = parseInt(e, 10)));
+							: (t[je] = parseInt(e, 10));
 				}),
 				F(0, ["gg", 2], 0, function () {
 					return this.weekYear() % 100;
@@ -10103,7 +10655,7 @@ var app = (function () {
 				Re(["D", "DD"], ze),
 				Re("Do", function (e, t) {
 					t[ze] = ce(e.match(xe)[0]);
-				}));
+				});
 			var Qs = de("Date", !0);
 			function ei(e) {
 				var t =
@@ -10114,7 +10666,7 @@ var app = (function () {
 					) + 1;
 				return null == e ? t : this.add(e - t, "d");
 			}
-			(F("DDD", ["DDDD", 3], "DDDo", "dayOfYear"),
+			F("DDD", ["DDDD", 3], "DDDo", "dayOfYear"),
 				ne("dayOfYear", "DDD"),
 				oe("dayOfYear", 4),
 				Le("DDD", Me),
@@ -10127,14 +10679,14 @@ var app = (function () {
 				oe("minute", 14),
 				Le("m", xe),
 				Le("mm", xe, ve),
-				Re(["m", "mm"], Ve));
+				Re(["m", "mm"], Ve);
 			var ti = de("Minutes", !1);
-			(F("s", ["ss", 2], 0, "second"),
+			F("s", ["ss", 2], 0, "second"),
 				ne("second", "s"),
 				oe("second", 15),
 				Le("s", xe),
 				Le("ss", xe, ve),
-				Re(["s", "ss"], Je));
+				Re(["s", "ss"], Je);
 			var ni,
 				ri,
 				si = de("Seconds", !1);
@@ -10184,9 +10736,9 @@ var app = (function () {
 			function ai() {
 				return this._isUTC ? "Coordinated Universal Time" : "";
 			}
-			((ri = de("Milliseconds", !1)),
+			(ri = de("Milliseconds", !1)),
 				F("z", 0, 0, "zoneAbbr"),
-				F("zz", 0, 0, "zoneName"));
+				F("zz", 0, 0, "zoneName");
 			var li = x.prototype;
 			function ui(e) {
 				return Kn(1e3 * e);
@@ -10197,7 +10749,7 @@ var app = (function () {
 			function di(e) {
 				return e;
 			}
-			((li.add = Lr),
+			(li.add = Lr),
 				(li.calendar = Er),
 				(li.clone = jr),
 				(li.diff = Zr),
@@ -10298,7 +10850,7 @@ var app = (function () {
 				(li.isDSTShifted = M(
 					"isDSTShifted is deprecated. See http://momentjs.com/guides/#/warnings/dst-shifted/ for more information",
 					xr,
-				)));
+				));
 			var hi = P.prototype;
 			function fi(e, t, n, r) {
 				var s = vn(),
@@ -10343,7 +10895,7 @@ var app = (function () {
 			function ki(e, t, n) {
 				return pi(e, t, n, "weekdaysMin");
 			}
-			((hi.calendar = L),
+			(hi.calendar = L),
 				(hi.longDateFormat = U),
 				(hi.invalidDate = J),
 				(hi.ordinal = q),
@@ -10418,7 +10970,7 @@ var app = (function () {
 				(r.langData = M(
 					"moment.langData is deprecated. Use moment.localeData instead.",
 					vn,
-				)));
+				));
 			var _i = Math.abs;
 			function xi() {
 				var e = this._data;
@@ -10555,7 +11107,7 @@ var app = (function () {
 				return Tr(this);
 			}
 			function ji(e) {
-				return ((e = re(e)), this.isValid() ? this[e + "s"]() : NaN);
+				return (e = re(e)), this.isValid() ? this[e + "s"]() : NaN;
 			}
 			function Bi(e) {
 				return function () {
@@ -10804,24 +11356,24 @@ var app = (function () {
 					Q(t.$$.fragment);
 				},
 				m(e, r) {
-					(ee(t, e, r), (n = !0));
+					ee(t, e, r), (n = !0);
 				},
 				p(e, n) {
 					const r = {};
-					(1024 & n[0] && (r.hasFrame = e[10].hasFrame),
+					1024 & n[0] && (r.hasFrame = e[10].hasFrame),
 						1024 & n[0] && (r.title = e[10].title),
 						(1392 & n[0]) | (8 & n[1]) &&
 							(r.$$scope = {
 								dirty: n,
 								ctx: e,
 							}),
-						t.$set(r));
+						t.$set(r);
 				},
 				i(e) {
 					n || (Z(t.$$.fragment, e), (n = !0));
 				},
 				o(e) {
-					(q(t.$$.fragment, e), (n = !1));
+					q(t.$$.fragment, e), (n = !1);
 				},
 				d(e) {
 					te(t, e);
@@ -10839,14 +11391,14 @@ var app = (function () {
 					Q(n.$$.fragment);
 				},
 				m(e, t) {
-					(ee(n, e, t), (r = !0));
+					ee(n, e, t), (r = !0);
 				},
 				p: e,
 				i(e) {
 					r || (Z(n.$$.fragment, e), (r = !0));
 				},
 				o(e) {
-					(q(n.$$.fragment, e), (r = !1));
+					q(n.$$.fragment, e), (r = !1);
 				},
 				d(e) {
 					te(n, e);
@@ -10873,11 +11425,11 @@ var app = (function () {
 					Q(t.$$.fragment);
 				},
 				m(e, r) {
-					(ee(t, e, r), (n = !0));
+					ee(t, e, r), (n = !0);
 				},
 				p(e, n) {
 					const r = {};
-					(16 & n[0] && (r.userStats = e[4]),
+					16 & n[0] && (r.userStats = e[4]),
 						256 & n[0] && (r.isPrime = e[8].isPrime),
 						64 & n[0] && (r.todaysScore = e[6].length),
 						96 & n[0] &&
@@ -10885,13 +11437,13 @@ var app = (function () {
 								? e[6].length + 1
 								: 0),
 						32 & n[0] && (r.hasFinished = e[5].hasFinished),
-						t.$set(r));
+						t.$set(r);
 				},
 				i(e) {
 					n || (Z(t.$$.fragment, e), (n = !0));
 				},
 				o(e) {
-					(q(t.$$.fragment, e), (n = !1));
+					q(t.$$.fragment, e), (n = !1);
 				},
 				d(e) {
 					te(t, e);
@@ -10908,14 +11460,14 @@ var app = (function () {
 					Q(n.$$.fragment);
 				},
 				m(e, t) {
-					(ee(n, e, t), (r = !0));
+					ee(n, e, t), (r = !0);
 				},
 				p: e,
 				i(e) {
 					r || (Z(n.$$.fragment, e), (r = !0));
 				},
 				o(e) {
-					(q(n.$$.fragment, e), (r = !1));
+					q(n.$$.fragment, e), (r = !1);
 				},
 				d(e) {
 					te(n, e);
@@ -10932,14 +11484,14 @@ var app = (function () {
 					Q(n.$$.fragment);
 				},
 				m(e, t) {
-					(ee(n, e, t), (r = !0));
+					ee(n, e, t), (r = !0);
 				},
 				p: e,
 				i(e) {
 					r || (Z(n.$$.fragment, e), (r = !0));
 				},
 				o(e) {
-					(q(n.$$.fragment, e), (r = !1));
+					q(n.$$.fragment, e), (r = !1);
 				},
 				d(e) {
 					te(n, e);
@@ -10966,14 +11518,14 @@ var app = (function () {
 			~(t = a(e)) && (n = o[t] = i[t](e)),
 			{
 				c() {
-					(n && n.c(), (r = b()));
+					n && n.c(), (r = b());
 				},
 				m(e, n) {
-					(~t && o[t].m(e, n), g(e, r, n), (s = !0));
+					~t && o[t].m(e, n), g(e, r, n), (s = !0);
 				},
 				p(e, s) {
 					let l = t;
-					((t = a(e)),
+					(t = a(e)),
 						t === l
 							? ~t && o[t].p(e, s)
 							: (n &&
@@ -10989,16 +11541,16 @@ var app = (function () {
 											: ((n = o[t] = i[t](e)), n.c()),
 										Z(n, 1),
 										n.m(r.parentNode, r))
-									: (n = null)));
+									: (n = null));
 				},
 				i(e) {
 					s || (Z(n), (s = !0));
 				},
 				o(e) {
-					(q(n), (s = !1));
+					q(n), (s = !1);
 				},
 				d(e) {
-					(~t && o[t].d(e), e && y(r));
+					~t && o[t].d(e), e && y(r);
 				},
 			}
 		);
@@ -11032,12 +11584,12 @@ var app = (function () {
 					Q(t.$$.fragment);
 				},
 				m(e, n) {
-					(ee(t, e, n), (r = !0));
+					ee(t, e, n), (r = !0);
 				},
 				p(e, r) {
 					const s = {};
 					var i;
-					(256 & r[0] && (s.isPrime = e[8].isPrime),
+					256 & r[0] && (s.isPrime = e[8].isPrime),
 						512 & r[0] && (s.allOptions = e[9]),
 						64 & r[0] && (s.currentAttempt = e[6].length + 1),
 						!n &&
@@ -11046,16 +11598,16 @@ var app = (function () {
 							(s.guessInput = e[7]),
 							(i = () => (n = !1)),
 							W.push(i)),
-						t.$set(s));
+						t.$set(s);
 				},
 				i(e) {
 					r || (Z(t.$$.fragment, e), (r = !0));
 				},
 				o(e) {
-					(q(t.$$.fragment, e), (r = !1));
+					q(t.$$.fragment, e), (r = !1);
 				},
 				d(n) {
-					(e[22](null), te(t, n));
+					e[22](null), te(t, n);
 				},
 			}
 		);
@@ -11085,14 +11637,14 @@ var app = (function () {
 			O,
 			P,
 			A;
-		(G(e[18]),
+		G(e[18]),
 			(l = new me({
 				props: {
 					properties: ["G-3QSG4MYSLD"],
 				},
-			})));
+			}));
 		let L = e[10].isActive && Nn(e);
-		((f = new xe({})),
+		(f = new xe({})),
 			f.$on("modal", e[16]),
 			(_ = new Ie({
 				props: {
@@ -11112,7 +11664,7 @@ var app = (function () {
 					isPrime: e[8].isPrime,
 					guessRef: e[5].gotCorrect ? e[6].length : 0,
 				},
-			})));
+			}));
 		let N = {
 			config: Vt,
 			gameState: e[8],
@@ -11120,16 +11672,16 @@ var app = (function () {
 			trackDuration: e[2].duration,
 			currentAttempt: e[6].length + 1,
 		};
-		((Y = new gt({
+		(Y = new gt({
 			props: N,
 		})),
 			e[21](Y),
 			Y.$on("updateSong", e[13]),
-			Y.$on("updatePlayerState", e[14]));
+			Y.$on("updatePlayerState", e[14]);
 		let H = !e[5].hasFinished && e[8].gameIsActive && Gn(e);
 		return {
 			c() {
-				((t = w("meta")),
+				(t = w("meta")),
 					(n = w("link")),
 					(s = w("link")),
 					(i = w("link")),
@@ -11186,10 +11738,10 @@ var app = (function () {
 						"class",
 						"bg-custom-bg text-custom-fg overflow-auto flex flex-col",
 					),
-					T(c, "height", e[3] + "px"));
+					T(c, "height", e[3] + "px");
 			},
 			m(r, y) {
-				(p(An.head, t),
+				p(An.head, t),
 					p(An.head, n),
 					p(An.head, s),
 					p(An.head, i),
@@ -11215,7 +11767,7 @@ var app = (function () {
 					(O = !0),
 					P ||
 						((A = [S(Ln, "resize", e[17]), S(Ln, "resize", e[18])]),
-						(P = !0)));
+						(P = !0));
 			},
 			p(e, t) {
 				e[10].isActive
@@ -11229,21 +11781,21 @@ var app = (function () {
 						}),
 						K());
 				const n = {};
-				(64 & t[0] && (n.userGuesses = e[6]),
+				64 & t[0] && (n.userGuesses = e[6]),
 					4 & t[0] && (n.currentHeardle = e[2]),
 					32 & t[0] && (n.todaysGame = e[5]),
-					_.$set(n));
+					_.$set(n);
 				const r = {};
-				(64 & t[0] && (r.userGuesses = e[6]),
+				64 & t[0] && (r.userGuesses = e[6]),
 					4 & t[0] && (r.currentHeardle = e[2]),
 					32 & t[0] && (r.hasFinished = e[5].hasFinished),
 					32 & t[0] && (r.gotCorrect = e[5].gotCorrect),
 					256 & t[0] && (r.isPrime = e[8].isPrime),
 					96 & t[0] &&
 						(r.guessRef = e[5].gotCorrect ? e[6].length : 0),
-					$.$set(r));
+					$.$set(r);
 				const s = {};
-				(256 & t[0] && (s.gameState = e[8]),
+				256 & t[0] && (s.gameState = e[8]),
 					4 & t[0] && (s.currentHeardle = e[2]),
 					4 & t[0] && (s.trackDuration = e[2].duration),
 					64 & t[0] && (s.currentAttempt = e[6].length + 1),
@@ -11258,7 +11810,7 @@ var app = (function () {
 								H = null;
 							}),
 							K()),
-					(!O || 8 & t[0]) && T(c, "height", e[3] + "px"));
+					(!O || 8 & t[0]) && T(c, "height", e[3] + "px");
 			},
 			i(e) {
 				O ||
@@ -11272,17 +11824,17 @@ var app = (function () {
 					(O = !0));
 			},
 			o(e) {
-				(q(l.$$.fragment, e),
+				q(l.$$.fragment, e),
 					q(L),
 					q(f.$$.fragment, e),
 					q(_.$$.fragment, e),
 					q($.$$.fragment, e),
 					q(Y.$$.fragment, e),
 					q(H),
-					(O = !1));
+					(O = !1);
 			},
 			d(d) {
-				(y(t),
+				y(t),
 					y(n),
 					y(s),
 					y(i),
@@ -11299,13 +11851,13 @@ var app = (function () {
 					te(Y),
 					H && H.d(),
 					(P = !1),
-					r(A));
+					r(A);
 			},
 		};
 	}
 	function jn(e, t, n) {
 		let r, s, i, o;
-		(u(e, Cn, (e) => n(26, (r = e))), u(e, On, (e) => n(27, (s = e))));
+		u(e, Cn, (e) => n(26, (r = e))), u(e, On, (e) => n(27, (s = e)));
 		let a = x(Vt.startDate);
 		if (a > songTitles.length - 1) {
 			// hacky fix to make sure that we never go out of bounds.
@@ -11326,7 +11878,7 @@ var app = (function () {
 		setCurrentHeardle(l);
 		// console.log("a", l);
 		var c, d;
-		(void 0 !== document.hidden
+		void 0 !== document.hidden
 			? ((c = "hidden"), (d = "visibilitychange"))
 			: void 0 !== document.msHidden
 				? ((c = "msHidden"), (d = "msvisibilitychange"))
@@ -11342,7 +11894,7 @@ var app = (function () {
 							location.reload(!0);
 					},
 					!1,
-				));
+				);
 		let h,
 			f,
 			m = 0;
@@ -11352,14 +11904,14 @@ var app = (function () {
 		P(() => {
 			p();
 		});
-		(null == localStorage.getItem("userStats")
+		null == localStorage.getItem("userStats")
 			? ((h = []), localStorage.setItem("userStats", JSON.stringify(h)))
 			: (h = JSON.parse(localStorage.getItem("userStats"))),
 			(f = h.find((e) => e.id === l.id)),
 			void 0 === f &&
 				((f = l),
 				h.push(f),
-				localStorage.setItem("userStats", JSON.stringify(h))));
+				localStorage.setItem("userStats", JSON.stringify(h)));
 		let g,
 			y,
 			v = f.guessList,
@@ -11376,10 +11928,10 @@ var app = (function () {
 			name: "",
 		};
 		function _(e, t, r) {
-			(n(10, (k.isActive = !0), k),
+			n(10, (k.isActive = !0), k),
 				n(10, (k.name = e), k),
 				n(10, (k.title = t), k),
-				n(10, (k.hasFrame = r), k));
+				n(10, (k.hasFrame = r), k);
 		}
 		function x(e) {
 			var t = Yn(e, "YYYY-MM-DD");
@@ -11405,7 +11957,7 @@ var app = (function () {
 			function (e) {
 				let t = e.detail.currentSong;
 				// console.log("current song", l);
-				(n(2, (l.artist = l.correctAnswer.split(" - ")[1]), l),
+				n(2, (l.artist = l.correctAnswer.split(" - ")[1]), l),
 					n(2, (l.title = l.correctAnswer.split(" - ")[0]), l),
 					n(2, (l.img = t.artwork_url), l),
 					n(2, (l.duration = t.duration), l),
@@ -11416,10 +11968,10 @@ var app = (function () {
 					})(Cn, (r = [...r, l.correctAnswer]), r),
 					n(9, (y = r)),
 					n(8, (w.playerIsReady = !0), w),
-					f.hasFinished || n(8, (w.gameIsActive = !0), w));
+					f.hasFinished || n(8, (w.gameIsActive = !0), w);
 			},
 			function (e) {
-				(l.hasStarted ||
+				l.hasStarted ||
 					(pe("startGame#" + l.id, {
 						name: "startGame",
 					}),
@@ -11427,14 +11979,14 @@ var app = (function () {
 						name: "startGame",
 					}),
 					n(2, (l.hasStarted = !0), l)),
-					n(8, (w.musicIsPlaying = e.detail.musicIsPlaying), w));
+					n(8, (w.musicIsPlaying = e.detail.musicIsPlaying), w);
 			},
 			function (e) {
 				let t = e.detail.guess,
 					r = e.detail.isSkipped,
 					s = !1;
 				var o;
-				(r ||
+				r ||
 					t != l.correctAnswer ||
 					((s = !0),
 					pe("correctGuess", {
@@ -11466,8 +12018,8 @@ var app = (function () {
 						})),
 					),
 					//FIVERR NEW LINE
-					evaluateGuessMetadata(v));
-				(n(5, (f.guessList = v), f),
+					evaluateGuessMetadata(v);
+				n(5, (f.guessList = v), f),
 					localStorage.setItem("userStats", JSON.stringify(h)),
 					(v.length != Vt.maxAttempts && 1 != s) ||
 						((o = s),
@@ -11501,7 +12053,7 @@ var app = (function () {
 						}),
 						pe("gameStats#" + l.id, {
 							name: v,
-						})));
+						}));
 			},
 			function (e) {
 				_(e.detail.name, e.detail.title, e.detail.hasFrame);
@@ -11514,22 +12066,22 @@ var app = (function () {
 			() => n(10, (k.isActive = !1), k),
 			function (e) {
 				H[e ? "unshift" : "push"](() => {
-					((i = e), n(0, i));
+					(i = e), n(0, i);
 				});
 			},
 			function (e) {
 				H[e ? "unshift" : "push"](() => {
-					((o = e), n(1, o));
+					(o = e), n(1, o);
 				});
 			},
 			function (e) {
-				((g = e), n(7, g));
+				(g = e), n(7, g);
 			},
 		];
 	}
 	return new (class extends se {
 		constructor(e) {
-			(super(), re(this, e, jn, En, i, {}, null, [-1, -1]));
+			super(), re(this, e, jn, En, i, {}, null, [-1, -1]);
 		}
 	})({
 		target: document.body,
